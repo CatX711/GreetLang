@@ -50,10 +50,12 @@ let name: string = "Alice";
 **In GreetLang, functions are declared using the func keyword:**
 
 ```c
-func add_numbers(a: int, b: int) -> int {
+func add_numbers(a: int, b: int) rt integer {
     return a + b;
 }
 ```
+
+In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`.
 
 ### Conditional Statements
 
