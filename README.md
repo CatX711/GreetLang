@@ -107,6 +107,8 @@ GreetLang supports both single-line and multi-line comments:
 */
 ```
 
+****
+
 ## Advanced Syntax:
 
 <br />
