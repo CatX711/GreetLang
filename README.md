@@ -59,12 +59,40 @@ let name: string = "Alice";
 **In GreetLang, functions are declared using the func keyword:**
 
 ```c
-func add_numbers(a: int, b: int) rt integer {
+func add_numbers(a input: int, b: int) rt integer {
     return a + b;
 }
 ```
 
-In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`.
+In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. `a input` makes the program ask for a user input. After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
+If you wanted to return a string, you could define it inside the function. <br />
+<br />
+
+*Example:*
+
+```c
+func hello(a: str) rt string {
+    a = "Hello World!"
+    return a;
+}
+```
+
+<br />
+
+And if you wanted to use the function in a greet:
+
+```c
+func hello(a: str) rt string {
+    a = "Hello World!"
+
+}
+
+greet(hello)
+```
+
+<br />
+
+****
 
 ### Conditional Statements
 
