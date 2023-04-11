@@ -63,20 +63,22 @@ In this code, a function called `add_number` is declared. In the () the paramate
 
 ### Conditional Statements
 
-** GreetLang supports if statements for conditional execution of code: **
+**GreetLang supports if statements for conditional execution of code:**
 
+```python
 if x > 0 {
     // Do something if x is greater than 0.
 } else {
     // Do something else if x is less than or equal to 0.
 }
+```
+****
 
-Loops
+### Loops
 
 GreetLang supports for and while loops:
 
-greetlang
-
+```py
 for i in 0..10 {
     // Do something for each value of i from 0 to 9.
 }
@@ -84,18 +86,19 @@ for i in 0..10 {
 while x > 0 {
     // Do something while x is greater than 0.
 }
+```
 
 ### Comments
 
 GreetLang supports both single-line and multi-line comments:
 
-``c
+```c
 // This is a single-line comment.
 
 /*
     This is a multi-line comment.
 */
-``
+```
 
 ## Advanced Syntax:
 
