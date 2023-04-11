@@ -13,6 +13,10 @@ Please enjoy reading the full documentation.
 
 
 # GreetLang Programming Language Documentation
+
+<br />
+<br />
+
 ## Introduction
 
 GreetLang is a high-level programming language designed for ease of use and readability. It combines the simplicity of Python, the speed of C, the flexibility of JavaScript, and the safety of Rust.
@@ -89,6 +93,8 @@ while x > 0 {
 }
 ```
 
+****
+
 ### Comments
 
 GreetLang supports both single-line and multi-line comments:
@@ -109,20 +115,21 @@ GreetLang supports both single-line and multi-line comments:
 
 GreetLang supports arrays of any data type:
 
-greetlang
-
+```js
 let numbers: [int] = [1, 2, 3, 4, 5];
+```
 
-Arrays can be accessed using the index operator ([]):
+**Arrays can be accessed using the index operator ([]):**
 
-greetlang
-
+```js
 let first_number: int = numbers[0];
+```
 
-Structures
+****
 
-GreetLang supports structures, which are custom data types that can contain multiple fields:
+### Structures
 
+**GreetLang supports structures, which are custom data types that can contain multiple fields:**
 
 ```c
 struct Point {
