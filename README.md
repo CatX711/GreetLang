@@ -28,6 +28,19 @@ GreetLang is a high-level programming language designed for ease of use and read
 <br />
 <br />
 
+In GreetLang, to print something to the screen, you use the `greet()` function. <br />
+
+```shell
+greet("Hello, World!")
+```
+
+<br />
+
+The output will be a string printed to the screen.
+
+<br />
+<br />
+
 ### Data Types
 
 **GreetLang supports the following data types:**
