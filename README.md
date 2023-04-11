@@ -76,6 +76,7 @@ func hello(a: str) rt string {
     return a;
 }
 ```
+>Notice that there is nothing asking for input in the parameters area.
 
 <br />
 
