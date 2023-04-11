@@ -272,7 +272,9 @@ let r: Rectangle = Rectangle(2.0, 3.0);
 let area: float = r.area();
 ```
 
+****
 
+<br />
 
 Modules:
 
