@@ -236,10 +236,10 @@ The area method calculates and returns the area of the circle using the formula 
 
 Overall, this code defines a blueprint for creating circle objects, which can be instantiated and manipulated.
 
->Extra info for those who are confused:
+>Extra info for those who are confused: <br />
 >In this code, r is a parameter of the constructor (init method) of the Circle class. The constructor is called when a new instance of the Circle class is created. It takes a single argument r, which is a float representing the radius of the circle. <br />
 >
->The line radius = r; sets the value of the radius attribute of the Circle instance to the value of the r parameter. This means that when you create a new Circle instance and pass in a value for r, that value will be used to initialize the radius attribute of the instance.
+>The line `radius = r;` sets the value of the radius attribute of the Circle instance to the value of the r parameter. This means that when you create a new Circle instance and pass in a value for r, that value will be used to initialize the radius attribute of the instance.
 
 
 ****
