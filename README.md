@@ -205,7 +205,7 @@ class Circle {
 let c: Circle = Circle(2.0);
 let area: float = c.area();
 ```
-The above code is a definition of a class called Circle in Greetlang programming language. This class has three attributes - PI, radius, and two methods - __init__ and area.
+The above code is a definition of a class called Circle in Greetlang This class has three attributes - PI, radius, and two methods - __init__ and area.
 
 The __init__ method is the constructor of the class, which is called when an instance of the class is created. It takes a single parameter r of type float and initializes the radius attribute with the given value.
 <br />
