@@ -2,6 +2,8 @@
 A fictional programming language by me. GreetLang does not exist, it is a concept. <br />
 Please enjoy reading the full documentation.
 
+
+
 <br />
 <br />
 <br />
