@@ -64,7 +64,7 @@ func add_numbers(a input: int, b: int) rt integer {
 }
 ```
 
-In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. `a input` makes the program ask for a user input. After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
+In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. `a input` makes the program ask for a user input (if you do not want user input just don't include `input`). After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
 If you wanted to return a string, you could define it inside the function. <br />
 <br />
 
@@ -88,6 +88,15 @@ func hello(a: str) rt string {
 }
 
 greet(hello)
+```
+
+**Or**
+
+Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `a input: int`,
+we could use it in a greet while manually giving it our own values instead of giving it user input.
+
+```
+greet("The sum of 2 and 3 is " + add_numbers(2, 3))
 ```
 
 <br />
