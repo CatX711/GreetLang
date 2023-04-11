@@ -272,6 +272,8 @@ let r: Rectangle = Rectangle(2.0, 3.0);
 let area: float = r.area();
 ```
 
+<!-- Explain what the code above does here -->
+
 ****
 
 <br />
