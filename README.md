@@ -109,6 +109,8 @@ greet(hello + " It's a beautiful day today!")
 */
 ```
 
+<br />
+
 **Or**
 
 Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `a input: int`,
