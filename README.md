@@ -38,7 +38,7 @@ greet("Hello, World!")
 
 <br />
 
-The output will be a string printed to the screen.
+The output will the string `Hello, World!` printed to the screen.
 
 <br />
 <br />
