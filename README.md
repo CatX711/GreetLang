@@ -85,10 +85,15 @@ And if you wanted to use the function in a greet:
 ```c
 func hello(a: str) rt string {
     a = "Hello World!"
-
 }
 
-greet(hello)
+greet(hello, " It's a beautiful day today!")
+
+// Variation 2:
+
+/*
+greet(hello + " It's a beautiful day today!")
+*/
 ```
 
 **Or**
