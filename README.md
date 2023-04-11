@@ -2,6 +2,7 @@
 A fictional programming language by me. GreetLang does not exist, it is a concept. <br />
 Please enjoy reading the full documentation.
 
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/104099162/231164817-f48e1412-f9b4-4d03-aa34-0eb9b822f60d.png">
 
 
 <br />
