@@ -27,17 +27,21 @@ GreetLang is a high-level programming language designed for ease of use and read
 
 **GreetLang supports the following data types:**
 
+```
     int: A 32-bit integer.
     float: A 64-bit floating point number.
     bool: A boolean value (true or false).
     char: A single character.
     string: A sequence of characters.
+```
+
+<br />
 
 ****
 
 ## Variables
 
-In GreetLang, variables are declared using the let keyword:
+In GreetLang, variables are declared using the ***let*** keyword:
 
 ```js
 let x: int = 10;
@@ -115,21 +119,25 @@ Structures
 
 GreetLang supports structures, which are custom data types that can contain multiple fields:
 
-greetlang
 
+```c
 struct Point {
     x: float,
     y: float,
 }
 
 let p: Point = Point { x: 0.0, y: 0.0 };
+```
 
-Classes
+****
+
+### Classes
 
 GreetLang supports classes, which are similar to structures but can also contain methods:
 
-greetlang
+<br />
 
+```c
 class Circle {
     let PI: float = 3.14;
 
@@ -146,8 +154,10 @@ class Circle {
 
 let c: Circle = Circle(2.0);
 let area: float = c.area();
+```
+****
 
-Inheritance
+### Inheritance
 
 GreetLang supports inheritance between classes:
 
