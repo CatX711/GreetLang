@@ -10,10 +10,6 @@ Please enjoy reading the full documentation.
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-
 # GreetLang Programming Language Documentation
 ## Introduction
 
