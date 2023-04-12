@@ -153,7 +153,7 @@ greet("The sum of 2 and 3 is " + add_numbers(2, 3))
 
 **GreetLang supports if statements for conditional execution of code:**
 
-```python
+```c
 if x > 0 {
     // Do something if x is greater than 0.
 } else {
@@ -166,7 +166,7 @@ if x > 0 {
 
 GreetLang supports for and while loops:
 
-```py
+```c
 for i in 0..10 {
     // Do something for each value of i from 0 to 9.
 }
