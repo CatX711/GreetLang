@@ -142,11 +142,9 @@ greet(hello, " It's a beautiful day today!")
 // Variation 2:
 
 /*
-greet(hello + " It's a beautiful day today!")
+greet(hello() + " It's a beautiful day today!")
 */
 ```
-
-<br />
 
 **Or**
 
@@ -162,6 +160,29 @@ greet("The sum of 2 and 3 is " + add_numbers(2, 3))
 ***REMEMBER:***
 
 What you call the paramaters for functions does not matter. For instance, `num1` and `num2` could be `a` and `b`, it would not affect the code whatsoever.
+
+<br />
+<br />
+
+
+Click on `More Examples` for some extra info about functions in GreetLang.
+
+<details>
+    <summary>More Examples</summary> 
+    
+    ### Addnums Example Part 2
+    
+    ```php
+    func addnums(num1: int, num2: int) rt int {   // Use "rt" to specify the return type
+        let sum = num1 + num2   // Declare a variable "sum" to store the sum of the two numbers
+        return sum   // Return the sum as an integer
+    }
+
+    // Call the function and pass two numbers as arguments
+    greet(addnums(5, 3))   // Output: 8
+    ```
+
+</details>
 
 <br />
 
