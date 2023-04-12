@@ -34,6 +34,8 @@ GreetLang is a high-level programming language designed for ease of use and read
 <br />
 <br />
 
+### Greetings!
+
 In GreetLang, to print something to the screen, you use the `greet()` function. <br />
 
 ```shell
@@ -46,6 +48,19 @@ The output will the string `Hello, World!` printed to the screen.
 
 <br />
 <br />
+
+### Comments
+
+GreetLang supports both single-line and multi-line comments:
+
+```c
+// This is a single-line comment.
+
+/*
+    This is a multi-line comment.
+*/
+```
+
 
 ### Data Types
 
@@ -155,20 +170,6 @@ for i in 0..10 {
 while x > 0 {
     // Do something while x is greater than 0.
 }
-```
-
-****
-
-### Comments
-
-GreetLang supports both single-line and multi-line comments:
-
-```c
-// This is a single-line comment.
-
-/*
-    This is a multi-line comment.
-*/
 ```
 
 ****
