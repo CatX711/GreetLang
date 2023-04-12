@@ -170,7 +170,6 @@ Click on `More Examples` for some extra info about functions in GreetLang.
 <details>
     <summary>More Examples</summary> 
     
-    ```php
     func addnums(num1: int, num2: int) rt int {   // Use "rt" to specify the return type
         let sum = num1 + num2   // Declare a variable "sum" to store the sum of the two numbers
         return sum   // Return the sum as an integer
@@ -178,7 +177,6 @@ Click on `More Examples` for some extra info about functions in GreetLang.
 
     // Call the function and pass two numbers as arguments
     greet(addnums(5, 3))   // Output: 8
-    ```
     
 The first line declares a function called addnums that takes two parameters num1 and num2, both of which are of type int (short for integer). The rt symbol specifies the return type of the function, which in this case is an integer.
 
