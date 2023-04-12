@@ -72,11 +72,11 @@ GreetLang supports both single-line and multi-line comments:
 **GreetLang supports the following data types:**
 
 ```
-    int: A 32-bit integer.
-    float: A 64-bit floating point number.
+    int/integer: An integer.
+    float: A floating point number.
     bool: A boolean value (true or false).
     char: A single character.
-    string: A sequence of characters.
+    str/string: A sequence of characters.
 ```
 
 <br />
