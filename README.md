@@ -350,8 +350,8 @@ The last two lines of the code create a new instance of Rectangle called r with 
 <br />
 
 GreetLang has a useful feature which allows you to import your own functions from other files in the folder location. <br />
-You can create a function in a separate GreetLang file, for example, `math.gl` then import that function into another GreetLang file using the include statement.
-For example, let's say you have a file called math.greet that contains a function called `addnums` which adds two numbers and returns the result:
+You can create a function in a separate GreetLang file, then import that function into another GreetLang file using the include statement.
+For example, let's say you have a file called `math.gl` that contains a function called `addnums` which adds two numbers and returns the result:
 
 <br />
 
