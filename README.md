@@ -345,8 +345,30 @@ The last two lines of the code create a new instance of Rectangle called r with 
 
 <br />
 
-Modules:
+### MFFS (Multi-File Function Sharing):
 
 <br />
 
-WIP
+GreetLang has a useful feature which allows you to import your own functions from other files in the folder location. <br />
+You can create a function in a separate GreetLang file, for example, `math.gl` then import that function into another GreetLang file using the include statement.
+For example, let's say you have a file called math.greet that contains a function called `addnums` which adds two numbers and returns the result:
+
+<br />
+
+```csharp
+func addnums(num1: int, num2: int) rt integer {
+    let sum = num1 + num2;
+    return sum;
+}
+```
+
+To use this function in another GreetLang file, you would use the include statement to import the `addnums function` from the `math.gl` file:
+
+```csharp
+from [math.gl] include "addnums"
+
+greet(addnums(5, 3))  // Output: 8
+```
+
+This will make the `addnums function` available in the current file, allowing you to call it with the `addnums` function name followed by the arguments in `parentheses`.
+
