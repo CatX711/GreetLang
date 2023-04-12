@@ -135,7 +135,7 @@ And if you wanted to use the function in a greet:
 
 ```c
 func hello(a: str) rt string {
-    a = "Hello World!"
+    let hello: str = "Hello World!"
 }
 
 greet(hello(), " It's a beautiful day today!")
