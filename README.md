@@ -137,7 +137,7 @@ func hello(a: str) rt string {
     a = "Hello World!"
 }
 
-greet(hello, " It's a beautiful day today!")
+greet(hello(), " It's a beautiful day today!")
 
 // Variation 2:
 
