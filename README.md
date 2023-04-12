@@ -180,7 +180,7 @@ Click on `More Examples` for some extra info about functions in GreetLang.
     greet(addnums(5, 3))   // Output: 8
     ```
     
-The next line declares a function called addnums that takes two parameters num1 and num2, both of which are of type int (short for integer). The rt symbol specifies the return type of the function, which in this case is an integer.
+The first line declares a function called addnums that takes two parameters num1 and num2, both of which are of type int (short for integer). The rt symbol specifies the return type of the function, which in this case is an integer.
 
 Inside the function, a variable called sum is declared and assigned the value of num1 plus num2, which is the sum of the two input numbers.
 Finally, the sum variable is returned by the function using the return keyword.
