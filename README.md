@@ -121,9 +121,9 @@ If you wanted to return a string, you could define it inside the function. <br /
 *Example:*
 
 ```c
-func hello(a: str) rt string {
-    a = "Hello World!"
-    return a;
+func hello(txt: str) rt string {
+    txt = "Hello World!"
+    return txt;
 }
 ```
 >Notice that there is nothing asking for input in the parameters area. This can be changed.
@@ -156,6 +156,12 @@ we could use it in a greet while manually giving it our own values instead of gi
 ```
 greet("The sum of 2 and 3 is " + add_numbers(2, 3))
 ```
+
+<br />
+
+***REMEMBER:***
+
+What you call the paramaters for functions does not matter. For instance, `num1` and `num2` could be `a` and `b`, it would not affect the code whatsoever.
 
 <br />
 
