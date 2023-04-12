@@ -103,6 +103,17 @@ func add_numbers(a input: int, b: int) rt integer {
 }
 ```
 
+<br />
+
+Then you would call the function by doing this:
+
+```c
+add_numbers()
+```
+
+<br />
+<br />
+
 In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. `a input` makes the program ask for a user input (if you do not want user input just don't include `input`). After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
 If you wanted to return a string, you could define it inside the function. <br />
 <br />
