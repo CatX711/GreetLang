@@ -26,6 +26,7 @@ Thank you, and please enjoy reading the full documentation.
 ## Introduction
 
 GreetLang is a high-level programming language designed for ease of use and readability. It combines the simplicity of Python, the speed of C, the flexibility of JavaScript, and the safety of Rust.
+GreetLang is a statically typed language, which means that variable types are determined at compile time rather than at runtime. This allows for faster execution of programs and helps to catch errors early on in the development process.
 
 <br />
 
