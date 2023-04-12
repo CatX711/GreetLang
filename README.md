@@ -170,7 +170,7 @@ Click on `More Examples` for some extra info about functions in GreetLang.
 <details>
     <summary>More Examples</summary> 
     
-    func addnums(num1: int, num2: int) rt int {   // Use "rt" to specify the return type
+    func addnums(num1: int, num2: int) rt integer {   // Use "rt" to specify the return type
         let sum = num1 + num2   // Declare a variable "sum" to store the sum of the two numbers
         return sum   // Return the sum as an integer
     }
