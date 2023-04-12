@@ -99,7 +99,8 @@ let name: string = "Alice";
 
 ```c
 func add_numbers(num1 input: int, num2: int) rt integer {
-    return num1 + num2;
+    let sum: int = num1 + num2;
+    return sum;
 }
 ```
 
@@ -121,8 +122,8 @@ If you wanted to return a string, you could define it inside the function. <br /
 *Example:*
 
 ```c
-func hello(txt: str) rt string {
-    txt = "Hello World!"
+func hello(a: str) rt string {
+    let text: str = "Hello World!"
     return txt;
 }
 ```
@@ -357,7 +358,7 @@ For example, let's say you have a file called `math.gl` that contains a function
 
 ```csharp
 func addnums(num1: int, num2: int) rt integer {
-    let sum = num1 + num2;
+    let sum: int = num1 + num2;
     return sum;
 }
 ```
