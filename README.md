@@ -3,8 +3,10 @@ A fictional programming language by me. GreetLang does not exist, it is a concep
 GreetLang will be regularly expanded upon by me. Feel free to point out inconsistency issues, general problems, <br />
 and ideas. <br />
 Thank you, and please enjoy reading the full documentation.
+<br />
+<br />
 
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/104099162/231164817-f48e1412-f9b4-4d03-aa34-0eb9b822f60d.png">
+<img align="center "width="350" alt="image" src="https://user-images.githubusercontent.com/104099162/231164817-f48e1412-f9b4-4d03-aa34-0eb9b822f60d.png">
 
 
 <br />
