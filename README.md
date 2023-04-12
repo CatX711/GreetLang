@@ -89,7 +89,7 @@ In GreetLang, variables are declared using the ***let*** keyword:
 
 ```js
 let x: int = 10;
-let name: string = "Alice";
+let name: str = "Alice";
 ```
 ****
 
