@@ -98,8 +98,8 @@ let name: string = "Alice";
 **In GreetLang, functions are declared using the func keyword:**
 
 ```c
-func add_numbers(a input: int, b: int) rt integer {
-    return a + b;
+func add_numbers(num1 input: int, num2: int) rt integer {
+    return num1 + num2;
 }
 ```
 
@@ -114,7 +114,7 @@ add_numbers()
 <br />
 <br />
 
-In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `a` and `b` are both integers. `a input` makes the program ask for a user input (if you do not want user input just don't include `input`). After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
+In this code, a function called `add_number` is declared. In the () the paramaters are defined. The paramaters show that `num1` and `num2` are both integers. `num1 input` makes the program ask for a user input (if you do not want user input just don't include `input`). In GreetLang you only use one `input` in the parameters section. You do not need to use `input` after both of your paramaters. After the paramaters is `rt integer`, which is where we tell the language what return type we want. In this case, we want an integer returned, so we do `rt integer`. This program uses user input to add two numbers. <br />
 If you wanted to return a string, you could define it inside the function. <br />
 <br />
 
