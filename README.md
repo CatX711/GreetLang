@@ -124,7 +124,7 @@ If you wanted to return a string, you could define it inside the function. <br /
 ```c
 func hello(a: str) rt string {
     let text: str = "Hello World!"
-    return txt;
+    return text;
 }
 ```
 >Notice that there is nothing asking for input in the parameters area. This can be changed.
@@ -136,6 +136,7 @@ And if you wanted to use the function in a greet:
 ```c
 func hello(a: str) rt string {
     let hello: str = "Hello World!"
+    return hello;
 }
 
 greet(hello(), " It's a beautiful day today!")
