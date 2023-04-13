@@ -177,7 +177,7 @@ Click on `More Examples` for some extra info about functions in GreetLang.
 <details>
 <summary>More Examples</summary> 
 
-Addnums in more detail:
+Times (num1 * num2):
 
 ```c
 func times(num1: int, num2: int) rt integer {   // Use "rt" to specify the return type
@@ -196,8 +196,6 @@ Inside the function, a variable called `prod` is declared and assigned the value
 Finally, the `prod` variable is returned by the function using the `return keyword`.
 
 The last line of code calls the `times` function with the arguments `5` and `3`, and the result (which is `5` times `3`) is passed to the `greet function`, which displays the output "15".
-
-In summary, this code defines a function that times two numbers together and returns the product, and then `calls` that function with the values `5` and 3, displaying the result "8".
 </details>
 
 <br />
