@@ -122,7 +122,7 @@ If you wanted to return a string, you could define it inside the function. <br /
 *Example:*
 
 ```c
-func hello(a: str) rt string {
+func hello() rt string {
     let text: str = "Hello World!"
     return text;
 }
@@ -134,7 +134,7 @@ func hello(a: str) rt string {
 And if you wanted to use the function in a greet:
 
 ```c
-func hello(a: str) rt string {
+func hello() rt string {
     let hello: str = "Hello World!"
     return hello;
 }
