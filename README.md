@@ -91,6 +91,11 @@ In GreetLang, variables are declared using the ***let*** keyword:
 let x: int = 10;
 let name: str = "Alice";
 ```
+
+<br />
+
+`let x: int = 10; `: In this code, we declare the variable using `let`, and then specify it's type, in this case, and `integer`, and after that we specify it's value. <br />
+`let name: str = "Alice"; `: This is the same, however, with a string. This means that we have to specify this using `str` and give the variable a value in `parenthesis` (using `" "`)
 ****
 
 ## Functions
@@ -247,7 +252,7 @@ let first_number: int = numbers[0] lt(numbers);
 
 <br />
 
-In the code above we create a variable named `first_number`, link it to the `number` array and set the value of it to the index of 0 on the `number array` which is in this case, the integer `1`.
+In the code above we create a variable named `first_number`, link it to the `number` array using `lt` (link-to) and set the value of it to the index of 0 on the `number array` which is in this case, the integer `1`.
 
 ****
 
