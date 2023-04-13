@@ -155,8 +155,7 @@ greet(hello() + " It's a beautiful day today!")
 
 **Or**
 
-Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `a input: int`,
-we could use it in a greet while manually giving it our own values instead of giving it user input.
+Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `num1 input: int`, we could use it in a greet while manually giving it our own values instead of giving it user input.
 
 ```
 greet("The sum of 2 and 3 is " + add_numbers(2, 3))
