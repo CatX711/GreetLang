@@ -177,10 +177,12 @@ Click on `More Examples` for some extra info about functions in GreetLang.
 <details>
 <summary>More Examples</summary> 
 
+Addnums in more detail:
+
 ```c
-func addnums(num1: int, num2: int) rt integer {   // Use "rt" to specify the return type
-    let sum = num1 + num2   // Declare a variable "sum" to store the sum of the two numbers
-    return sum   // Return the sum as an integer
+func times(num1: int, num2: int) rt integer {   // Use "rt" to specify the return type
+    let prod = num1 * num2;   // Declare a variable "prod" to store the product of the two numbers
+    return prod;   // Return the product as an integer
 }
 
 
@@ -188,14 +190,14 @@ func addnums(num1: int, num2: int) rt integer {   // Use "rt" to specify the ret
 greet(addnums(5, 3))   // Output: 8
 ```
 
-The first line declares a function called addnums that takes two parameters num1 and num2, both of which are of type int (short for integer). The rt symbol specifies the return type of the function, which in this case is an integer.
+The first line declares a function called `times` that takes two parameters num1 and num2, both of which are of type int (short for integer). The `rt symbol` specifies the `return type` of the function, which in this case is an `integer`.
 
-Inside the function, a variable called sum is declared and assigned the value of num1 plus num2, which is the sum of the two input numbers.
-Finally, the sum variable is returned by the function using the return keyword.
+Inside the function, a variable called `prod` is declared and assigned the value of `num1` times  `num2`, which is the product of the two input numbers.
+Finally, the `prod` variable is returned by the function using the `return keyword`.
 
-The last line of code calls the addnums function with the arguments 5 and 3, and the result (which is the sum of 5 and 3) is passed to the greet function, which displays the output "8".
+The last line of code calls the `times` function with the arguments `5` and `3`, and the result (which is `5` times `3`) is passed to the `greet function`, which displays the output "15".
 
-In summary, this code defines a function that adds two numbers together and returns the sum, and then calls that function with the values 5 and 3, displaying the result "8".
+In summary, this code defines a function that times two numbers together and returns the product, and then `calls` that function with the values `5` and 3, displaying the result "8".
 </details>
 
 <br />
