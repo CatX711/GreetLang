@@ -235,7 +235,8 @@ while x > 0 {
 GreetLang supports arrays of any data type:
 
 ```js
-let numbers: int = [1, 2, 3, 4, 5];
+let numbers: int = [1, 2, 3, 4, 5]; // index values: 0, 1, 2, 3, 4
+                                    // actual value  1, 2, 3, 4, 5  
 ```
 
 **Arrays can be accessed using the index operator ([]):**
