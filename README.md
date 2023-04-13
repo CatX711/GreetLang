@@ -241,8 +241,12 @@ let numbers: int = [1, 2, 3, 4, 5];
 **Arrays can be accessed using the index operator ([]):**
 
 ```js
-let first_number: int = numbers[0];
+let first_number: int = numbers[0] lt(numbers);
 ```
+
+<br />
+
+In the code above we create a variable named `first_number`, link it to the `number` array and set the value of it to the index of 0 on the `number array` which is in this case, the integer `1`.
 
 ****
 
