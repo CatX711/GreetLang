@@ -489,7 +489,7 @@ The value of pi is 3.14159
 When you have 2 or more modules with the same name, the GreetLang compiler will spew out an error message notifying you of the problem and showing you the files where the module is created. <br />
 *For example:*
 
-```c
+```js
 Warning! Error in module names: Two itterations of the same module have been found.
 
 MathModule.gl
