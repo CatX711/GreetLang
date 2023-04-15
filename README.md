@@ -158,7 +158,7 @@ greet(hello() + " It's a beautiful day today!")
 Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `num1 input: int`, we could use it in a greet while manually giving it our own values instead of giving it user input.
 
 ```
-greet("The sum of 2 and 3 is " + add_numbers(2, 3))
+greet("The sum of 2 and 3 is " + times(2, 3))
 ```
 
 <br />
@@ -180,7 +180,7 @@ Times (num1 * num2):
 
 ```c
 func times(num1: int, num2: int) rt integer {   // Use "rt" to specify the return type
-    let prod = num1 * num2;   // Declare a variable "prod" to store the product of the two numbers
+    let prod: int = num1 * num2;   // Declare a variable "prod" to store the product of the two numbers
     return prod;   // Return the product as an integer
 }
 
@@ -251,7 +251,8 @@ let first_number(lt(numbers)): int = numbers[0];
 
 <br />
 
-In the code above we create a variable named `first_number`, link it to the `number` array using `lt` (link-to) and set the value of it to the index of 0 on the `number` array which is in this case, the integer `1`.
+In the code above we create a variable named `first_number`, link it to the `number` array using `lt` (link-to) and set the value of it to the index of 0 on the `number` array which is in this case, the integer `1`. <br />
+Do not worry about overflows, as the compiler automatically allocates memory for the array.
 
 ****
 
