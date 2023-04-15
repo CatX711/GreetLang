@@ -402,7 +402,7 @@ Define a module using the module keyword followed by the module name and the mod
 
 ```ruby
 universal module mymodule {
-    # module body goes here
+    // module body goes here
 }
 ```
 
@@ -416,7 +416,7 @@ module mymodule {
         // function body goes here
     }
     
-    let myvar = 42
+    let myvar: int = 42
     
     // more constructs go here
 }
@@ -473,9 +473,24 @@ greet(mymodule.sayhello())
 greet("The value of pi is " + str(mymodule.pi))
 ```
 
-This example defines a module called "mymodule" that exports a function called "sayhello" and a variable called "pi". The module is then imported and the exported constructs are used in the program. The output of the program would be:
+This example defines a module called `"mymodule"` that exports a function called `"sayhello"` and a variable called `"pi"`. The module is then imported and the exported constructs are used in the program. The output of the program would be:
 
 ```txt
 Hello, world!
 The value of pi is 3.14159
 ```
+
+
+
+
+
+
+Benifits of using `Modules` instead of `MFFS`:
+
+- Can add extra things, not just functions.
+- Makes module universal for all future or past .gl files in the computer.
+- Less bugs.
+- More efficient.
+
+
+****
