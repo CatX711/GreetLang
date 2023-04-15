@@ -463,7 +463,7 @@ universal module mymodule {
     export let pi: float = 3.14159
 }
 
-// In the file we want to import the module in:
+// In the file we want to import the module into:
 
 // import the "mymodule" module
 import mymodule
