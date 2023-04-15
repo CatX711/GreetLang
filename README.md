@@ -401,23 +401,24 @@ This will make the `addnums function` available in the current file, allowing yo
 Define a module using the module keyword followed by the module name and the module body enclosed in curly braces:
 
 ```ruby
-module mymodule {
+universal module mymodule {
     # module body goes here
 }
 ```
 
+Use `universal` identifier to let the module be used in all of the gl files on your computer.
 Define functions, variables, and other constructs inside the module:
 
 
 ```csharp
 module mymodule {
     func myfunc() {
-        # function body goes here
+        // function body goes here
     }
     
     let myvar = 42
     
-    # more constructs go here
+    // more constructs go here
 }
 ```
 
@@ -427,12 +428,12 @@ Export the constructs that you want to make available to other modules using the
 ```js
 module mymodule {
     export func myfunc() {
-        # function body goes here
+        // function body goes here
     }
     
-    export let myvar = 42
+    export let myvar: int = 42
     
-    # more constructs go here
+    // more constructs go here
 }
 ```
 
@@ -452,7 +453,7 @@ Here's an example that shows how to define and import a module in GreetLang:
 
 ```js
 // define a module called "mymodule"
-module mymodule {
+universal module mymodule {
     export func sayhello() {
         return "Hello, world!"
     }
