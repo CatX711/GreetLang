@@ -452,6 +452,8 @@ greet(mymodule.myvar)   // access a variable from the module
 Here's an example that shows how to define and import a module in GreetLang:
 
 ```js
+// In a different file:
+
 // define a module called "mymodule"
 universal module mymodule {
     export func sayhello() {
@@ -460,6 +462,8 @@ universal module mymodule {
     
     export let pi: float = 3.14159
 }
+
+// In the file we want to import the module in:
 
 // import the "mymodule" module
 import mymodule
