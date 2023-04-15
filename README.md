@@ -471,7 +471,7 @@ greet("The value of pi is " + str(mymodule.pi))
 
 This example defines a module called "mymodule" that exports a function called "sayhello" and a variable called "pi". The module is then imported and the exported constructs are used in the program. The output of the program would be:
 
-```csharp
+```txt
 Hello, world!
 The value of pi is 3.14159
 ```
