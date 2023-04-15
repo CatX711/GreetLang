@@ -406,7 +406,7 @@ universal module mymodule {
 }
 ```
 
-Use `universal` identifier to let the module be used in all of the gl files on your computer.
+Use `universal` identifier to let the module be used in all of the .gl files on your computer.
 Define functions, variables, and other constructs inside the module:
 
 
