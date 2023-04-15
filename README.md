@@ -74,8 +74,8 @@ GreetLang supports both single-line and multi-line comments:
 ```
     int/integer: An integer.
     float: A floating point number.
-    bool: A boolean value (true or false).
-    char: A single character.
+    bool/boolean: A boolean value (true or false).
+    char/character: A single character.
     str/string: A sequence of characters.
 ```
 
@@ -455,7 +455,7 @@ Here's an example that shows how to define and import a module in GreetLang:
 // In a different file:
 
 // define a module called "mymodule"
-universal module mymodule {
+universal module Mymodule {
     export func sayhello() {
         return "Hello, world!"
     }
@@ -483,6 +483,71 @@ The value of pi is 3.14159
 
 <br />
 <br />
+
+**Errors:**
+
+When you have 2 or more modules with the same name, the GreetLang compiler will spew out an error message notifying you of the problem and showing you the files where the module is created. <br />
+*For example:*
+
+```shell
+Warning! Error in module names: Two itterations of the same module have been found.
+
+MathModule.gl
+
+================================================================
+
+universal module Math {
+    export func times(num1, num2) {
+        let prod: int = num1 * num2;
+        return prod;
+    }
+    export func add(num1, num2) {
+        let sum: int = num1 + num2;
+        return sum;
+    }
+    export func divide(num1, num2) {
+        let divide: int = num1 / num2;
+        return divide;
+        if num1 or num2 == 0:
+            greet_error("You cannot divide a number by zero!");
+    }
+}
+
+================================================================
+
+MyModule.gl
+
+================================================================
+
+universal module Math {
+    export func times(num1, num2) rt integer{
+        let prod: int = num1 * num2;
+        return prod;
+    }
+    export func add(num1, num2) rt integer{
+        let sum: int = num1 + num2;
+        return sum;
+    }
+    export func divide(num1, num2) rt integer{
+        let divide: int = num1 / num2;
+        return divide;
+        if num1 or num2 == 0:
+            greet_error("You cannot divide a number by zero!");
+    }
+}
+
+================================================================
+
+Module declared in MathModule.gl ("Math" module) is the same as the module declared in MyModule.gl ("Math" module).
+Fix this to continue the program.
+
+```
+
+
+<br />
+
+<br />
+<br />
 <br />
 
 Benifits of using `Modules` instead of `MFFS`:
@@ -497,4 +562,5 @@ Benifits of using `Modules` instead of `MFFS`:
 ****
 
 <br />
+
 
