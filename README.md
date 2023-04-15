@@ -356,6 +356,13 @@ The last two lines of the code create a new instance of Rectangle called r with 
 
 <br />
 
+## Warning! 
+
+**This section is outdated and has been replaced by `modules support` which is in the section after this one. Thank you.**
+
+<br />
+<br />
+
 ### MFFS (Multi-File Function Sharing):
 
 <br />
@@ -383,3 +390,87 @@ greet(addnums(5, 3))  // Output: 8
 
 This will make the `addnums function` available in the current file, allowing you to call it with the `addnums` function name followed by the arguments in `parentheses`.
 
+****
+
+<br />
+
+### Modules
+
+<br />
+
+Define a module using the module keyword followed by the module name and the module body enclosed in curly braces:
+
+```ruby
+module mymodule {
+    # module body goes here
+}
+```
+
+Define functions, variables, and other constructs inside the module:
+
+
+```csharp
+module mymodule {
+    func myfunc() {
+        # function body goes here
+    }
+    
+    let myvar = 42
+    
+    # more constructs go here
+}
+```
+
+Export the constructs that you want to make available to other modules using the export keyword:
+
+
+```js
+module mymodule {
+    export func myfunc() {
+        # function body goes here
+    }
+    
+    export let myvar = 42
+    
+    # more constructs go here
+}
+```
+
+Import a module using the import keyword followed by the module name:
+
+```arduino
+import mymodule
+```
+Use the exported constructs from the imported module:
+
+```c
+greet(mymodule.myfunc())   // call a function from the module
+greet(mymodule.myvar)   // access a variable from the module
+```
+
+Here's an example that shows how to define and import a module in GreetLang:
+
+```js
+// define a module called "mymodule"
+module mymodule {
+    export func sayhello() {
+        return "Hello, world!"
+    }
+    
+    export let pi: float = 3.14159
+}
+
+// import the "mymodule" module
+import mymodule
+
+// use the exported functions and variables from the module
+greet(mymodule.sayhello())
+greet("The value of pi is " + str(mymodule.pi))
+```
+
+This example defines a module called "mymodule" that exports a function called "sayhello" and a variable called "pi". The module is then imported and the exported constructs are used in the program. The output of the program would be:
+
+```csharp
+Hello, world!
+The value of pi is 3.14159
+```
