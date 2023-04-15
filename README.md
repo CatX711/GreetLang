@@ -411,7 +411,7 @@ Define functions, variables, and other constructs inside the module:
 
 
 ```csharp
-module mymodule {
+universal module mymodule {
     func myfunc() {
         // function body goes here
     }
