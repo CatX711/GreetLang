@@ -423,7 +423,7 @@ universal module mymodule {
 }
 ```
 
-Export the constructs that you want to make available to other modules using the export keyword:
+The `export keyword` is used to specify which constructs (functions, variables, etc.) can be accessed from outside the module. 
 
 
 ```js
