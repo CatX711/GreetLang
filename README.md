@@ -426,7 +426,7 @@ Export the constructs that you want to make available to other modules using the
 
 
 ```js
-module mymodule {
+universal module mymodule {
     export func myfunc() {
         // function body goes here
     }
