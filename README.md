@@ -538,7 +538,7 @@ universal module Math {
 
 ================================================================
 
-Module declared in MathModule.gl ("Math" module) is the same as the module declared in MyFirstModule.gl ("Math" module).
+Module declared in MathModule.gl ("Math" module) has the same name as the module declared in MyFirstModule.gl ("Math" module).
 Fix this to continue the program.
 
 ```
