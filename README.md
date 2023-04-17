@@ -591,6 +591,7 @@ window.show()
 
 <details>
 <summary>Click for an in depth explination of the code that auto defines this.</summary>
+<br />
 
 In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
 
