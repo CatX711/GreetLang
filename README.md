@@ -567,3 +567,41 @@ Benifits of using `Modules` instead of `MFFS`:
 <br />
 
 
+### Gui Libary Support
+
+
+```js
+import gui
+
+// Define a function to handle button clicks
+func button_click(gui) {
+    gui.message_box("Button clicked!")
+}
+
+// Create a new window with a button
+let window = gui.window("My Window")
+let button = gui.button("Click me", on_click=button_click)
+window.add(button)
+
+// Show the window
+window.show()
+```
+>Note:
+>When creating the `button_click` function we do not need to specify the `return type` as that is already contained in the gui library (which the GreetLang compiler gets told when we put the library name in the parameters. (EXTRA NOTE: even if you have the library name in the function parameters, you can still give it other parameters too)). When defining the `window` and `button` variables, because we give it a value of something "gui.", we do not need to specify it's `type` as it is considered a variable related to the library and the GreetLang compiler knows that it's type is related to whatever the code the library has that specifies that when a variable is related to the library, it's type is auto defined. 
+
+<details>
+<summary>Click for an in depth explination of the code that auto defines this.</summary>
+
+In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
+
+```z
+print("hey, this is a test")
+```
+</details>
+
+In this example, we import the gui module, which provides functions and classes for creating and manipulating graphical elements. We define a function button_click to handle button clicks, which simply displays a message box with a message.
+
+We then create a new window and a button, and set the button's on_click property to the button_click function. We add the button to the window, and then show the window.
+
+Of course, this is just a simple example, and there are many more complex graphical elements and features that could be added to GreetLang's GUI library, such as menus, dialogs, text formatting, and image manipulation. However, the basic principles would be the same: define constructs for graphical elements, provide functions for manipulating them, and create bindings to a GUI toolkit or library.
+
