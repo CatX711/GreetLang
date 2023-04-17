@@ -590,7 +590,7 @@ window.show()
 >When creating the `button_click` function we do not need to specify the `return type` as that is already contained in the gui library (which the GreetLang compiler gets told when we put the library name in the parameters. (EXTRA NOTE: even if you have the library name in the function parameters, you can still give it other parameters too)). When defining the `window` and `button` variables, because we give it a value of something "gui.", we do not need to specify it's `type` as it is considered a variable related to the library and the GreetLang compiler knows that it's type is related to whatever the code the library has that specifies that when a variable is related to the library, it's type is auto defined. 
 
 <details>
-<summary>`Click for an in depth explination of the code that auto defines this.`</summary>
+<summary>Click for an in depth explination of the code that auto defines this.</summary>
 
 In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
 
