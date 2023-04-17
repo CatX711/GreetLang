@@ -589,15 +589,60 @@ window.show()
 >Note:
 >When creating the `button_click` function we do not need to specify the `return type` as that is already contained in the gui library (which the GreetLang compiler gets told when we put the library name in the parameters. (EXTRA NOTE: even if you have the library name in the function parameters, you can still give it other parameters too)). When defining the `window` and `button` variables, because we give it a value of something "gui.", we do not need to specify it's `type` as it is considered a variable related to the library and the GreetLang compiler knows that it's type is related to whatever the code the library has that specifies that when a variable is related to the library, it's type is auto defined. 
 
-><details>
-<summary>Click for an in depth explination of the code that auto defines this.</summary>
+<details>
+<summary>`Click for an in depth explination of the code that auto defines this.`</summary>
 
 In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
 
-```z
-print("hey, this is a test")
+```fortran
+// rest of library code is not in this
+
+CONNECT TO glcompiler.c
+FROM winx12_calpice RETRIEVE data.xtl
+USE 0x00212a0d TO ACCESS 0x00262ab40
+USING bytes:32 TAKE 4:= 87 AND PRIORATISE 0x00262ab40
+PERFORM definetype.gl
+ACCESS defineype.gl AND CONNECT TO glcompiler.c 
+TRANSFER [bitdata] AND USE xenoflux.htlpx TO HYPERCONFLUGTUATE vartype.und // .undefined file
+HYPERAXSENSUATE bl.s  // save state file
+WITH bl.s USING DATA FROM vartype.und CREATE [types.cc] // .compiler connect file
+
+ENTER CC EDITOR--CNFRM // confirm entering the compiler connect file editor
+
+types.cc:
+---------------------------------------
+;instantiate Types === var_types(array)
+
+;vartypes[
+
+?if code="let [varname] = gui.{stringvalue}"
+    vartype in vartypes === stringflux
+
+?elseif code="let [varname] = gui.{integervalue}"
+    vartype in vartypes === numflux 
+    
+?elseif code="let [varname] = gui.{othervalue}"
+    vartype in vartypes === gui:component
+    
+]
+
+connect types.cc to [gl] compiler
+---------------------------------------
+
+EXIT types.cc
+
+USE "vartypes" IN types.cc TO DETERMINE variabletypes
+FIN bl.s // finish bl.s using data sources
+USING data.xtl, vartype.und, calpise.lib, variabletypes ULTIMISE definetype.gl
+
+FINALLY{[CONNECT definetypes.gl TO glcompiler.c]}
+
+END
 ```
 </details>
+
+<br />
+<br />
 
 In this example, we import the gui module, which provides functions and classes for creating and manipulating graphical elements. We define a function button_click to handle button clicks, which simply displays a message box with a message.
 
