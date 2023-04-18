@@ -58,6 +58,11 @@ Use semicolons (;) to end lines of code.
 greet("What's your name?"); <--
 ```
 
+If you are well aquainted with C, and many other languages, you will know that the semicolon lets the compiler know that the current line has been executed and it should stop running it, and move onto the next line of code. The semicolon is only not needed in very rare occasions, such as `importing` `modules` (explained later on in the docs).
+
+<br />
+<br />
+
 ### Comments
 
 GreetLang supports both single-line and multi-line comments:
