@@ -356,9 +356,9 @@ let area: float = r.area();
 
 <br />
 
-This greetlang code defines two classes, Shape and Rectangle, and uses them to calculate the area of a rectangle.
+This GreetLang code defines two classes, `Shape` and `Rectangle`, and uses them to calculate the `area` of a rectangle.
 
-The Shape class has a single method, area(), which returns a float representing the area of the shape. This method is currently set to return 0.0 as the area of a generic shape is undefined.
+The `Shape` class has a single method, `area()`, which returns a float representing the area of the shape. This method is currently set to `return 0.0` as the area of a generic shape is `undefined`.
 
 The `Rectangle` class extends the `Shape` class, and defines `two attributes`, `width` and `height`, which are used to calculate the area of the rectangle. The `__init__()` method is used to initialize these attributes with the values of the arguments `w` and `h` respectively.
 
