@@ -595,7 +595,7 @@ window.show()
 
 In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
 
-```fortran
+```ft
 // rest of library code is not in this
 
 CONNECT TO glcompiler.c
@@ -651,3 +651,17 @@ We then create a new window and a button, and set the button's on_click property
 
 Of course, this is just a simple example, and there are many more complex graphical elements and features that could be added to GreetLang's GUI library, such as menus, dialogs, text formatting, and image manipulation. However, the basic principles would be the same: define constructs for graphical elements, provide functions for manipulating them, and create bindings to a GUI toolkit or library.
 
+****
+
+### Playing Audio
+
+<br />
+
+In Greetlang, to play audio, you will have to make sure your audio file is in the same folder as you GreetLang file. You will then create a variable, and assign it a type of `audio`.
+
+**Example**
+
+```c
+
+import "drums.mp3" type="audio"
+```
