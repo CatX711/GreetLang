@@ -39,7 +39,7 @@ GreetLang is a statically typed language, which means that variable types are de
 
 In GreetLang, to print something to the screen, you use the `greet()` function. <br />
 
-```shell
+```js
 greet("Hello, World!");
 ```
 
