@@ -595,7 +595,7 @@ window.show()
 
 In the official GreetLang GUI library, this code (written in Zardakvos (another fictional language)) allows the GreetLang compiler to know the auto defined value of a when a variable it's connected to the library.
 
-```ft
+```c
 // rest of library code is not in this
 
 CONNECT TO glcompiler.c
