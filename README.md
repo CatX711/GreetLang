@@ -54,7 +54,7 @@ The output will the string `Hello, World!` printed to the screen.
 
 Use semicolons (;) to end lines of code.
 
-```shell
+```js
 greet("What's your name?"); <--
 ```
 
