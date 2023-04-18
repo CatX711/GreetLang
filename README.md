@@ -40,7 +40,7 @@ GreetLang is a statically typed language, which means that variable types are de
 In GreetLang, to print something to the screen, you use the `greet()` function. <br />
 
 ```shell
-greet("Hello, World!")
+greet("Hello, World!");
 ```
 
 <br />
@@ -49,6 +49,14 @@ The output will the string `Hello, World!` printed to the screen.
 
 <br />
 <br />
+
+### Semicolons 
+
+Use semicolons (;) to end lines of code.
+
+```shell
+greet("What's your name?"); <--
+```
 
 ### Comments
 
@@ -114,7 +122,7 @@ func add_numbers(num1 input: int, num2: int) rt integer {
 Then you would call the function by doing this:
 
 ```c
-add_numbers()
+add_numbers();
 ```
 
 <br />
@@ -128,7 +136,7 @@ If you wanted to return a string, you could define it inside the function. <br /
 
 ```c
 func hello() rt string {
-    let text: str = "Hello World!"
+    let text: str = "Hello World!";
     return text;
 }
 ```
@@ -140,16 +148,16 @@ And if you wanted to use the function in a greet:
 
 ```c
 func hello() rt string {
-    let hello: str = "Hello World!"
+    let hello: str = "Hello World!";
     return hello;
 }
 
-greet(hello(), " It's a beautiful day today!")
+greet(hello(), " It's a beautiful day today!");
 
 // Variation 2:
 
 /*
-greet(hello() + " It's a beautiful day today!")
+greet(hello() + " It's a beautiful day today!");
 */
 ```
 
@@ -158,7 +166,7 @@ greet(hello() + " It's a beautiful day today!")
 Going back to the add_numbers function, if we made it so the function does not take in an input (by removing the `input` in `num1 input: int`, we could use it in a greet while manually giving it our own values instead of giving it user input.
 
 ```
-greet("The sum of 2 and 3 is " + times(2, 3))
+greet("The sum of 2 and 3 is " + times(2, 3));
 ```
 
 <br />
@@ -186,7 +194,7 @@ func times(num1: int, num2: int) rt integer {   // Use "rt" to specify the retur
 
 
 // Call the function and pass two numbers as arguments
-greet(addnums(5, 3))   // Output: 8
+greet(addnums(5, 3));   // Output: 8
 ```
 
 The first line declares a function called `times` that takes two parameters num1 and num2, both of which are of type int (short for integer). The `rt symbol` specifies the `return type` of the function, which in this case is an `integer`.
@@ -386,7 +394,7 @@ To use this function in another GreetLang file, you would use the include statem
 ```csharp
 from [math.gl] include "addnums"
 
-greet(addnums(5, 3))  // Output: 8
+greet(addnums(5, 3));  // Output: 8
 ```
 
 This will make the `addnums function` available in the current file, allowing you to call it with the `addnums` function name followed by the arguments in `parentheses`.
@@ -417,7 +425,7 @@ universal module mymodule {
         // function body goes here
     }
     
-    let myvar: int = 42
+    let myvar: int = 42;
     
     // more constructs go here
 }
@@ -432,7 +440,7 @@ universal module mymodule {
         // function body goes here
     }
     
-    export let myvar: int = 42
+    export let myvar: int = 42;
     
     // more constructs go here
 }
@@ -446,8 +454,8 @@ import mymodule
 Use the exported constructs from the imported module:
 
 ```c
-greet(mymodule.myfunc())   // call a function from the module
-greet(mymodule.myvar)   // access a variable from the module
+greet(mymodule.myfunc());   // call a function from the module
+greet(mymodule.myvar);   // access a variable from the module
 ```
 
 Here's an example that shows how to define and import a module in GreetLang:
@@ -458,10 +466,10 @@ Here's an example that shows how to define and import a module in GreetLang:
 // define a module called "mymodule"
 universal module Mymodule {
     export func sayhello() {
-        return "Hello, world!"
+        return "Hello, world!";
     }
     
-    export let pi: float = 3.14159
+    export let pi: float = 3.14159;
 }
 
 // In the file we want to import the module into:
@@ -470,8 +478,8 @@ universal module Mymodule {
 import mymodule
 
 // use the exported functions and variables from the module
-greet(mymodule.sayhello())
-greet("The value of pi is " + str(mymodule.pi))
+greet(mymodule.sayhello());
+greet("The value of pi is " + str(mymodule.pi));
 ```
 
 This example defines a module called `"mymodule"` that exports a function called `"sayhello"` and a variable called `"pi"`. The module is then imported and the exported constructs are used in the program. The output of the program would be:
@@ -575,16 +583,16 @@ import gui
 
 // Define a function to handle button clicks
 func button_click(gui) {
-    gui.message_box("Button clicked!")
+    gui.message_box("Button clicked!");
 }
 
 // Create a new window with a button
-let window = gui.window("My Window")
-let button = gui.button("Click me", on_click=button_click)
-window.add(button)
+let window = gui.window("My Window");
+let button = gui.button("Click me", on_click=button_click);
+window.add(button);
 
 // Show the window
-window.show()
+window.show();
 ```
 >Note:
 >When creating the `button_click` function we do not need to specify the `return type` as that is already contained in the gui library (which the GreetLang compiler gets told when we put the library name in the parameters. (EXTRA NOTE: even if you have the library name in the function parameters, you can still give it other parameters too)). When defining the `window` and `button` variables, because we give it a value of something "gui.", we do not need to specify it's `type` as it is considered a variable related to the library and the GreetLang compiler knows that it's type is related to whatever the code the library has that specifies that when a variable is related to the library, it's type is auto defined. 
@@ -663,5 +671,9 @@ In Greetlang, to play audio, you will have to make sure your audio file is in th
 
 ```c
 
-import "drums.mp3" type="audio"
+import "drums.mp3" type="audio";
+
+// use "play()" function
+
+play(drums.mp3);
 ```
