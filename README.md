@@ -360,11 +360,11 @@ This greetlang code defines two classes, Shape and Rectangle, and uses them to c
 
 The Shape class has a single method, area(), which returns a float representing the area of the shape. This method is currently set to return 0.0 as the area of a generic shape is undefined.
 
-The Rectangle class extends the Shape class, and defines two attributes, width and height, which are used to calculate the area of the rectangle. The __init__() method is used to initialize these attributes with the values of the arguments w and h respectively.
+The `Rectangle` class extends the `Shape` class, and defines `two attributes`, `width` and `height`, which are used to calculate the area of the rectangle. The `__init__()` method is used to initialize these attributes with the values of the arguments `w` and `h` respectively.
 
-The override keyword is used to override the area() method in the Shape class. In this case, the area() method in the Rectangle class calculates the area of the rectangle using the formula width * height.
+The `override` keyword is used to override the `area()` method in the `Shape` class. In this case, the `area()` method in the `Rectangle `class calculates the area of the rectangle using the formula `width * height`.
 
-The last two lines of the code create a new instance of Rectangle called r with width 2.0 and height 3.0. The area of the rectangle is then calculated using the area() method of the Rectangle class and stored in the variable area.
+The last two lines of the code create a new instance of `Rectangle` called `r` with `width 2.0` and `height 3.0`. The area of the rectangle is then calculated using the `area()` method of the `Rectangle` class and stored in the variable `area`.
 
 ****
 
