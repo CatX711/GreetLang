@@ -38,7 +38,9 @@ func addnums(num1 input: int, num2: int) rt integer {
 
 If you can see my point, look at the Rust code. When simplified it means `let x: int = 4"`.
 
-
+<br />
+<br />
+When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So Greetlang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal crap. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible. If that means recreating the whole thing from the ground up. `I will do it.`
 
 
 
