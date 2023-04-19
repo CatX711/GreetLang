@@ -1,8 +1,8 @@
 ## Greetlang+
 
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/104099162/233198214-487a91d5-35f1-4dbc-838f-70de6f8e4671.jpeg">
 
->Believe me, I tried to make the + look nice by adding some colour, but im just a kid, i cant do that!
+<img width="320" alt="Greetlang+" src="https://user-images.githubusercontent.com/104099162/233203284-dc165de9-bd13-48b2-a663-fac39b626ebe.png">
+
 
 <br />
 <br />
@@ -12,6 +12,7 @@ This is a revamped version of the concept `Greetlang` programming language creat
 <br />
 
 *Hey, that looks a lot like GreetLang!*
+
 
 <br />
 
