@@ -1,8 +1,8 @@
-# GreetLang
+# GreetLang (OLD VERSION)
 A fictional programming language by me. GreetLang does not exist, it is a concept. <br />
 GreetLang will be regularly expanded upon by me. Feel free to point out inconsistency issues, general problems, <br />
-and ideas. <br />
-Thank you, and please enjoy reading the full documentation.
+and ideas. <br /> Greetlang+ is a revamped version of GL and it is in the Greetlang+ file.
+Thank you, and please enjoy reading the full documentation, of the original GreetLang programming language.
 <br />
 <br />
 
