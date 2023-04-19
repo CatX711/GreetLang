@@ -10,9 +10,11 @@
 This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own original ideas. However, the key word is, `original`. I soon realised, that, very far into production of the language, most of my ideas had already been done by other people, `and I hadn't even realised`. This occured to me while learning rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
 
 <br />
+
 *Hey, that looks a lot like GreetLang!*
 
 <br />
+
 I looked back at my code. <br />
 
 ```rs
@@ -22,6 +24,7 @@ fn main() {
 }
 ```
 
+<br />
 <br />
 
 And back and my GreetLang. <br />
