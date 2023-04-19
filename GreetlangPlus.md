@@ -2,7 +2,7 @@
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/104099162/233198214-487a91d5-35f1-4dbc-838f-70de6f8e4671.jpeg">
 
->(Believe me, I tried to make the + look nice by adding some colour, but im just a kid, i cant do that!)
+>Believe me, I tried to make the + look nice by adding some colour, but im just a kid, i cant do that!
 
 <br />
 <br />
@@ -20,7 +20,7 @@ I looked back at my code. <br />
 ```rs
 fn main() {
     let mut x: i32 = 4; // lets you change value of x throughout the program
-    println("x is: {}", x)
+    println!("x is: {}", x)
 }
 ```
 
