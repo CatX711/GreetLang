@@ -36,7 +36,7 @@ func addnums(num1 input: int, num2: int) rt integer {
 }
 ```
 
-If you can see my point, look at the Rust code. When simplified it means `let x: int = 4"`.
+If you can see my point, look at the Rust code. When simplified it means `let x: int = 4`.
 
 <br />
 <br />
