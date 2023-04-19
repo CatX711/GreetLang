@@ -7,7 +7,7 @@
 <br />
 <br />
 
-This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own original ideas. However, the key word is, `original`. I soon realised, that, very far into production of the language, most of my ideas had already been done by other people, `and I hadn't even realised`. This occured to me while learning rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
+This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own original ideas. However, the key word is, `original`. I soon realised, that, very far into production of the language, most of my ideas had already been done by other people, `and I hadn't even realised`. This occured to me while learning Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
 
 <br />
 
@@ -41,10 +41,13 @@ If you can see my point, look at the Rust code. When simplified it means `let x:
 <br />
 <br />
 
-When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So Greetlang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal crap. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible. If that means recreating the whole thing from the ground up, <br />
+When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So Greetlang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible. If that means recreating the whole thing from the ground up, <br />
 `I will do it.`
 
+<br />
+<br />
 
+Get ready for a flurry of original ideas, and a mix of useful and effective syntax, because I'm about to remake this, and everything will be different.
 
 
 
