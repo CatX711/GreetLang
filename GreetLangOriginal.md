@@ -7,7 +7,7 @@ Thank you, and please enjoy reading the full documentation, of the original Gree
 <br />
 
 
-<img width="350" alt="gl_logo" src="https://user-images.githubusercontent.com/104099162/233204742-2e67a50f-dc65-4c34-b11c-e37bdeee3023.png">
+<p align="center"><img width="350" alt="gl_logo" src="https://user-images.githubusercontent.com/104099162/233204742-2e67a50f-dc65-4c34-b11c-e37bdeee3023.png"></p>
 
 <br />
 <br />
