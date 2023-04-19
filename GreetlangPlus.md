@@ -1,7 +1,7 @@
 ## Greetlang+
 
 
-<img width="320" alt="Greetlang+" src="https://user-images.githubusercontent.com/104099162/233203284-dc165de9-bd13-48b2-a663-fac39b626ebe.png">
+<img width="649" alt="Greetlang+" src="https://user-images.githubusercontent.com/104099162/233203284-dc165de9-bd13-48b2-a663-fac39b626ebe.png">
 
 
 <br />
