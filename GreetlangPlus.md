@@ -30,7 +30,7 @@ fn main() {
 And back and my GreetLang. <br />
 
 ```c
-func addnums(num1 input: int, num2: int) rt integer {
+func addnums(num1: int, num2: int) rt integer {
   let sum: int = num1 + num2; <-- see the point im making? 
   return sum;
 }
