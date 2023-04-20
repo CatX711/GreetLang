@@ -19,7 +19,7 @@ I looked back at my code. <br />
 ```rs
 fn main() {
     let mut x: i32 = 4; // lets you change value of x throughout the program
-    println!("x is: {}", x)
+    println!("x is: {}", x);
 }
 ```
 
@@ -29,13 +29,13 @@ fn main() {
 And back and my GreetLang. <br />
 
 ```c
-func addnums(num1: int, num2: int) rt integer {
-  let sum: int = num1 + num2; <-- see the point im making? 
-  return sum;
-}
+let x: int = 6; <-- Look here,
+let y: int = 7; <-- and here.
+
+greet(x * 7)
 ```
 
-If you can see my point, look at the Rust code. When simplified it means `let x: int = 4`.
+If you can't see my point, look at the Rust code. When simplified it means `let x: int = 4`.
 
 <br />
 <br />
