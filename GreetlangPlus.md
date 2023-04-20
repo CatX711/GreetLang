@@ -97,7 +97,7 @@ var message = "Hello, World!";
 
 Variables can be reassigned by simply using the = operator again:
 
-```makefile
+```c
 message = "Goodbye, World!";
 ```
 
