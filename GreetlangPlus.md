@@ -18,8 +18,8 @@ I looked back at my code. <br />
 
 ```rs
 fn main() {
-    let mut x: i32 = 4; // lets you change value of x throughout the program
-    println!("x is: {}", x); <-- Look here.
+    let mut x: i32 = 4; <-- Look here.
+    println!("x is: {}", x); 
 }
 ```
 
