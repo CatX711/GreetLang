@@ -62,10 +62,13 @@ Get ready for a flurry of original ideas, and a mix of useful and effective synt
 # Greetlang+ Documentation
 
 <br />
+<br />
+<br />
 
 Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is an extension of Greetlang, which adds several new features such as support for functions with parameters, basic mathematical operations, as well as reworking the syntax to make it more easy to read and intuitive.
 
 
+<br />
 <br />
 <br />
 
