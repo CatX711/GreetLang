@@ -60,8 +60,18 @@ Get ready for a flurry of original ideas, and a mix of useful and effective synt
 
 # Greetlang+ Documentation
 
-Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is an extension of Greetlang, which adds several new features such as support for functions with parameters, basic mathematical operations, and more.
-Data Types
+<br />
+
+Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is an extension of Greetlang, which adds several new features such as support for functions with parameters, basic mathematical operations, as well as reworking the syntax to make it more easy to read and intuitive.
+
+
+<br />
+<br />
+
+## Data Types
+
+<br />
+<br />
 
 Greetlang+ supports the following data types:
 
@@ -83,9 +93,9 @@ Variables in Greetlang+ are declared using the var keyword. The value of a varia
 
 ```csharp
 var message = "Hello, World!";
+```
 
 Variables can be reassigned by simply using the = operator again:
-```
 
 ```makefile
 message = "Goodbye, World!";
