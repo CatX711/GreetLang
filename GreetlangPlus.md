@@ -143,6 +143,8 @@ Greetlang+ supports the following basic mathematical operations:
     Multiplication: *
     Division: /
 
+<br />
+
 For example:
 
 <br />
@@ -165,7 +167,7 @@ var quotient = 10 / 5; // quotient is now 2
 
 To output text to the console in Greetlang+, you can use the greet function. For example:
 
-```scss
+```js
 greet("Hello, World!");
 ```
 
@@ -175,7 +177,7 @@ You can also use the greetmany function to output multiple strings on separate l
 
 <br />
 
-```arduino
+```js
 greetmany("Hello", "World", "!");
 ```
 
