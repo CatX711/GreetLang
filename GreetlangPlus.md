@@ -89,7 +89,36 @@ Greetlang+ supports the following data types:
 
 ****
 
+## The Holy Semicolon 
+
+`;` <-- This character, is responsible for the ***entier*** program not just bursting into flames. The semicolon is used for telling the compiler to stop executing the current line of code, and move on to the next one. You *must* end your lines of code with the semicolon `(as a reminder, this is the semicolon: ;)` otherwise the program will not run.
+
 <br />
+<br />
+
+****
+
+## Output
+
+To output text to the console in Greetlang+, you can use the greet function. For example:
+
+```js
+greet("Hello, World!");
+```
+
+<br />
+
+You can also use the greetmany function to output multiple strings on separate lines:
+
+<br />
+
+```js
+greetmany("Hello", "World", "!");
+```
+
+<br />
+
+****
 
 ## Variables
 
@@ -166,24 +195,6 @@ var quotient = 10 / 5; // quotient is now 2
 ****
 
 <br />
-
-## Output
-
-To output text to the console in Greetlang+, you can use the greet function. For example:
-
-```js
-greet("Hello, World!");
-```
-
-<br />
-
-You can also use the greetmany function to output multiple strings on separate lines:
-
-<br />
-
-```js
-greetmany("Hello", "World", "!");
-```
 
 
 
