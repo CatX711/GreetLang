@@ -50,6 +50,128 @@ Get ready for a flurry of original ideas, and a mix of useful and effective synt
 
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+# Greetlang+ Documentation
+
+Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is an extension of Greetlang, which adds several new features such as support for functions with parameters, basic mathematical operations, and more.
+Data Types
+
+Greetlang+ supports the following data types:
+
+    string: A sequence of characters enclosed in quotes, e.g. "Hello, World!".
+    number: A numeric value, e.g. 42.
+    boolean: A value that is either true or false.
+    undefined: A value that is used to represent an uninitialized variable or an absent value.
+
+<br />
+<br />
+
+****
+
+<br />
+
+## Variables
+
+Variables in Greetlang+ are declared using the var keyword. The value of a variable can be assigned using the = operator. For example:
+
+```csharp
+var message = "Hello, World!";
+
+Variables can be reassigned by simply using the = operator again:
+```
+
+```makefile
+message = "Goodbye, World!";
+```
+
+<br />
+<br />
+
+****
+
+<br />
+
+## Functions
+
+Functions in Greetlang+ are declared using the function keyword, followed by the name of the function and its parameters in parentheses. The body of the function is enclosed in curly braces {}.
+
+For example, here's a function that takes two numbers as parameters and returns their sum:
+
+```js
+function add(num1, num2) {
+  return num1 + num2;
+}
+```
+
+<br />
+
+Functions can be called by using their name and passing arguments in parentheses. For example:
+
+<br />
+
+```csharp
+var result = add(2, 3); // result is now 5
+```
+
+****
+
+<br />
+
+## Basic Mathematical Operations
+
+Greetlang+ supports the following basic mathematical operations:
+
+    Addition: +
+    Subtraction: -
+    Multiplication: *
+    Division: /
+
+For example:
+
+<br />
+
+```csharp
+var sum = 10 + 5; // sum is now 15
+var difference = 10 - 5; // difference is now 5
+var product = 10 * 5; // product is now 50
+var quotient = 10 / 5; // quotient is now 2
+```
+
+<br />
+<br />
+
+****
+
+<br />
+
+## Output
+
+To output text to the console in Greetlang+, you can use the greet function. For example:
+
+```scss
+greet("Hello, World!");
+```
+
+<br />
+
+You can also use the greetmany function to output multiple strings on separate lines:
+
+<br />
+
+```arduino
+greetmany("Hello", "World", "!");
+```
+
+
+
+
 
 
 
