@@ -211,6 +211,7 @@ Greetlang+ supports control flow statements that allow for conditional and itera
 ### If Statement
 
 <br />
+<br />
 
 The if statement is used for conditional execution of code. If the condition inside the parentheses is true, the code inside the curly braces will be executed.
 
@@ -230,6 +231,9 @@ If the condition is false, the code will be skipped.
 
 ### If-Else Statement
 
+<br />
+<br />
+
 The if-else statement is used for conditional execution of code where if the condition inside the parentheses is true, the code inside the first curly braces will be executed. If the condition is false, the code inside the second curly braces will be executed.
 
 For example:
@@ -247,6 +251,9 @@ greet("This code will be executed.");
 ****
 
 ### While Loop
+
+<br />
+<br />
 
 The while loop is used for iterative execution of code. As long as the condition inside the parentheses is true, the code inside the curly braces will be executed repeatedly.
 
@@ -270,6 +277,9 @@ count++;
 
 
 ### For Loop
+
+<br />
+<br />
 
 The for loop is used for iterative execution of code, with more control over the number of iterations. The loop has three parts separated by semicolons:
 
