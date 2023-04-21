@@ -200,6 +200,8 @@ var quotient = 10 / 5; // quotient is now 2
 
 Greetlang+ supports control flow statements that allow for conditional and iterative execution of code.
 
+<br />
+
 ****
 
 <br />
@@ -224,6 +226,8 @@ If the condition is false, the code will be skipped.
 
 <br />
 
+****
+
 ### If-Else Statement
 
 The if-else statement is used for conditional execution of code where if the condition inside the parentheses is true, the code inside the first curly braces will be executed. If the condition is false, the code inside the second curly braces will be executed.
@@ -239,6 +243,8 @@ greet("This code will not be executed.");
 greet("This code will be executed.");
 }
 ```
+
+****
 
 ### While Loop
 
@@ -281,7 +287,10 @@ greet("i is " + i);
 
 This loop will execute 5 times, with i starting at 0 and incrementing by 1 each time until i reaches 4.
 
+<br />
+<br />
 
+****
 
 
 
