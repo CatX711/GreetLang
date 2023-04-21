@@ -149,7 +149,7 @@ For example, here's a function that takes two numbers as parameters and returns 
 
 ```js
 function add(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 ```
 
@@ -219,7 +219,7 @@ For example:
 
 ```js
 if (true) {
-greet("This code will be executed.");
+    greet("This code will be executed.");
 }
 ```
 
@@ -242,9 +242,10 @@ For example:
 
 ```
 if (false) {
-greet("This code will not be executed.");
-} else {
-greet("This code will be executed.");
+    greet("This code will not be executed.");
+} 
+else {
+    greet("This code will be executed.");
 }
 ```
 
@@ -291,7 +292,7 @@ For example:
 
 ```js
 for (var i = 0; i < 5; i++) {
-greet("i is " + i);
+    greet("i is " + i);
 }
 ```
 
