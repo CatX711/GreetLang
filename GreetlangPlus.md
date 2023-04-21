@@ -41,7 +41,7 @@ If you can't see my point, look at the Rust code. When simplified it means `let 
 <br />
 
 When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So Greetlang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible (with some tried and tested elements from other languages, of course). If that means recreating the whole thing from the ground up, <br />
-`I will do it.`
+`I will do it.` 
 
 <br />
 <br />
@@ -86,6 +86,24 @@ Greetlang+ supports the following data types:
 
 <br />
 <br />
+
+****
+
+## Comments
+
+GreetLang+ supports `single line` and `multi-line` comments.
+
+<br />
+
+**Single line:**
+
+```
+# Hey! This is a gl+ single line comment
+```
+
+<br />
+
+**
 
 ****
 
@@ -302,6 +320,8 @@ This loop will execute 5 times, with i starting at 0 and incrementing by 1 each 
 <br />
 
 ****
+
+
 
 
 
