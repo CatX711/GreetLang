@@ -220,7 +220,7 @@ If the condition is false, the code will be skipped.
 
 <br />
 
-### If-Else Statement
+### If-Else Statement
 
 The if-else statement is used for conditional execution of code where if the condition inside the parentheses is true, the code inside the first curly braces will be executed. If the condition is false, the code inside the second curly braces will be executed.
 
@@ -236,7 +236,7 @@ greet("This code will be executed.");
 }
 ```
 
-### While Loop
+### While Loop
 
 The while loop is used for iterative execution of code. As long as the condition inside the parentheses is true, the code inside the curly braces will be executed repeatedly.
 
@@ -259,7 +259,7 @@ count++;
 <br />
 
 
-### For Loop
+### For Loop
 
 The for loop is used for iterative execution of code, with more control over the number of iterations. The loop has three parts separated by semicolons:
 
