@@ -91,7 +91,7 @@ Greetlang+ supports the following data types:
 
 ## The Holy Semicolon 
 
-`;` <-- This character, is responsible for the ***entier*** program not just bursting into flames. The semicolon is used for telling the compiler to stop executing the current line of code, and move on to the next one. You *must* end your lines of code with the semicolon `(as a reminder, this is the semicolon: ;)` otherwise the program will not run.
+`;` <-- This character, is responsible for the ***entire*** program not just bursting into flames. The semicolon is used for telling the compiler to stop executing the current line of code, and move on to the next one. You *must* end your lines of code with the semicolon `(as a reminder, this is the semicolon: ;)` otherwise the program will not run.
 
 <br />
 <br />
