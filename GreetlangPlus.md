@@ -196,6 +196,85 @@ var quotient = 10 / 5; // quotient is now 2
 
 <br />
 
+## Control Flow Statements
+
+Greetlang+ supports control flow statements that allow for conditional and iterative execution of code.
+
+<br />
+
+### If Statement
+
+<br />
+
+The if statement is used for conditional execution of code. If the condition inside the parentheses is true, the code inside the curly braces will be executed.
+
+For example:
+
+```js
+if (true) {
+greet("This code will be executed.");
+}
+```
+
+If the condition is false, the code will be skipped.
+
+<br />
+
+### If-Else Statement
+
+The if-else statement is used for conditional execution of code where if the condition inside the parentheses is true, the code inside the first curly braces will be executed. If the condition is false, the code inside the second curly braces will be executed.
+
+For example:
+
+<br />
+
+```
+if (false) {
+greet("This code will not be executed.");
+} else {
+greet("This code will be executed.");
+}
+```
+
+### While Loop
+
+The while loop is used for iterative execution of code. As long as the condition inside the parentheses is true, the code inside the curly braces will be executed repeatedly.
+
+For example:
+
+<br />
+
+```c
+var count = 0;
+while (count < 5) {
+greet("Count is " + count);
+count++;
+}
+```
+
+<br />
+
+****
+
+<br />
+
+### For Loop
+
+The for loop is used for iterative execution of code, with more control over the number of iterations. The loop has three parts separated by semicolons:
+
+    Initialization: executed before the loop starts.
+    Condition: checked before each iteration. If it is false, the loop ends.
+    Increment: executed after each iteration.
+
+For example:
+
+```js
+for (var i = 0; i < 5; i++) {
+greet("i is " + i);
+}
+```
+
+This loop will execute 5 times, with i starting at 0 and incrementing by 1 each time until i reaches 4.
 
 
 
