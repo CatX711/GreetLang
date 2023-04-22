@@ -258,7 +258,7 @@ For example:
 
 <br />
 
-```
+```c
 if (false) {
     greet("This code will not be executed.");
 } 
