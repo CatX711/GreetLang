@@ -291,8 +291,8 @@ For example:
 ```c
 var count = 0;
 while (count < 5) {
-greet("Count is " + count);
-count++;
+    greet("Count is " + count);
+    count++;
 }
 ```
 
