@@ -98,12 +98,20 @@ GreetLang+ supports `single line` and `multi-line` comments.
 **Single line:**
 
 ```
-# Hey! This is a gl+ single line comment
+// Hey! This is a gl+ single line comment
 ```
 
 <br />
 
-**
+**Multi line:**
+```
+/! I am a multi-line comment.
+You can write across multiple lines,
+and then end the comment like this -> !/
+```
+
+<br />
+<br />
 
 ****
 
