@@ -6,8 +6,6 @@ See you on the flipside :D
 
 <br />
 <br />
-<br />
-<br />
 
 *- Daniel C.*
 
