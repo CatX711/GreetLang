@@ -5,7 +5,6 @@ GreetLang is offcially discontinued. It may be worked upon in the future, howeve
 See you on the flipside :D
 
 <br />
-<br />
 
 *- Daniel C.*
 
