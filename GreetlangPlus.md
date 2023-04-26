@@ -143,6 +143,16 @@ greetmany("Hello", "World", "!");
 ```
 
 <br />
+<br />
+The result would be:
+
+```
+Hello
+World
+!
+```
+
+<br />
 
 ****
 
