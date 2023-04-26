@@ -145,8 +145,8 @@ greetmany("Hello", "World", "!");
 <br />
 <br />
 The result would be:
-
 <br />
+
 
 ```
 Hello
