@@ -179,7 +179,13 @@ Now, how does all this tie back to GL Plus? Well, in GreetLang+, you would not n
 Here is a list of what GreetLang+ comes pre-packaged with:
 ```
 op() <-- OutPut is essentially the Print function.
-fn st() <-- Start is essentially "int main()"
+fn st() <-- "Function Start()" is essentially "int main()"
+while <-- While loops
+for <-- For loops
+if <-- If statement
+elif <-- Else If statement
+else <-- Esle statement
+
 
 It knows how to create a variable:
 
@@ -192,7 +198,19 @@ fn [funcname (first letter must be capitalised) ](parameters [if none leave blan
     [code]
 }
 
+Preprocessing (must go directly below any library imports, also no semicolons needed):
 
+!PPR{
+    #mac [macro name] = [type]
+}
+
+(or like this):
+
+!PPR{
+    #mac [macro name](parameters) \
+        [code] \
+        [when going over multiple lines use backslash -> \] 
+}
 ```
 Keep in mind that these will be explained later on.
 
