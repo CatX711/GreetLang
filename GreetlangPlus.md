@@ -7,7 +7,7 @@
 
 ## Table of Contents:
 
-#### 1 [Basic Info](#info)
+#### 1. [Basic Info](#info)
 #### 2. [Gl+ Documentation](#beginning)
 #### 3. [Data Types](#data-types)
 
@@ -77,7 +77,9 @@ When I investigated more and more into GL and it's features, I kept on finding u
 <br />
 <br />
 
-Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is an extension of Greetlang, which adds several new features such as support for functions with parameters, basic mathematical operations, as well as reworking the syntax to make it more easy to read and intuitive.
+Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is a revamp of Greetlang, which adds several new features, as well as reworking the syntax to make it more easy to read and intuitive. <br />
+GL+ strives to be a syntactically sound language (which will probably never happen) that is fast, clean, easy to read and fast and easy to learn.
+
 
 
 <br />
