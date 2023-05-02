@@ -7,7 +7,7 @@
 
 ## Table of Contents:
 
-[Test (#GL+ Docs)](#GL+ Docs)
+[Test](#beginning)
 
 <br />
 <br />
@@ -60,7 +60,7 @@ When I investigated more and more into GL and it's features, I kept on finding u
 
 ====================================================================================================
 
-# Greetlang+ Documentation <a name="GL+ Docs"></a>
+# Greetlang+ Documentation <a name="beginning"></a>
 
 <br />
 <br />
