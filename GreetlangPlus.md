@@ -5,6 +5,13 @@
 <br />
 <br />
 
+## Table of Contents:
+
+[Test](#GL+ Docs)
+
+<br />
+<br />
+
 This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own "original" ideas. However, the key word is, `original`. I soon realised, that, very far into production of the language, most of my ideas had already been done by other people, `and I hadn't even realised`. This occured to me while trying out Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
 
 <br />
@@ -53,7 +60,7 @@ When I investigated more and more into GL and it's features, I kept on finding u
 
 ====================================================================================================
 
-# Greetlang+ Documentation
+# Greetlang+ Documentation <a name="GL+ Docs"></a>
 
 <br />
 <br />
