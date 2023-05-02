@@ -9,9 +9,10 @@
 
 1. -  [Basic Info](#info)
 2. - [Gl+ Documentation](#beginning)
-- 3. [Data Types](#data-types)
-- 4. [Basics](#basics)
+3. - [Data Types](#data-types)
+4. -  [Basics](#basics)
     -  [Your First Program](#first_program)
+    
 
 <br />
 <br />
