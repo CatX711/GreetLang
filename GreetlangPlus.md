@@ -7,8 +7,13 @@
 
 ## Table of Contents:
 
-[Test](#beginning)
+### 1. [Gl+ Documentation](#beginning)
+### 2. [Data Types](#data-types)
 
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 
@@ -39,7 +44,7 @@ And back and my GreetLang. <br />
 let x: int = 6; <-- Look here,
 let y: int = 7; <-- and here.
 
-greet(x * 7)
+greet(x * 7);
 ```
 
 If you can't see my point, look at the Rust code. When simplified it means `let x: int = 4`.
@@ -73,7 +78,7 @@ Greetlang+ is a simple programming language that is designed to be easy to learn
 <br />
 <br />
 
-## Data Types
+## Data Types <a name="data-types"></a>
 
 <br />
 <br />
