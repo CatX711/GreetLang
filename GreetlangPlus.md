@@ -7,8 +7,8 @@
 
 ## Table of Contents:
 
-### 1. [Gl+ Documentation](#beginning)
-### 2. [Data Types](#data-types)
+#### 1. [Gl+ Documentation](#beginning)
+#### 2. [Data Types](#data-types)
 
 <br />
 <br />
