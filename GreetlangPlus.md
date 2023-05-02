@@ -7,7 +7,7 @@
 
 ## Table of Contents:
 
-[Test](#GL+ Docs)
+[Test (#GL+ Docs)](#GL+ Docs)
 
 <br />
 <br />
