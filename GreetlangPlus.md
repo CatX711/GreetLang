@@ -10,7 +10,8 @@
 #### 1. [Basic Info](#info)
 #### 2. [Gl+ Documentation](#beginning)
 #### 3. [Data Types](#data-types)
-
+#### 4. [Basics](#basics)
+####     - [Your First Program](#first_program)
 
 <br />
 <br />
@@ -143,7 +144,7 @@ Alright, now that you know the simple stuff, let's go into more detail in the `B
 
 ****
 
-# Basics
+# Basics <a name="basics"></a>
 
 
 In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's not advised, and it'll make your code just not run. <br />
@@ -184,6 +185,7 @@ There, thats better! <br />
 In conclusion, you can write code, but without including the standard libraries for the code to function, the compiler has no idea what the heck you're talking about! <br />
 Now, how does all this tie back to GL Plus? Well, in GreetLang+, you would not need to include/import any libraries for the language to gain basic functionality. However, when working with arithmetics and mathematics and booleans, it just wont function without importing the libraries that contain the info for the compiler to understand that code. <br /> <br /> <br />
 
+Before we begin, <br />
 Here is a list of what GreetLang+ comes pre-packaged with:
 ```
 op() <-- OutPut is essentially the Print function.
@@ -221,6 +223,14 @@ Preprocessing (must go directly below any library imports, also no semicolons ne
 }
 ```
 Keep in mind that these will be explained later on.
+
+<br />
+<br />
+<br />
+<br />
+
+#### Your First program <a name="first_program"></a>
+
 
 ****
 
