@@ -156,7 +156,28 @@ int main(){
 <br />
 
 There, thats better! <br />
-In conclusion, you can write code, but without including the standard libraries for the code to function, the compiler has no idea what the heck you're talking about!
+In conclusion, you can write code, but without including the standard libraries for the code to function, the compiler has no idea what the heck you're talking about! <br />
+Now, how does all this tie back to GL Plus? Well, in GreetLang+, you would not need to include/import any libraries for the language to gain basic functionality. However, when working with arithmetics and mathematics and booleans, it just wont function without importing the libraries that contain the info for the compiler to understand that code. <br /> <br /> <br />
+
+Here is a list of what GreetLang+ comes pre-packaged with:
+```
+op() <-- OutPut is essentially the Print function.
+fn st() <-- Start is essentially "int main()"
+
+It knows how to create a variable:
+
+def var [varname] -> [type] = [value]
+
+
+And how to create functions:
+
+fn [funcname (first letter must be capitalised) ](parameters [if none leave blank]) rt [return type]{
+    [code]
+}
+
+
+```
+Keep in mind that these will be explained later on.
 
 ****
 
