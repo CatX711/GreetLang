@@ -116,6 +116,11 @@ and then end the comment like this -> */
 <br />
 <br />
 
+Alright, now that you know the simple stuff, let's go into more detail in the `Basics` of GreetLang+
+
+<br />
+<br />
+
 ****
 
 # Basics
