@@ -121,7 +121,42 @@ and then end the comment like this -> */
 # Basics
 
 
+In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's not advised, and it'll make your code just not run. <br />
+Let me explain. 
 
+<br />
+<br />
+
+Look at this C code: <br /> <br />
+
+```c
+
+
+int main(){
+    printf("Hello, world!\n");
+    
+    return 0;
+}
+```
+
+<br />
+
+Ah yes, sweet, sweet familiarity. This is part of the most famous program ever, the `C Hello World` program, created by `Brian Kernigham`, for the `C Programming Language` book in 1973. But wait, something is missing, what could it be? <br />
+Well, at the top of the program, we're missing the essential line of code that imports the standard library the language uses, containing all of the `printf functions, variable and function defining methods, return types, etcetera.` <br /> <br />
+```c
+#include <stdio.h>
+
+int main(){
+    printf("Hello, world!\n");
+    
+    return 0;
+}
+```
+
+<br />
+
+There, thats better! <br />
+In conclusion, you can write code, but without including the standard libraries for the code to function, the compiler has no idea what the heck you're talking about!
 
 ****
 
