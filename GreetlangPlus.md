@@ -12,7 +12,7 @@
 - **2.   [Gl+ Documentation](#beginning)**
 - **3.   [Data Types](#data-types)**
 - **4.   [Basics](#basics)**  
-    - **4.1 [Your First Program](#first-program)**
+    -- **4.1 [Your First Program](#first-program)**
 
 <!-- /TOC -->
     
