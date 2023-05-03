@@ -124,7 +124,7 @@ When I investigated more and more into GL and it's features, I kept on finding u
 <br />
 <br />
 
-Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is a revamp of Greetlang, which adds several new features, as well as reworking the syntax to make it more easy to read and intuitive. <br />
+Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is a revamp of Greetlang, which adds several new features, as well as reworking the syntax to make it more intuitive and easy to read. <br />
 GL+ strives to be a syntactically sound language (which will probably never happen) that is fast, clean, easy to read and fast and easy to learn.
 
 
