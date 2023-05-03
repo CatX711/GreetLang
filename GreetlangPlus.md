@@ -300,7 +300,47 @@ func st() rt:int{
 }
 ```
 
-Alright, let's break this down. `func st()` is how we start the program, mostly all of our code will go inside of `st()`, as it is a renamed version of the tried and true `main()`. There's a blank space in the brackets, because all functions `can` (not `must`) take parameters, however, we won't get into that now. Okay, so, you might be wondering what in the world `rt:int` means. Well, it's a way of telling the GreetLang+ compiler that we want our function to return an integer, (either 0 or 1), 0 being a code that tells us that our program has run succesfully, and 1, obviously doing the opposite.
+<br />
+
+Alright, let's break this down. `func st()` is how we start the program, mostly all of our code will go inside of `st()`, as it is a renamed version of the tried and true `main()`. There's a blank space in the brackets, because all functions `can` (not `must`) take parameters, however, we won't get into that now. Okay, so, you might be wondering what in the world `rt:int[0]` means. Well, it's a way of telling the GreetLang+ compiler that we want our function to return an integer, `(either 0 or 1)`, 0 being a `code` that tells us that our program has `run succesfully`, and 1, obviously `doing the opposite`. <br /> <br /> Let's move on to the next part now. <br />
+
+```js
+func st() rt:int[0]{
+    op("Hello, world!"); // remember to end your line of code with a semicolon!!!
+}
+```
+
+<br />
+
+Using the `op()` (output) function, we can output some text to the screen. In this case, we're displaying `"Hello, world!"` for everyone to see. If you're an experienced C developer, you may be wondering why we don't include an `return 0;` in our code. This is because we already specify the return type in the first line of code! To remind you, here is what I'm talking about: `func st() rt:int[0]` 
+
+<br />
+<br />
+
+## Running our program <a name="runprogram"></a>
+
+<br />
+<br />
+
+Now that we've created our program, we need to compile and run it. Here's how we do that. <br />
+Open up your terminal, and enter in the text, `gpc [filename.gp]` <br />
+This is telling the `GreetLang+ Compiler` `(gpc)`, to compile our code. We dont need to name the binary file that is produced, as we would in C, it just auto names it to your file name. <br /> <br />
+
+After compiling, if we write ./[filename], we can run our code. <br />
+The output should be this:
+
+<br />
+
+```
+Hello, world!
+```
+
+<br />
+<br />
+
+Great job! You've just written your first GreetLang+ code! You're now ready to become a professional GL+ developer! :D
+
+<br />
 
 ****
 
