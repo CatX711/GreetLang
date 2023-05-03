@@ -48,6 +48,9 @@
 <br />
 <br />
 <br />
+<p align="center">
+    Hey! Scroll past me to see the documentation!
+</p>    
 <br />
 <br />
 <br />
