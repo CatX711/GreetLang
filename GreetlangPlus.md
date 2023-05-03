@@ -293,10 +293,10 @@ You can use whatever editor you like, to be honest, it doesn't really matter!
 <br />
 
 Alright, lets start. <br />
-Begin by calling the `main` function. You do this by typing `func main`, followed by it's return type (int), and two curly brackets `{}`
+Begin by calling the `main` function. You do this by typing `func st`, followed by it's return type (int), and two curly brackets `{}`
 
 ```js
-func st() rt:int{
+func st() rt:int[0]{
     // your code goes inside here
 }
 ```
