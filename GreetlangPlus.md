@@ -63,7 +63,12 @@ If you can't see my point, look at the Rust code. When simplified it means `let 
 <br />
 <br />
 
-When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So GreetLang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible (with some tried and tested elements from other languages, of course). GreetLang+ also aims to add a better syntax, new features, and a lot more. When I created GreetLang, I did not really have a good grasp on programming as a whole, let alone designing the languages you use to write code
+When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So GreetLang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible (with some tried and tested elements from other languages, of course). GreetLang+ also aims to add a better syntax, new features, and a lot more. When I created GreetLang, I did not really have a good grasp on programming as a whole, let alone designing the languages you use to write code. So now that I've learned more about that, I think I'm ready to try again. Enjoy!
+
+<br />
+<br />
+
+*- Daniel C.*
 
 <br />
 <br />
