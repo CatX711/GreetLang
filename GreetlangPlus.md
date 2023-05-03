@@ -28,7 +28,7 @@
 
 ## Basic Information <a name="info"></a>
 
-This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own "original" ideas. However, the key word is, `original`. I soon realised, that, very far into production of the language, most of my ideas had already been done by other people, `and I hadn't even realised`. This occured to me while trying out Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
+This is a revamped version of the concept `Greetlang` programming language created by, me, of course. I have been very happy with my documentation over the language and all of my own "original" ideas. However, the key word is, `original`. I realised that, very far into production of the language, most of my ideas had already been done by other people. This occured to me while trying out Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
 
 <br />
 
@@ -63,9 +63,7 @@ If you can't see my point, look at the Rust code. When simplified it means `let 
 <br />
 <br />
 
-When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So Greetlang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible (with some tried and tested elements from other languages, of course). If that means recreating the whole thing from the ground up, <br />
-`I will do it.` 
-
+When I investigated more and more into GL and it's features, I kept on finding unoriginal ideas. So GreetLang `Plus`, is here to change that. Me personally, having spent so much work on that language, would like to pay it some justice after all my effort into essentially a harder version of Rust, C, and Python mixed together to vomit out some unoriginal ideas marketed as my own. I may be being a bit harsh on GreetLang, but I would like my language to be as original as possible (with some tried and tested elements from other languages, of course). GreetLang+ also aims to add a better syntax, new features, and a lot more. When I created GreetLang, I did not really have a good grasp on programming as a whole, let alone designing the languages you use to write code
 
 <br />
 <br />
@@ -197,13 +195,14 @@ Now, how does all this tie back to GL Plus? Well, in GreetLang+, you would not n
 Before we begin, <br />
 Here is a list of what GreetLang+ comes pre-packaged with:
 ```
-op() <-- OutPut is essentially the Print function.
-fn st() <-- "Function Start()" is essentially "int main()"
+op() <-- OutPut is essentially the "print" function.
+func st() <-- "Function Start()" is essentially "int main()". mostly all of the code goes inside of it
 while <-- While loops
 for <-- For loops
 if <-- If statement
 elif <-- Else If statement
 else <-- Esle statement
+import <-- essentially "#include". used for importing libraries into the code
 
 
 It knows how to create a variable:
@@ -250,9 +249,15 @@ You can use whatever editor you like, to be honest, it doesn't really matter!
 <br />
 
 Alright, lets start. <br />
-Begin by calling the `main` function. You do this by
+Begin by calling the `main` function. You do this by typing `func main`, followed by it's return type (int), and two curly brackets `{}`
+
 ```
+func st() rt int{
+    // your code goes inside here
+}
 ```
+
+Alright, let's break this down. `func st()` is how we start the program, mostly all of our code will go inside of `st()`. 
 
 ****
 
