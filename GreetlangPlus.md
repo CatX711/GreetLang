@@ -7,6 +7,10 @@
 
 ## Table of Contents:
 
+<!-- TOC -->
+- **1.   [Basic Info](#info)**
+
+<!-- /TOC -->
 **1.   [Basic Info](#info)**
 **2.   [Gl+ Documentation](#beginning)**
 **3.   [Data Types](#data-types)
