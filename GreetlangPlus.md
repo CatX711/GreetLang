@@ -133,6 +133,8 @@ and then end the comment like this -> */
 
 ## The Holy Semicolon 
 
+<br />
+
 `;` <-- This character, is responsible for the ***entire*** program not just bursting into flames. The semicolon is used for telling the compiler to stop executing the current line of code, and move on to the next one. You *must* end your lines of code with the semicolon `(as a reminder, this is the semicolon: ;)` otherwise the program will not run.
 
 <br />
@@ -147,6 +149,9 @@ Alright, now that you know the simple stuff, let's go into more detail in the `B
 
 # Basics <a name="basics"></a>
 
+
+<br />
+<br />
 
 In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's not advised, and it'll make your code just not run. <br />
 Let me explain. 
@@ -205,7 +210,7 @@ def var [varname] -> [type] = [value]
 
 And how to create functions:
 
-fn [funcname (first letter must be capitalised) ](parameters [if none leave blank]) rt [return type]{
+func [funcname (first letter must be capitalised) ](parameters [if none leave blank]) rt [return type]{
     [code]
 }
 
@@ -232,6 +237,19 @@ Keep in mind that these will be explained later on.
 
 #### Your First program <a name="first_program"></a>
 
+<br />
+<br />
+
+Begin your first GL+ program by creating a `.gpp` file. This should create a new GreetLang+ file and allow for it to be edited. <br />
+You can use whatever editor you like, to be honest, it doesn't really matter!
+
+<br />
+<br />
+
+Alright, lets start. <br />
+Begin by calling the `main` function. You do this by
+```
+```
 
 ****
 
