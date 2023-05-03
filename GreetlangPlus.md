@@ -20,6 +20,7 @@
 - **3.   [Data Types](#data-types)**
 - **4.   [Basics](#basics)**  
     -- **4.1 [Your First Program](#first_program)**
+    -- **4.2 [Running Our Program](#runprogram)** 
 
 <!-- /TOC -->
     
@@ -326,7 +327,7 @@ Now that we've created our program, we need to compile and run it. Here's how we
 Open up your terminal, and enter in the text, `gpc [filename.gp]` <br />
 This is telling the `GreetLang+ Compiler` `(gpc)`, to compile our code. We dont need to name the binary file that is produced, as we would in C, it just auto names it to your file name. <br /> <br />
 
-After compiling, if we write ./[filename], we can run our code. <br />
+After compiling, if we write `./[filename]`, we can run our code. <br />
 The output should be this:
 
 <br />
