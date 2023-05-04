@@ -418,9 +418,10 @@ Great job! You've just written your first GreetLang+ code! You're now ready to b
 <br />
 <br />
 
-You can use any characters in the range 0-9, A-Z, a-z, and underscore for variable names, with the following rules:
-• You can’t start a variable with a digit 0-9.
-• You can’t start a variable name with two underscores.
+You can use any characters in the range 0-9, A-Z, a-z, and underscore for variable names, with the following rules: <br />
+• You can’t start a variable with a digit 0-9. <br />
+• You can’t start a variable name with two underscores. <br /> <br />
+
 
 ***
 
