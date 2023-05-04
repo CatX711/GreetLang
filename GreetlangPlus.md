@@ -41,6 +41,8 @@
 - **4.   [Basics](#basics)**  
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
+- **5.   [Variables](#vars)     
+    -- **5.1 [Variable Names](#varnames)
 
 <!-- /TOC -->
     
@@ -384,11 +386,43 @@ Great job! You've just written your first GreetLang+ code! You're now ready to b
 
 ****
 
-V
+<br />
+<br />
+
+## Variables <a name="vars"></a>
+
+<br />
+
+>Talk is cheap. Show me the code.
+>
+>*- Linus Torvalds*
+
+<br />
+<br />
+<br />
 
 
 
 
+
+
+<br />
+<br />
+
+****
+
+<!-- delete the four stars when done with variables section -->
+
+## Variable Names <a name="varnames"></a>
+
+<br />
+<br />
+
+You can use any characters in the range 0-9, A-Z, a-z, and underscore for variable names, with the following rules:
+• You can’t start a variable with a digit 0-9.
+• You can’t start a variable name with two underscores.
+
+***
 
 
 
