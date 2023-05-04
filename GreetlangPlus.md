@@ -227,6 +227,14 @@ Alright, now that you know the simple stuff, let's go into more detail in the `B
 <br />
 <br />
 
+>The computer programmer is a creator of universes for which he alone is responsible. Universes of virtually unlimited complexity can be created in the form of computer programs.
+>
+>*- Joseph Weizenbaum*
+
+<br />
+<br />
+<br />
+
 In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's not advised, and it'll make your program cease to run. <br />
 Let me explain. 
 
