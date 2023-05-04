@@ -41,8 +41,8 @@
 - **4.   [Basics](#basics)**  
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
-- **5.   [Variables](#vars)     
-    -- **5.1 [Variable Names](#varnames)
+- **5.   [Variables](#vars)**     
+    -- **5.1 [Variable Names](#varnames)**
 
 <!-- /TOC -->
     
