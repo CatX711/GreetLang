@@ -4,14 +4,18 @@
 
 <br />
 <br />
+
+>Computers are good at following instructions, but not at reading your mind.
+>
+>*- Donald Knuth*
+
+<br />
+<br />
 <br />
 <br />
 <br />
 <br />
 
->Computers are good at following instructions, but not at reading your mind.
->
->*- Donald Knuth*
 
 
 ====================================================================================================
