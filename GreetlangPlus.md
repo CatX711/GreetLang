@@ -9,6 +9,10 @@
 <br />
 <br />
 
+>Computers are good at following instructions, but not at reading your mind.
+>
+>*- Donald Knuth*
+
 
 ====================================================================================================
 
@@ -123,6 +127,11 @@ When I investigated more and more into GL and it's features, I kept on finding u
 <br />
 <br />
 <br />
+
+>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+>
+>*- Martin Fowler*
+
 
 Greetlang+ is a simple programming language that is designed to be easy to learn and use. It is a revamp of Greetlang, which adds several new features, as well as reworking the syntax to make it more intuitive and easy to read. <br />
 GL+ strives to be a syntactically sound language (which will probably never happen) that is fast, clean, easy to read and learn.
@@ -344,6 +353,8 @@ Great job! You've just written your first GreetLang+ code! You're now ready to b
 <br />
 
 ****
+
+V
 
 
 
