@@ -429,6 +429,14 @@ func st() rt:int[0]{
 }
 ```
 
+<br />
+
+I said I was going to go into how character arrays are different in GL+, so I'll quickly skim over that and move on. <br />
+In C and many other older languages, they didn't necessarily have `string types`, so their alternative was to create an `array of characters` and use that instead. Obviously this is just a more complicated way of writing `strings`, as they are obviously character arrays if you think about it. <br />
+An array is a spreadsheet of information, <br />
+a character is a single letter, <br />
+and a character array is a collection of characters that can form a sentence or a name or whatever you want. <br />
+Starting to see my point here?
 
 
 
