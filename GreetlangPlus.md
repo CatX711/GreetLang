@@ -421,7 +421,7 @@ Following that is `var`, which tells the GL+ compiler that we're defining a `VAR
 <br />
 <br />
 
-```py
+```js
 // Code for the stuff shown above
 
 func st() rt:int[0]{
