@@ -395,11 +395,11 @@ Oh, automatic newlines are disabled now...I sure hope this doesn't do anything b
 
 <br />
 
-(remember you can manually insert a newline using "\n" at the end of your op(), like this: <br /> <br />
+Remember, you can manually insert a newline using "\n" at the end of your op(), like this: <br /> <br />
 
-op("Hey, newlines are back!\n") 
-
-)
+```js
+op("Hey, newlines are back!\n"); 
+```
 
 
 
