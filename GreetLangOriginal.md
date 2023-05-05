@@ -613,7 +613,7 @@ In the official GreetLang GUI library, this code (written in Zardakvos (another 
 CONNECT TO glcompiler.c
 FROM winx12_calpice RETRIEVE data.xtl
 USE 0x00212a0d TO ACCESS 0x00262ab40
-USING bytes:32 TAKE 4:= 87 AND PRIORATISE 0x00262ab40
+USING bytes:32 TAKE 4:= 87 AND PRIORITISE 0x00262ab40
 PERFORM definetype.gl
 ACCESS defineype.gl AND CONNECT TO glcompiler.c 
 TRANSFER [bitdata] AND USE xenoflux.htlpx TO HYPERCONFLUGTUATE vartype.und // .undefined file
