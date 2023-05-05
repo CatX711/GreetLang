@@ -382,11 +382,9 @@ I sure hope this doesn't do anything bad!
 ```
 
 <br />
-<br />
 
 To 
 
-<br />
 <br />
 
 ```
