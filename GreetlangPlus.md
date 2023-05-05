@@ -359,6 +359,53 @@ Using the `op()` (output) function, we can output some text to the screen. In th
 <br />
 <br />
 
+Oh, and one more thing, normally an op() function automatically creates a newline when moving on to the next line of code, like in `Python`, so it's more of an ease of life feature. However, this can be turned off by adding this to the beginning of your `main function`:
+<br />
+<br />
+
+```js
+func main() rt:int[0]{
+    &newline::op = '1'; // sets to false
+        
+    op("Oh, automatic newlines are disabled now...");
+    op("I sure hope this doesn't do anything bad!");
+}
+```
+
+<br />
+
+With this at the top of the `main`, the following code would go from outputting, <br />
+
+```
+Oh, automatic newlines are disabled now...
+I sure hope this doesn't do anything bad!
+```
+
+<br />
+<br />
+
+To 
+
+<br />
+<br />
+
+```
+Oh, automatic newlines are disabled now...I sure hope this doesn't do anything bad!
+```
+
+<br />
+
+(remember you can manually insert a newline using "\n" at the end of your op(), like this: <br /> <br />
+
+op("Hey, newlines are back!\n") 
+
+)
+
+
+
+<br />
+<br />
+
 ## Running our program <a name="runprogram"></a>
 
 <br />
@@ -443,7 +490,21 @@ Starting to see my point here?
 <br />
 <br />
 
-Now let's move on to how you would actually use one in your code.
+Now let's move on to how you would actually use one in your code. <br />
+Below is the code to include a variable in an output `(op)`: 
+<br />
+<br />
+
+```js
+func main() rt:int[0]{
+    def var friends = 122;
+    
+    op("Hey, I have {!friends} on FaceBook!");
+}
+```
+
+<br />
+
 
 
 
