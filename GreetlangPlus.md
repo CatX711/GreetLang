@@ -401,7 +401,21 @@ Great job! You've just written your first GreetLang+ code! You're now ready to b
 <br />
 <br />
 
+Ah yes, `variables`, the go-too way of storing data in a sort of container. <br />
+Think of a variable as a box, which you can name and can put things inside. The items you would `put inside` the box are the values you `assign` to the variable. For example in C, if you wanted to give a variable a value of an `integer`, you would do something like this:
 
+<br />
+
+```c
+int num1 = 87;
+```
+
+<br />
+<br />
+
+That is an example of `putting a value in our box`. In this case, the value is the `integer` 87, and now that the variable has been created and assigned a value, we can use it later in our code. <br /> <br />
+
+GreetLang+ is a bit different. You start the 
 
 
 
