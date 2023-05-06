@@ -503,6 +503,11 @@ func main() rt:int[0]{
 
 <br />
 
+Surrounding a variable name in curly brackets and an exclemation mark tells the GL+ compiler that we want to put a variable in that position. When doing this, you won't have to worry about converting the number to a string, or any nonsense like that, the lovely GL+ compiler automatically does it for you. Thanks GL+ compiler!
+
+<br />
+<br />
+
 
 
 
