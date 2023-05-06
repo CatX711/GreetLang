@@ -525,7 +525,23 @@ You can use any characters in the range 0-9, A-Z, a-z, and underscore for variab
 
 ***
 
+<!-- for functions section eventually do a comparison between these two: 
 
+GreetLang Original:
+
+func add_numbers(num1: int, num2: int) rt integer {
+    let sum: int = num1 + num2;
+    return sum;
+}
+
+GreetLang+ 
+
+func add_nums(num1, num2) rt:int[0]{
+	def var sum = num1 + num2;
+	return sum;
+} 
+
+-->
 
 
 
