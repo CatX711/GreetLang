@@ -489,7 +489,7 @@ Starting to see my point here?
 <br />
 
 Now let's move on to how you would actually use one in your code. <br />
-Below is the code to include a variable in an output `(op)`: 
+Below is the code to include a variable with an `integer` value in an output `(op)`: 
 <br />
 <br />
 
@@ -506,8 +506,26 @@ func main() rt:int[0]{
 Surrounding a variable name in curly brackets and an exclemation mark tells the GL+ compiler that we want to put a variable in that position. When doing this, you won't have to worry about converting the number to a string, or any nonsense like that, the lovely GL+ compiler automatically does it for you. Thanks GL+ compiler!
 
 <br />
-<br />
+<br />  	
 
+Click on `More Examples` for some extra examples about variables in GreetLang+
+
+<details>
+<summary>More Examples</summary> 
+
+```js
+func st() rt:int[0]{
+	
+  def var hello = "Hey there!";	
+  op("{!hello}"); // outputs "Hey there!" to the terminal	
+}
+```
+
+<br />
+	
+Hello!	
+
+</details>
 
 
 
