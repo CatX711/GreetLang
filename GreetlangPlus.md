@@ -359,12 +359,12 @@ Using the `op()` (output) function, we can output some text to the screen. In th
 <br />
 <br />
 
-Oh, and one more thing, normally an op() function automatically creates a newline when moving on to the next line of code, like in `Python`, so it's more of an ease of life feature. However, this can be turned off by adding this to the beginning of your `main function`:
+Oh, and one more thing, normally an op() function automatically creates a newline when moving on to the next line of code, like in `Python`, so it's more of an ease of life feature. However, this can be turned off by adding this to the beginning of your `start function`:
 <br />
 <br />
 
 ```js
-func main() rt:int[0]{
+func st() rt:int[0]{
     &newline::op = '1'; // sets to false
         
     op("Oh, automatic newlines are disabled now...");
@@ -374,7 +374,7 @@ func main() rt:int[0]{
 
 <br />
 
-With this at the top of the `main`, the following code would go from outputting, <br />
+With this at the top of the `st`, the following code would go from outputting, <br />
 
 ```
 Oh, automatic newlines are disabled now...
