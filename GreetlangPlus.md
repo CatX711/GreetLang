@@ -494,7 +494,7 @@ Below is the code to include a variable with an `integer` value in an output `(o
 <br />
 
 ```js
-func main() rt:int[0]{
+func st() rt:int[0]{
     def var friends = 122;
     
     op("Hey, I have {!friends} on FaceBook!");
