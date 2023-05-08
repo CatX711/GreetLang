@@ -538,11 +538,13 @@ func st() rt:int[0]{
 	
   op("Hello, my name is Samuel {!middle_name} {!surname}. What's yours?");		
 }
+```
 	
 <br />
 	
 **Hello, my name is Samuel Jackson Kerg. What's yours?**	
-```
+
+	
 </details>
 
 
@@ -577,7 +579,7 @@ func add_numbers(num1: int, num2: int) rt integer {
 
 GreetLang+ 
 
-func add_nums(num1, num2) rt:int[0]{
+func add_nums(num1, num2) rt:userdef[]{ <-- user defined return type (in this case, sum) 
 	def var sum = num1 + num2;
 	return sum;
 } 
