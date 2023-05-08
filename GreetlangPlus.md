@@ -513,6 +513,8 @@ Click on `More Examples` for some extra examples about variables in GreetLang+
 <details>
 <summary>More Examples</summary> 
 
+<br />	
+	
 ```js
 func st() rt:int[0]{
 	
@@ -525,7 +527,22 @@ func st() rt:int[0]{
 	
 **Hello!** 
 
-
+<br />
+<br />
+	
+```js
+func st() rt:int[0]{
+  
+  def var middle_name = "Jackson"		
+  def var surname = "Kerg";
+	
+  op("Hello, my name is Samuel {!middle_name} {!surname}. What's yours?");		
+}
+	
+<br />
+	
+**Hello, my name is Samuel Jackson Kerg. What's yours?**	
+```
 </details>
 
 
