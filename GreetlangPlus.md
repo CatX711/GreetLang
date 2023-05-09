@@ -554,6 +554,23 @@ func st() rt:int[0]{
 <br />
 <br />
 
+## Variable Names <a name="varnames"></a>
+
+<br />
+Before we go into any more detail about variables in GreetLang+, let's go over some basic variable naming rules.
+<br />
+<br />
+
+
+You can use any characters in the range 0-9, A-Z, a-z, and underscore for variable names, with the following rules: <br />
+• You can’t start a variable with a digit 0-9. <br />
+• You can’t start a variable name with two underscores. 
+
+<br /> 
+<br />
+
+Now that we have that cleared up, let's continue!
+
 ## Adding Integer Variables Together <a name="adding_int_vars"></a>
 
 <br />
@@ -592,24 +609,6 @@ func st() rt:int[0]{
 <br />
 
 The GreetLang+ compiler, as stated before, automatically checks what type a variable is, so you wont have to worry about `"%d" or "%f" or "%lf"`
-
-
-
-
-****
-
-
-
-<!-- delete the four stars when done with variables section -->
-
-## Variable Names <a name="varnames"></a>
-
-<br />
-<br />
-
-You can use any characters in the range 0-9, A-Z, a-z, and underscore for variable names, with the following rules: <br />
-• You can’t start a variable with a digit 0-9. <br />
-• You can’t start a variable name with two underscores. <br /> <br />
 
 
 ****
