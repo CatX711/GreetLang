@@ -556,6 +556,46 @@ func st() rt:int[0]{
 
 ## Adding Integer Variables Together <a name="adding_int_vars"></a>
 
+<br />
+
+You can add integer variables quite easily, by containing the equation you would like to calculate in a single `{!}`. This is a feature in GL+ that reduces the complication of, for example, in C, where you would have to do a complicated mess of remembering the calling characters for specific variable types.
+
+<br />
+<br />
+
+```c
+int main() {
+
+  int num1 = 22;
+  int num2 = 23;
+  
+  printf("%d", num1 + num2);
+}
+```
+
+<br />
+
+The C code can be shortened very much in GL+, as you can see in this code below that shows how to add integer variables in it.
+
+<br />
+
+```js
+func st() rt:int[0]{
+
+  def var num1 = 22;
+  def var num2 = 23;
+  
+  op("{!num1 + num2}");
+}
+```
+
+<br />
+
+The GreetLang+ compiler, as stated before, automatically checks what type a variable is, so you wont have to worry about `"%d" or "%f" or "%lf"`
+
+
+
+
 ****
 
 
