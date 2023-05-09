@@ -42,9 +42,9 @@
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
 - **5.   [Variables](#vars)**     
-    -- **5.1 [Adding Integer Variables Together](#adding_int_vars)**
-    -- **5.2 [Merging String Variables](#)** <!-- not completed yet -->
-    -- **5.3 [Variable Names](#varnames)**
+    -- **5.1 [Adding Integer Variables Together](#adding_int_vars)** <br />
+    -- **5.2 [Merging String Variables](#)** <!-- not completed yet --> <br />
+    -- **5.3 [Variable Names](#varnames)** 
 
 <!-- /TOC -->
     
