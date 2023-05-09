@@ -42,7 +42,9 @@
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
 - **5.   [Variables](#vars)**     
-    -- **5.1 [Variable Names](#varnames)**
+    -- **5.1 [Adding Integer Variables Together](#adding_int_vars)**
+    -- **5.2 [Merging String Variables](#)** <!-- not completed yet -->
+    -- **5.3 [Variable Names](#varnames)**
 
 <!-- /TOC -->
     
@@ -552,7 +554,11 @@ func st() rt:int[0]{
 <br />
 <br />
 
+## Adding Integer Variables Together <a name="adding_int_vars"></a>
+
 ****
+
+
 
 <!-- delete the four stars when done with variables section -->
 
@@ -566,7 +572,7 @@ You can use any characters in the range 0-9, A-Z, a-z, and underscore for variab
 • You can’t start a variable name with two underscores. <br /> <br />
 
 
-***
+****
 
 <!-- for functions section eventually do a comparison between these two: 
 
