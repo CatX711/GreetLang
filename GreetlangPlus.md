@@ -607,7 +607,8 @@ func st() rt:int[0]{
 
 <br />
 
-The GreetLang+ compiler, as stated before, automatically checks what type a variable is, so you wont have to worry about `"%d" or "%f" or "%lf"`
+The GreetLang+ compiler, as stated before, automatically checks what type a variable is, so you wont have to worry about <br /> 
+`"%d" or "%f" or "%lf"`
 
 
 ****
@@ -616,7 +617,7 @@ The GreetLang+ compiler, as stated before, automatically checks what type a vari
 
 GreetLang Original:
 
-func add_numbers(num1: int, num2: int) rt integer {
+func add_nums(num1: int, num2: int) rt integer {
     let sum: int = num1 + num2;
     return sum;
 }
