@@ -35,10 +35,10 @@
 ## Table of Contents:
 
 <!-- TOC -->
- **1.   [Basic Info](#info)**
- **2.   [Gl+ Documentation Beginning](#beginning)**
- **3.   [Data Types](#data-types)**
- **4.   [Basics](#basics)**  
+ - **1.   [Basic Info](#info)**
+ - **2.   [Gl+ Documentation Beginning](#beginning)**
+ - **3.   [Data Types](#data-types)**
+ - **4.   [Basics](#basics)**  
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
 - **5.   [Variables](#vars)**     
