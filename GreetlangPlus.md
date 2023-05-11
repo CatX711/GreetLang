@@ -610,6 +610,40 @@ func st() rt:int[0]{
 The GreetLang+ compiler, as stated before, automatically checks what type a variable is, so you wont have to worry about <br /> 
 `"%d" or "%f" or "%lf"`
 
+<br />
+<br />
+
+One neat feature most programming languages, including GL+ have is giving variables the value of the answer to an equation. Yeah, that probably sounds vague as hell, so let me quickly explain it.
+
+<br />
+
+```js
+func st() rt:int[0]{
+  def var RandomNumberWithAnExtremelyLongVariableName = 2 * 2;
+  
+  op("{!RandomNumberWithAnExtremelyLongVariableName}");
+}
+```
+
+<br />
+
+This code is actually a perfect example for GreetLang-Plus's `Short-hand Varriable Names`, but thats for later. In the code above, we make `RandomNumberWithAnExtremelyLongVariableName` equivalent to `2 times 2` (which as we all know is 4), this is just a neat little thing we can do. There is also something else you can do, using mathematical operators. This is the first time we'll have to import a library into GreetLang+<br />
+We can do this via the `import`keyword. This is just what we use in Python to import libraries. It's the exact same as `#include` in C.
+
+<br />
+<br />
+
+```js
+import math.gph // greetlang plus header file
+
+func st() rt:int[0]{
+  def var number1 = sqr("22"); // squares the number
+  
+  op("{!number1}"); // outputs "484"
+}
+```
+
+
 
 ****
 
