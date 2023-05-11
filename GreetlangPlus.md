@@ -92,7 +92,7 @@
 
 # Basic Information <a name="info"></a>
 
-This is a revamped version of the concept generic use programming language, `Greetlang`, created by, me, of course. I have been very happy with my documentation over the language and all of my own "original" ideas. However, the key word is, `original`. I realised that, very far into production of the language, most of my ideas had already been done by other people, (especially, and this greatly surprised me, the Carbon language!) This occured to me while trying out Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
+This is a revamped version of the concept generic use programming language, `Greetlang` (otherwise known as `Greet`), created by, me, of course. I have been very happy with my documentation over the language and all of my own "original" ideas. However, the key word is, `original`. Very far into production of the language, I realised that most of my ideas had already been done by other people, and what especially surprised me, was the *OFFICIAL* `Carbon-Language` actually had nearly the exact same ideas as GreetLang! The first instance of me discovering the similarities of GreetLang with other languages occured to me while trying out Rust, where I saw that you could specify the type of a variable if needed. I saw my code and thought, <br />
 
 <br />
 
