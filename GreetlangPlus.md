@@ -636,6 +636,33 @@ func add_nums(num1, num2) rt:userdef[]{ <-- user defined return type (in this ca
 
 
 
+<!-- GL+ feature: nicknames (think of better name lol)
+
+you can assign a variable a nickname to shorten down it's name if it is long
+
+def var OneThousandTimesTwo:<OneKx2> = 1000 * 2; // sets value to 2k
+
+normally this would be used in code similar to this:
+
+
+func st() rt:int[0]{
+  def var OneThousandTimesTwo = 1000 * 2;
+
+  op("One thousand times two is {!OneThousandTimesTwo}");
+}
 
 
 
+but with nicknames, it would be this
+
+func st() rt:int[0]{
+  def var OneThousandTimesTwo:<OneKx2> = 1000 * 2;
+
+  op("One thousand times two is {!OneKx2}");
+}
+
+
+
+idea for new name:
+
+short-hand variable names
