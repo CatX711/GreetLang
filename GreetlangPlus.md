@@ -700,3 +700,19 @@ func st() rt:int[0]{
 idea for new name:
 
 short-hand variable names
+
+-->
+
+<!--
+
+more ideas:
+
+you can import individual glp libraries, however, `import gpultim.gph` will import
+EVERY gp library, but it will take up more memory.
+stick to individual imports when working on small projects
+shoot for `gp-ultimate` when working on bigger projects
+
+-->
+
+
+
