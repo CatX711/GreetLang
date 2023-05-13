@@ -916,8 +916,27 @@ func times(num1, num2) rt:userdef[]{
 
 Great job!
 
-Now, inside our `st()` function, we can use `times()` and give it two numbers two times.
+Now, inside our `st()` function, we can use `times()` and give it two numbers two times. <br />
 
+```
+func st() rt:int[0]{
+  times(4, 6);
+}
+```
+
+<br />
+
+Alright! Let's see the output!
+
+
+<br />
+<br />
+
+```
+
+
+
+```
 
 
 <!-- for functions section eventually do a comparison between these two: 
