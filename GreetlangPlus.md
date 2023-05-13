@@ -865,6 +865,19 @@ I wonder what's next?
 <br />
 <br />
 
+Functions are at the core of every programming language. In fact, what we write our code inside of, IS a function! `(start function)` 
+
+<br />
+<br />
+
+They are used to save time, resources, do repetitive tasks, store data more easily, etcetera. <br >
+`Greet, or GreetLang`, GreetLang+'s predecessor, had a very simmilar but less intuitive way of defining functions, which often resulted in hard to read code. GreetLang+ was only created because `Greet` quickly became a jumbled mess of horrible structure, ideas, lack of readability, and more. It's pretty obvious that I would try and improve functions in it's successor. 
+
+<br />
+<br />
+
+As you may know, functions can be defined using the `func` keyword.
+
 
 
 
