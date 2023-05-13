@@ -675,6 +675,24 @@ func st() rt:int[0]{
 
 Great!
 
+<br />
+
+The next step would be to combine the strings, by using a function called `strmerge()`. What `string-merge` does is it combines two strings together. It is used `inside of the {!}`.
+
+<br />
+<br />
+
+```js
+func st() rt:int[0]{
+  def var hello = "Hello, "; // has a space in it
+  def var world = "world!";  
+  
+  op("{!strmerge(hello, world)}");
+}
+```
+
+<br />
+
 ****
 
 <!-- for functions section eventually do a comparison between these two: 
