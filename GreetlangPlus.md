@@ -46,6 +46,7 @@
     -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
     -- **5.3 [Merging String Variables](#merge-str)** <br />
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)**
+    	-- **5.41 [Why Use Short-hand Variable Names?](#nicknames-why)**
 <!-- /TOC -->
     
 
@@ -731,7 +732,20 @@ Output:
 hello
 ```
 
-****
+<br />
+<br />
+
+##  Short-hand Variable Names (Nicknames) <a name="nicknames"></a>
+
+<br />
+
+We're finally nearing the end of the varibles section, and boy has it been long! Speaking of `long`, have you ever felt that your variables are just *WAY* too long, but if you abbreviate them, they just become confusing? Yeah, me too. Well, in GreetLang+, there's a cool feature which lets you nickname your variables. So, let's get into explaining it, shall we?
+
+<br />
+<br />
+
+### Why use nickames? <a name="nicknames-why"></a>
+
 
 
 
