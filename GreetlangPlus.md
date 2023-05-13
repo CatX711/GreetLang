@@ -710,7 +710,7 @@ Pretty neat, right?
 <br />
 <br />
 
->Note, you can create a new variable equivalent to the two variables merged together and output, that, it's optional and doesnt affect the code.
+>Note, you can create a new variable equivalent to the two variables merged together and output that, it's optional and doesnt affect the code.
 >
 >E.g:
 >
