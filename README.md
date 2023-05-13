@@ -16,4 +16,4 @@ Please enjoy learning GreetLang+!
 
 <br />
 
-(GreetLang is old, outdated, and should not be learned. It is still up just because of the effort i put into it. Please read the GreetLAng+ documentation instead, thank you :D )
+(GreetLang is old, outdated, and should not be learned. It is still up just because of the effort I put into it. Please read the GreetLang+ documentation instead, thank you :D )
