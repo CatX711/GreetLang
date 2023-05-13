@@ -44,7 +44,7 @@
 - **5.   [Variables](#vars)**     
     -- **5.1 [Variable Names](#varnames)** <br />
     -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
-    -- **5.3 [Merging String Variables](#)** <!-- not completed yet --> 
+    -- **5.3 [Merging String Variables](#merge-str)** <!-- not completed yet --> 
 <!-- /TOC -->
     
 
@@ -645,7 +645,32 @@ func st() rt:int[0]{
 }
 ```
 
+<br />
+<br />
 
+## Merging Strings Together <a name="merge-str"></a>
+
+<br />
+
+We won't have to go over much in this section, as it's essentially the process as adding integer vairables together. 
+
+<br />
+
+We'll start by defining our variables and `st()` function.
+
+<br />
+<br />
+
+```js
+func st() rt:int[0]{
+  def var hello = "Hello, "; // has a space in it
+  def var world = "world!";  
+}
+```
+
+<br />
+
+Great!
 
 ****
 
