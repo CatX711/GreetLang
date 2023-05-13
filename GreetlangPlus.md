@@ -938,6 +938,36 @@ Alright! Let's see the output!
 
 ```
 
+<br />
+
+Nothing. <br />
+Why? Well, when you `return` something in a function, it doesnt automatically output. You need to include it `INSIDE` an `op()` to get a result. Let's quickly change that, shall we?
+
+<br />
+<br />
+
+func st() rt:int[0]{
+  op(times(4, 6));
+}
+
+<br />
+
+Alright, let's compile and run!
+
+<br />
+<br />
+
+```
+24
+```
+
+<br />
+
+Hooray! It was a success!
+
+
+
+
 
 <!-- for functions section eventually do a comparison between these two: 
 
