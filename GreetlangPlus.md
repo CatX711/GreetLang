@@ -44,7 +44,7 @@
 - **5.   [Variables](#vars)**     
     -- **5.1 [Variable Names](#varnames)** <br />
     -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
-    -- **5.3 [Merging String Variables](#merge-str)** <!-- not completed yet --> 
+    -- **5.3 [Merging String Variables](#merge-str)** 
 <!-- /TOC -->
     
 
