@@ -706,6 +706,30 @@ Hello, world!
 
 Pretty neat, right?
 
+<br />
+<br />
+
+>Note, you can create a new variable equivalent to the two variables merged together and output, that, it's optional and doesnt affect the code.
+>
+>E.g:
+>
+```js
+func st() rt:int[0]{
+  def var str1 = "he";
+  def var str2 = "llo";
+  
+  def var hello = strmerge("he, llo");
+  
+  op("{!hello}")
+}
+
+
+
+Output:
+
+hello
+```
+
 ****
 
 
