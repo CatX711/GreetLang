@@ -946,7 +946,7 @@ Why? Well, when you `return` something in a function, it doesnt automatically ou
 <br />
 <br />
 
-```
+```js
 func st() rt:int[0]{
   op(times(4, 6));
 }
