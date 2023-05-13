@@ -1,15 +1,15 @@
-# DISCONTINUED
+# GreetLang (Greet) and GreetLang+ (Greet+)
 
-It's been hard to continuously keep developing GreetLang, and as I have now moved on to learning C, it is with a heavy heart that I announce that 
-GreetLang is offcially discontinued. It may be worked upon in the future, however, I just want to focus on the current. <br />
-See you on the flipside :D
+GreetLang (Greet) and GreetLang+ (Greet+) respectively are *concept* programming languages. 
 
 <br />
+<br />
 
-*- Daniel C.*
+They are purely fictional and just a side-project of mine. <br />
+`Greet+` is a revamp of `Greet`, which has a lot more features, better syntax, etcetera.
 
-==================================================================================
+<br />
+<br />
+<br />
 
-# RECONTINUED 
-
-yeah im back in business baby ;D
+Please enjoy learning GreetLang+! (GreetLang is old, outdated, and should not be learned. It is still up just because of the effort i put into it. Please read the GreetLAng+ documentation instead, thank you :D )
