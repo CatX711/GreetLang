@@ -739,13 +739,18 @@ hello
 
 <br />
 
-We're finally nearing the end of the varibles section, and boy has it been long! Speaking of `long`, have you ever felt that your variables are just *WAY* too long, but if you abbreviate them, they just become confusing? Yeah, me too. Well, in GreetLang+, there's a cool feature which lets you nickname your variables. So, let's get into explaining it, shall we?
+We're finally nearing the end of the varibles section, and boy has it been long! Speaking of `long`, have you ever felt that your variables are just *WAY* too lengthy, but if you abbreviate them, they just become confusing? Yeah, me too. Well, in GreetLang+, there's a cool feature which lets you nickname your variables. So, let's get into explaining it, shall we?
 
 <br />
 <br />
 
 ### Why use them? <a name="nicknames-why"></a>
 
+<br />
+
+>(For now, I'll reffer to `Short-hand Variable Names` as `Nicknames`)
+
+<br />
 <br />
 
 Sure, you could just shorten down your variable names. However, that would make code less readable to the person reading it. For example, look at this code, do you know what the variable is?
@@ -805,7 +810,25 @@ func st() rt:int[0]{
 
 We can shorten this down using a nickname.
 
+<br />
 
+```
+func st() rt:int[0]{
+  def var OneThousandTimesTwo:<OneKx2> = 1000 * 2;
+
+  op("One thousand times two is {!OneKx2}");
+}
+```
+
+<br />
+
+In this case we give `OneThousandTimesTwo` a nickame of `OneKx2`. For the rest of the code, when we use `OneKx2`, we'll know that we're referring to `OneThousandTimesTwo`! 
+<br />
+Also, when you give a variable a nickname, it is still alright to use the original name, but it might get confusing if you keep switching between using a variable's nickname and it's real name.
+
+<br />
+
+Nicknames are optional!
 
 
 
