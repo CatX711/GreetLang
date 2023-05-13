@@ -294,7 +294,7 @@ import <-- essentially "#include". used for importing libraries into the code
 
 It knows how to create a variable:
 
-def var [varname] -> [type] = [value]
+def var [varname] = [value]
 
 
 And how to create functions:
