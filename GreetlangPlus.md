@@ -570,6 +570,9 @@ You can use any characters in the range 0-9, A-Z, a-z, and underscore for variab
 
 Now that we have that cleared up, let's continue!
 
+<br />
+<br />
+
 ## Adding Integer Variables Together <a name="adding_int_vars"></a>
 
 <br />
