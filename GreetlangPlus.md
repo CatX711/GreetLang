@@ -299,7 +299,7 @@ def var [varname] = [value]
 
 And how to create functions:
 
-func [funcname (first letter must be capitalised) ](parameters [if none leave blank]) rt [return type]{
+func [funcname](parameters [if none leave blank]) rt:userdef[]{
     [code]
 }
 
