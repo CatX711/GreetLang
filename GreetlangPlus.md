@@ -877,7 +877,46 @@ They are used to save time, resources, do repetitive tasks, store data more easi
 <br />
 
 As you may know, functions can be defined using the `func` keyword, followed by the function's name. Directly next to that, inside brackets would be the function's `parameters`. Parameters can be used to to refer to one of the pieces of data provided as input to the function. Say for example, we wanted to add two numbers together, we could give the function parameters of `num1` and `num2`, and later on in it's code, specify we want the numbers that we give it to be added together. <br />
-After the parameters, we need to specify the return type.
+After the parameters, we need to specify the return type (which is required). Because the function has a user defined return type, we just need to specify that by saying: `rt:userdef[]`
+
+<br />
+
+Let's use this knowledge to create a function that times two numbers together. <br /> <br />
+
+Start by defining the `name`, `parameters`, and `return type`. <br />
+
+```
+func times(num1, num2) rt:userdef[]{
+  // our code goes inside here!
+}
+```
+
+<br />
+
+We're off to a good start!
+
+<br />
+<br />
+
+Now, let's times `num1` and `num2` together, by creating a variable called `prod` `(product)` and returning that.
+
+<br />
+
+```
+func times(num1, num2) rt:userdef[]{
+  def var prod = num1 * num2;
+  
+  return prod;
+}
+```
+
+>Note, you can also just make the function return `num1 * num2` without specifying `prod`.
+
+<br />
+
+Great job!
+
+Now, inside our `st()` function, we can use `times()` and give it two numbers two times.
 
 
 
