@@ -885,7 +885,7 @@ Let's use this knowledge to create a function that times two numbers together. <
 
 Start by defining the `name`, `parameters`, and `return type`. <br />
 
-```
+```js
 func times(num1, num2) rt:userdef[]{
   // our code goes inside here!
 }
@@ -902,7 +902,7 @@ Now, let's times `num1` and `num2` together, by creating a variable called `prod
 
 <br />
 
-```
+```js
 func times(num1, num2) rt:userdef[]{
   def var prod = num1 * num2;
   
