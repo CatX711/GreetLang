@@ -46,7 +46,7 @@
     -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
     -- **5.3 [Merging String Variables](#merge-str)** <br />
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
-    		--- **5.41 [Why Use Short-hand Variable Names?](#nicknames-why)**
+    		- **5.41 [Why Use Short-hand Variable Names?](#nicknames-why)**
 <!-- /TOC -->
     
 
