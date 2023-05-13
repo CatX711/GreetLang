@@ -744,11 +744,66 @@ We're finally nearing the end of the varibles section, and boy has it been long!
 <br />
 <br />
 
-### Why use nickames? <a name="nicknames-why"></a>
+### Why use them? <a name="nicknames-why"></a>
 
+<br />
 
+Sure, you could just shorten down your variable names. However, that would make code less readable to the person reading it. For example, look at this code, do you know what the variable is?
 
+<br />
 
+```c
+#include <stdio.h> 
+
+int main(){
+  int RLV1 = 72;
+  int ORLV1 = 22;
+  
+  printf("%d", RLV1 * ORLV1);
+  
+  return 0;
+}
+```
+
+<br />
+<br />
+
+I would say probably not. But if you swapped out the variable abbreviation for it's actual full name, it's now too long!
+
+<br />
+
+```c
+#include <stdio.h> 
+
+int main(){
+  int ReallyLongVariable1 = 72;
+  int OtherReallyLongVariable1 = 22;
+  
+  printf("%d", ReallyLongVariable1 * OtherReallyLongVariable1);
+  
+  return 0;
+}
+```
+
+<br />
+
+The solution is to have a line of code that specifies that the abbreviation is that variable, which makes the code more readable. <br /> <br /> 
+
+Back to GreetLang+, here are our excessively long variables:
+
+<br />
+
+```
+func st() rt:int[0]{
+  def var OneThousandTimesTwo = 1000 * 2;
+
+  op("One thousand times two is {!OneThousandTimesTwo}");
+}
+```
+
+<br />
+
+We can shorten this down using a nickname.
 
 
 
