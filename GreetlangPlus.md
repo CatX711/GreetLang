@@ -41,13 +41,14 @@
  - **4.   [Basics](#basics)**  
     -- **4.1 [Your First Program](#first_program)** <br />
     -- **4.2 [Running Our Program](#runprogram)** 
-- **5.   [Variables](#vars)**     
+- **5.    [Variables](#vars)**     
     -- **5.1 [Variable Names](#varnames)** <br />
     -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
     -- **5.3 [Merging String Variables](#merge-str)** <br />
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
-    -- **5.5 [We're Done With Variables!](#finally)**	 	
+    -- **5.5 [We're Done With Variables!](#finally)**	 
+- **6.	[]**    
 <!-- /TOC -->
     
 
