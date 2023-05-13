@@ -48,7 +48,7 @@
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
     -- **5.5 [We're Done With Variables!](#finally)**	 
-- **6.	[]**    
+- **6.	  [Functions](#functions)**    
 <!-- /TOC -->
     
 
