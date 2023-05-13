@@ -750,7 +750,7 @@ We're finally nearing the end of the varibles section, and boy has it been long!
 
 <br />
 
->(For now, I'll reffer to `Short-hand Variable Names` as `Nicknames`)
+>(For now, I'll refer to `Short-hand Variable Names` as `Nicknames`)
 
 <br />
 <br />
