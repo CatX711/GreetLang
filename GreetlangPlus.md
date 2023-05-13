@@ -918,7 +918,7 @@ Great job!
 
 Now, inside our `st()` function, we can use `times()` and give it two numbers two times. <br />
 
-```
+```js
 func st() rt:int[0]{
   times(4, 6);
 }
@@ -946,9 +946,11 @@ Why? Well, when you `return` something in a function, it doesnt automatically ou
 <br />
 <br />
 
+```
 func st() rt:int[0]{
   op(times(4, 6));
 }
+```
 
 <br />
 
