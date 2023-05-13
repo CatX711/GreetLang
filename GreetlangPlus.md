@@ -812,7 +812,7 @@ We can shorten this down using a nickname.
 
 <br />
 
-```
+```js
 func st() rt:int[0]{
   def var OneThousandTimesTwo:<OneKx2> = 1000 * 2;
 
