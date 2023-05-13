@@ -47,6 +47,7 @@
     -- **5.3 [Merging String Variables](#merge-str)** <br />
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)**
+    -- **5.5 [We're Done With Variables!](#finally)**	 	
 <!-- /TOC -->
     
 
@@ -831,6 +832,11 @@ Also, when you give a variable a nickname, it is still alright to use the origin
 Nicknames are optional!
 
 
+<br />
+<br />
+<br />
+
+## Oh Thank God, We're Finally Done With This Section! <a name="finally"></a>
 
 
 
