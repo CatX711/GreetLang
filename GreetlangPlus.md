@@ -838,6 +838,32 @@ Nicknames are optional!
 
 ## Oh Thank God, We're Finally Done With This Section! <a name="finally"></a>
 
+<br /> 
+
+Well, that took quite a long time! We can finally move on! <br />
+I wonder what's next?
+
+<br />
+<br />
+<br />
+<br />
+
+****
+
+<br />
+
+## Functions <a name="functions"></a>
+
+<br />
+
+>“One of my most productive days was throwing away 1000 lines of code.” 
+>
+>*- Ken Thompson*
+
+<br />
+<br />
+<br />
+
 
 
 
@@ -856,44 +882,6 @@ func add_nums(num1, num2) rt:userdef[]{ <-- user defined return type (in this ca
 	def var sum = num1 + num2;
 	return sum;
 } 
-
--->
-
-
-
-
-
-
-<!-- GL+ feature: nicknames (think of better name lol)
-
-you can assign a variable a nickname to shorten down it's name if it is long
-
-def var OneThousandTimesTwo:<OneKx2> = 1000 * 2; // sets value to 2k
-
-normally this would be used in code similar to this:
-
-
-func st() rt:int[0]{
-  def var OneThousandTimesTwo = 1000 * 2;
-
-  op("One thousand times two is {!OneThousandTimesTwo}");
-}
-
-
-
-but with nicknames, it would be this
-
-func st() rt:int[0]{
-  def var OneThousandTimesTwo:<OneKx2> = 1000 * 2;
-
-  op("One thousand times two is {!OneKx2}");
-}
-
-
-
-idea for new name:
-
-short-hand variable names
 
 -->
 
