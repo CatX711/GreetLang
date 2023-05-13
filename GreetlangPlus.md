@@ -793,7 +793,7 @@ Back to GreetLang+, here are our excessively long variables:
 
 <br />
 
-```
+```js
 func st() rt:int[0]{
   def var OneThousandTimesTwo = 1000 * 2;
 
