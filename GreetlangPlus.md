@@ -693,7 +693,30 @@ func st() rt:int[0]{
 
 <br />
 
+Now we can compiler our program and run it. The result will be, 
+
+<br />
+<br />
+
+```
+Hello, world!
+```
+
+<br />
+
+Pretty neat, right?
+
 ****
+
+
+
+
+
+
+
+
+
+
 
 <!-- for functions section eventually do a comparison between these two: 
 
