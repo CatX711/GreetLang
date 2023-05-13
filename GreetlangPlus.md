@@ -655,11 +655,11 @@ func st() rt:int[0]{
 
 <br />
 
-We won't have to go over much in this section, as it's essentially the process as adding integer vairables together. 
+We won't have to go over much in this section, as it's essentially the same process as adding integer vairables together, just with an extra step. 
 
 <br />
 
-We'll start by defining our variables and `st()` function.
+We'll start by defining our `variables` and `st()` function.
 
 <br />
 <br />
