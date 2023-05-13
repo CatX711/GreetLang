@@ -876,7 +876,7 @@ They are used to save time, resources, do repetitive tasks, store data more easi
 <br />
 <br />
 
-As you may know, functions can be defined using the `func` keyword, followed by the function's name. Directly next to that, inside brackets would be the function's `parameters`. Parameters can be used to to refer to one of the pieces of data provided as input to the function. Say for example, we wanted to add two numbers together, we could give the function parameters of `num1` and `num2`, and later on in it's code, specify we want the numbers that we input to be added together. <br />
+As you may know, functions can be defined using the `func` keyword, followed by the function's name. Directly next to that, inside brackets would be the function's `parameters`. Parameters can be used to to refer to one of the pieces of data provided as input to the function. Say for example, we wanted to add two numbers together, we could give the function parameters of `num1` and `num2`, and later on in it's code, specify we want the numbers that we give it to be added together. <br />
 After the parameters, we need to specify the return type.
 
 
