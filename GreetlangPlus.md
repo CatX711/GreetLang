@@ -628,7 +628,8 @@ func st() rt:int[0]{
 <br />
 
 This code is actually a perfect example for GreetLang-Plus's `Short-hand Variable Names`, but thats for later. In the code above, we make `RandomNumberWithAnExtremelyLongVariableName` equivalent to `2 times 2` (which as we all know is 4), this is just a neat little thing we can do. There is also something else you can do, using mathematical operators. This is the first time we'll have to import a library into GreetLang+<br />
-We can do this via the `import`keyword. This is just what we use in Python to import libraries. It's the exact same as `#include` in C.
+We can do this via the `import` keyword. This is just what we use in Python to import libraries. It's the exact same as `#include` in C. <br />
+Note that you do not need to end `imports` with a semicolon.
 
 <br />
 <br />
