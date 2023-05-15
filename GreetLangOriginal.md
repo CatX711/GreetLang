@@ -106,7 +106,7 @@ let name: str = "Alice";
 
 <br />
 
-`let x: int = 10; `: In this code, we declare the variable using `let`, and then specify it's type, in this case, and `integer`, and after that we specify it's value. <br />
+`let x: int = 10; `: In this code, we declare the variable using `let`, and then specify it's type, in this case, an `integer`, and after that we specify it's value. <br />
 `let name: str = "Alice"; `: This is the same, however, with a string. This means that we have to specify this using `str` and give the variable a value in `parenthesis` (using `" "`)
 ****
 
