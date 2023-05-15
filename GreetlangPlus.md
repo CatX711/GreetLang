@@ -514,7 +514,7 @@ Surrounding a variable name in curly brackets and an exclamation mark tells the 
 <br />
 <br />  	
 
-Click on `More Examples` for some extra examples about variables in GreetLang+
+Click on `More Examples` for some extra examples of variables in GreetLang+
 
 <details>
 <summary>More Examples</summary> 
