@@ -49,6 +49,7 @@
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
     -- **5.5 [We're Done With Variables!](#finally)**	 
 - **6.	  [Functions](#functions)**    
+    -- **6.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**	
 <!-- /TOC -->
     
 
@@ -967,6 +968,16 @@ Alright, let's compile and run!
 
 Hooray! It was a success!
 
+<br />
+<br />
+<br />
+
+## GreetLang vs GreetLang+ (a function comparison) <a name="func-comparison"></a>
+
+<br />
+
+Why don't we take a quick stop and compare declaring functions in GreetLang to GreetLang+? <br />
+If you do not really care about the details of how much the `Greet` language family has changed, please do not refrain from skipping forward!
 
 
 
