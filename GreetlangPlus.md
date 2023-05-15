@@ -466,7 +466,7 @@ int num1 = 87;
 
 That is an example of `putting a value in our box`. In this case, the value is the `integer` 87, and now that the variable has been created and assigned a value, we can use it later in our code. <br /> <br />
 
-GreetLang+ is a bit different. You start by using the `def` keyword. This stops any confusion you would have in C like `int` and `char` and `char varname[100]` (<-- Character array, I'll go in to how that's different in GreetLang+ soon), so it's just `define`. Nothing confusing.
+GreetLang+ is a bit different. You start by using the `def` keyword. This stops any confusion you would have in C like `int` and `char` and `char varname[100]` (<-- `Character array`, I'll go in to how that's different in GreetLang+ soon), so it's just `define`. Nothing confusing.
 Following that is `var`, which tells the GL+ compiler that we're defining a `VARIABLE`, not something else. Next up is the variable name, and it's value. Make sure to end the line of code with a semicolon!
 
 <br />
