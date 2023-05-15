@@ -971,6 +971,7 @@ Hooray! It was a success!
 
 
 
+
 <!-- for functions section eventually do a comparison between these two: 
 
 GreetLang Original:
