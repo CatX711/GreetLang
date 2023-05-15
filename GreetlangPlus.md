@@ -979,9 +979,23 @@ Hooray! It was a success!
 Why don't we take a quick stop and compare declaring functions in GreetLang to GreetLang+? <br />
 If you do not really care about the details of how much the `Greet` language family has changed, please do not refrain from skipping forward!
 
+<br />
+<br />
 
+Why not create an `add numbers` for this example.
 
+<br />
 
+```c
+GreetLang Original:
+
+func add_nums(num1: int, num2: int) rt integer {
+    let sum: int = num1 + num2;
+    return sum;
+}
+```
+
+As you can see, this is *very* similar to GreetLang+, and oddly, `Carbon`. The main difference is the big `rt integer` which is used to, of course, specify the function returns an integer. The thing is, if not outputting any specific data type, you couldn't really do much. There was no `void` like in C to specify this. That's why in GreetLang+, you dont even need to specify the specific return type anymore, just that it will be user decided, with `rt:userdef[]`.
 
 <!-- for functions section eventually do a comparison between these two: 
 
