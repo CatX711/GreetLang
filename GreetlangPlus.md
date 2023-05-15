@@ -997,6 +997,27 @@ func add_nums(num1: int, num2: int) rt integer {
 
 As you can see, this is *very* similar to GreetLang+ (which will become apparent when I recreate this function in it), and oddly, `Carbon`. The main difference is the big `rt integer` which is used to, of course, specify the function returns an integer. The thing is, if not outputting any specific data type, you can't really do much. There is no `void` like in C to specify this. That's why in GreetLang+, you dont even need to specify the specific return type anymore, just that it will be user decided, with `rt:userdef[]`.
 
+<br />
+<br />
+
+```js
+GreetLang+
+
+func add_nums(num1, num2) rt:userdef[]{ // user defined return type (in this case, sum) 
+	def var sum = num1 + num2;
+	return sum;
+} 
+```
+
+<br />
+
+GreetLang+ has a slight improvement, with less needed to be specified, and also a `user defined return type`. Less boilerplate equals better workflow!
+
+
+
+
+
+
 <!-- for functions section eventually do a comparison between these two: 
 
 GreetLang Original:
