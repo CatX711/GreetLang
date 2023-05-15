@@ -995,7 +995,7 @@ func add_nums(num1: int, num2: int) rt integer {
 }
 ```
 
-As you can see, this is *very* similar to GreetLang+, and oddly, `Carbon`. The main difference is the big `rt integer` which is used to, of course, specify the function returns an integer. The thing is, if not outputting any specific data type, you couldn't really do much. There was no `void` like in C to specify this. That's why in GreetLang+, you dont even need to specify the specific return type anymore, just that it will be user decided, with `rt:userdef[]`.
+As you can see, this is *very* similar to GreetLang+, and oddly, `Carbon`. The main difference is the big `rt integer` which is used to, of course, specify the function returns an integer. The thing is, if not outputting any specific data type, you can't really do much. There is no `void` like in C to specify this. That's why in GreetLang+, you dont even need to specify the specific return type anymore, just that it will be user decided, with `rt:userdef[]`.
 
 <!-- for functions section eventually do a comparison between these two: 
 
