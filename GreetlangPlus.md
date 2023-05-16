@@ -1016,7 +1016,7 @@ func add_nums(num1, num2) rt:userdef[]{ // user defined return type (in this cas
 
 <br />
 
-GreetLang+ has a slight improvement, with less needed to be specified, a smaller emphasis on colons `(;)`, and also a `user defined return type`. Less boilerplate equals better workflow!
+GreetLang+ has a slight improvement, with less needed to be specified, a smaller emphasis on colons `(:)`, and also a `user defined return type`. Less boilerplate equals better workflow!
 
 
 
