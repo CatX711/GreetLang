@@ -52,6 +52,11 @@
     -- **6.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**	
 <!-- /TOC -->
     
+<!-- chapter name ideas:
+
+Pointers— Cower In Fear!
+
+-->    
 
 <br />
 <br />
