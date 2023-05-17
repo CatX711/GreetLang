@@ -49,7 +49,9 @@
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
     -- **5.5 [We're Done With Variables!](#finally)**	 
 - **6.	  [Functions](#functions)**    
-    -- **6.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**	
+    -- **6.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
+    
+<!-- chapter 7: importing -->    
 <!-- /TOC -->
     
 <!-- chapter name ideas:
