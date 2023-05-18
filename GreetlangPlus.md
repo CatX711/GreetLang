@@ -19,7 +19,7 @@
 
 	
 <p align="center"> 
-	# DISCLAIMER: <a name="disclaimer"></a> 
+	 DISCLAIMER: <a name="disclaimer"></a> 
 </p>
 
 <br />
