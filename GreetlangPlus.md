@@ -284,7 +284,7 @@ Alright, now that you know the simple stuff, let's go into more detail in the `B
 <br />
 <br />
 
-In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's not advised, and it'll make your program cease to run. <br />
+In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's *definitely* not advised, and it'll make your program cease to run. <br />
 Let me explain. 
 
 <br />
@@ -419,7 +419,7 @@ func st() rt:int[0]{
 
 <br />
 
-With this at the top of the `st`, the following code would go from outputting, <br />
+With this at the top of the `start function`, the following code would go from outputting, <br />
 
 ```
 Oh, automatic newlines are disabled now...
@@ -438,7 +438,7 @@ Oh, automatic newlines are disabled now...I sure hope this doesn't do anything b
 
 <br />
 
-Remember, you can manually insert a newline using `"\n"` at the end of your op(), like this: <br /> <br />
+Remember, you can manually insert a newline using `"\n"` at the end/beginning of your op(), like this: <br /> <br />
 
 ```js
 op("Hey, newlines are back!\n"); 
