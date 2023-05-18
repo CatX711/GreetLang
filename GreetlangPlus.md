@@ -917,7 +917,7 @@ They are used to save time, resources, do repetitive tasks, store data more easi
 <br />
 
 As you may know, functions can be defined using the `func` keyword, followed by the function's name. Directly next to that, inside brackets would be the function's `parameters`. Parameters can be used to to refer to one of the pieces of data provided as input to the function. Say for example, we wanted to add two numbers together, we could give the function parameters of `num1` and `num2`, and later on in it's code, specify we want the numbers that we give it to be added together. <br />
-After the parameters, we need to specify the return type (which is required). Because the function has a user defined return type, we just need to specify that by saying: `rt:userdef[]`
+After the parameters, we need to specify the return type (which is required). Because the function has a user defined return type, we just need to specify that by saying: `rt:userdef[]`. If your function does not have a return type, for example, it `outputs` something instead, you would change it to `rt:userdef[void]`.
 
 <br />
 
@@ -1006,6 +1006,25 @@ Alright, let's compile and run!
 <br />
 
 Hooray! It was a success!
+
+<br />
+<br />
+
+Again, the issue with having to include the function in an `op()` could be solved by altering the code to this:
+
+<br />
+
+```js
+func times(num1, num2) rt:userdef[]{
+  def var prod = num1 * num2;
+  
+  op("{!prod}");
+}
+
+func st() rt:int[0]{
+  times(4, 6);
+}
+```
 
 <br />
 <br />
