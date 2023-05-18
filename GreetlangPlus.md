@@ -994,7 +994,7 @@ Why not create an `add numbers` for this example.
 <br />
 
 ```c
-GreetLang Original:
+// GreetLang Original:
 
 func add_nums(num1: int, num2: int) rt integer {
     let sum: int = num1 + num2;
@@ -1008,7 +1008,7 @@ As you can see, this is *very* similar to GreetLang+ (which will become apparent
 <br />
 
 ```js
-GreetLang+
+// GreetLang+
 
 func add_nums(num1, num2) rt:userdef[]{ // user defined return type (in this case, sum) 
 	def var sum = num1 + num2;
@@ -1019,6 +1019,11 @@ func add_nums(num1, num2) rt:userdef[]{ // user defined return type (in this cas
 <br />
 
 GreetLang+ has a slight improvement, with less needed to be specified, a smaller emphasis on colons `(:)`, and also a `user defined return type`. Less boilerplate equals better workflow!
+
+<br />
+<br />
+
+## 
 
 
 
