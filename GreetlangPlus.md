@@ -1010,7 +1010,7 @@ Hooray! It was a success!
 <br />
 <br />
 
-Again, the issue with having to include the function in an `op()` could be solved by altering the code to this:
+Again, the issue with having to include the function in an `op()` could also be solved by altering the code to this:
 
 <br />
 
