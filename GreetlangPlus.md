@@ -16,9 +16,19 @@
 <br />
 <br />
 <br />
+
 # DISCLAIMER: <a name="disclaimer"></a>
 
 <br />
+
+GreetLang+ does not exist, it is a concept. <br />
+It will be regularly expanded upon by me. Feel free to point out inconsistency issues, general problems, <br />
+and ideas. 
+
+<br />
+<br />
+
+Thank you, and enjoy the documentation of the GreetLang+ Programming Language!
 
 
 <br />
