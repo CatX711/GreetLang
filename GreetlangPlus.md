@@ -531,14 +531,14 @@ Click on `More Examples` for some extra examples of variables in GreetLang+
 ```js
 func st() rt:int[0]{
 	
-  def var hello = "Hey there!";	
+  def var greeting = "Hey there!";	
   op("{!hello}"); // outputs "Hey there!" to the terminal	
 }
 ```
 
 <br />
 	
-**Hello!** 
+**Hi!** 
 
 <br />
 <br />
