@@ -678,8 +678,8 @@ We'll start by defining our `variables` and `st()` function.
 
 ```js
 func st() rt:int[0]{
-  def var hello = "Hello, "; // has a space in it
-  def var world = "world!";  
+  def var part1 = "Foot";
+  def var world = "ball";  
 }
 ```
 
