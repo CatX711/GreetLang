@@ -17,6 +17,8 @@
 <br />
 <br />
 
+<div style="text align: center;">
+	
 # DISCLAIMER: <a name="disclaimer"></a>
 
 <br />
@@ -30,7 +32,8 @@ and ideas.
 
 Thank you, and enjoy the documentation of the GreetLang+ Programming Language!
 
-
+</div>
+	
 <br />
 <br />
 <br />
@@ -51,6 +54,10 @@ Thank you, and enjoy the documentation of the GreetLang+ Programming Language!
 
 <!-- TOC -->
  - **[DISCLAIMER](#disclaimer)**
+
+<br />
+<br />
+
  - **1.   [Basic Info](#info)**
  - **2.   [Gl+ Documentation Beginning](#beginning)**
  - **3.   [Data Types](#data-types)**
