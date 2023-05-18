@@ -17,22 +17,22 @@
 <br />
 <br />
 
-<div style="text-align: center;">
 	
-# DISCLAIMER: <a name="disclaimer"></a>
+<p align="center"> 
+	# DISCLAIMER: <a name="disclaimer"></a> 
+</p>
 
 <br />
 
-GreetLang+ does not exist, it is a concept. <br />
+<p align="center"> GreetLang+ does not exist, it is a concept. <br />
 It will be regularly expanded upon by me. Feel free to point out inconsistency issues, general problems, <br />
-and ideas. 
+and ideas. </p>
 
 <br />
 <br />
 
-Thank you, and enjoy the documentation of the GreetLang+ Programming Language!
+<p align="center">Thank you, and enjoy the documentation of the GreetLang+ Programming Language!</p>
 
-</div>
 	
 <br />
 <br />
