@@ -65,7 +65,6 @@ and ideas. </p>
  - **[DISCLAIMER](#disclaimer)**
 
 <br />
-<br />
 
  - **1.   [Basic Info](#info)**
  - **2.   [Gl+ Documentation Beginning](#beginning)**
