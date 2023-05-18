@@ -35,6 +35,7 @@
 ## Table of Contents:
 
 <!-- TOC -->
+ - **[DISCLAIMER](#disclaimer)**
  - **1.   [Basic Info](#info)**
  - **2.   [Gl+ Documentation Beginning](#beginning)**
  - **3.   [Data Types](#data-types)**
