@@ -17,7 +17,7 @@
 <br />
 <br />
 
-<div style="text align: center;">
+<div style="text-align: center;">
 	
 # DISCLAIMER: <a name="disclaimer"></a>
 
