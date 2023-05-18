@@ -33,14 +33,14 @@
 
 <br />
 
-<p align="center"> GreetLang+ does not exist, it is a concept. <br />
+<p align="center"> <em>GreetLang+ does not exist, it is a concept. <br />
 It will be regularly expanded upon by me. Feel free to point out inconsistency issues, general problems, <br />
-and ideas. </p>
+and ideas.</em> </p>
 
 <br />
 <br />
 
-<p align="center">Thank you, and enjoy the documentation of the GreetLang+ Programming Language!</p>
+<p align="center"><em>Thank you, and enjoy the documentation of the GreetLang+ Programming Language!</em> </p>
 
 	
 <br />
