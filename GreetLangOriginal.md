@@ -152,17 +152,11 @@ And if you wanted to use the function in a greet:
 
 ```c
 func hello() rt string {
-    let hello: str = "Hello World!";
+    let hello: str = "Hello World, it's a beautiful day today!";
     return hello;
 }
 
-greet(hello(), " It's a beautiful day today!");
-
-// Variation 2:
-
-/*
-greet(hello() + " It's a beautiful day today!");
-*/
+greet(hello());
 ```
 
 **Or**
