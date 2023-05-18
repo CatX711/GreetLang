@@ -696,10 +696,10 @@ The next step would be to combine the strings, by using a function called `strme
 
 ```js
 func st() rt:int[0]{
-  def var hello = "Hello, "; // has a space in it
-  def var world = "world!";  
+  def var part1 = "Foot"; 
+  def var part2 = "ball";  
   
-  op("{!strmerge(hello, world)}");
+  op("{!strmerge(part1, part2)}");
 }
 ```
 
@@ -711,7 +711,7 @@ Now we can compiler our program and run it. The result will be,
 <br />
 
 ```
-Hello, world!
+Football
 ```
 
 <br />
