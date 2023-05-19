@@ -10,6 +10,11 @@ They are purely fictional and just a side-project of mine. <br />
 
 <br />
 <br />
+
+JavaScript is used for syntax highlighting, resulting in GitHub falsely thinking that this is a JavaScript project. Oh well! ¯\_(ツ)_/¯
+
+<br />
+<br />
 <br />
 
 Please enjoy learning GreetLang+!
