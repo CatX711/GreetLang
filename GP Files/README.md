@@ -8,3 +8,9 @@ GreetLang+ files end in `.gp`
 <br />
 
 This is not *real code* as GreetLang+ is a concept-language. 
+<br />
+Sigh, if only GreetLang+ was real...
+
+<br/>
+
+Some day... ( ͡° ͜ʖ ͡°)
