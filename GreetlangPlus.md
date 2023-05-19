@@ -914,7 +914,7 @@ C has a complicated mess of `fgets` and `scanf` and not accepting `newline chara
 
 Now we have:
 
-```
+```js
 def var name = [placeholder].op("What is your name?");
 ```
 
