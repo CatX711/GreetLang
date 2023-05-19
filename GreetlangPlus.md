@@ -79,10 +79,11 @@ and ideas. </p>
     -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
     -- **5.5 [We're Done With Variables!](#finally)**	 
-- **6.	  [Functions](#functions)**    
-    -- **6.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
+- **6.	  [Input](#input)**    
+- **7.	  [Functions](#functions)**    
+    -- **7.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
     
-<!-- chapter 7: importing -->    
+<!-- chapter 8: importing -->    
 <!-- /TOC -->
     
 <!-- chapter name ideas:
@@ -882,6 +883,49 @@ Nicknames are optional!
 
 Well, that took quite a long time! We can finally move on! <br />
 I wonder what's next?
+
+<br />
+<br />
+<br />
+<br />
+
+****
+
+# Input <a name="input"></a>
+
+<br />
+<br />
+
+>You Can't Write Perfect Software. Did that hurt? It shouldn't. Accept it as an axiom of life. Embrace it. Celebrate it. Because perfect software doesn't exist.
+>
+> *- Andrew Hunt, The Pragmatic Programmer: From Journeyman to Master*
+
+<br />
+<br />
+<br />
+
+So, by now, you're probably wondering how we can get user input in GreetLang+ <br />
+Many langages have that as a feature, so of course this one does. But how do we make it `simple`? <br />
+C had a complicated mess of `fgets` and `scanf` and not accepting `newline characters` even though they were required, and it was all one massive jumble and- yeah, you get the point. <br />
+`Javascript` uses `prompt`, which is understandable, more tied to web-development. `Go` uses a similar thing to  `C`, with `scan`, however, it does use `fmt.Scan()`, which just looks nice to me, so we'll take a page out of that.
+
+<br />
+<br />
+
+Now we have:
+
+```
+def var [placeholder].op("What is your name?");
+```
+
+
+
+
+
+
+
+
+
 
 <br />
 <br />
