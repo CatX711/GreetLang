@@ -951,12 +951,12 @@ class Main {
 <br />
 <br />
 
-Moving *swift-ly* on (get it?), Ardui- oh. That's essentially the same as `R`. `MatLab`? Too basic. And literally the exact same as python. I could of course make my own way of getting user input, this is my language after all. Let me think...
+Moving *`swift`-ly* on (get it?), `Ardui`- oh. That's essentially the same as `R`. `MatLab`? Too basic. And literally the exact same as `Python`. I could of course make my own way of getting user input, this is my language after all. Let me think...
 
 <br />
 <br />
 
-```
+```js
 def var name = getinp.op("What's your name?");
 ```
 
@@ -967,7 +967,7 @@ Or,
 <br />
 <br />
 
-```
+```js
 def var name = readline.op("What's your name?");
 ```
 
