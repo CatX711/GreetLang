@@ -889,6 +889,10 @@ I wonder what's next?
 <br />
 <br />
 
+# dev note: please create chapter for if, elif, and else statements (all in one chapter), for and while loops (in one chapter) and library imports. reffer to notes for ideas. im too tired to do it now lol. also remember to change chapter numbers to fit these changes. thank you
+
+# - sleepy daniel 
+
 ****
 
 # Input <a name="input"></a>
