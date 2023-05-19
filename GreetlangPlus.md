@@ -921,7 +921,7 @@ def var [placeholder].op("What is your name?");
 <br />
 
 Nice! Let's move on. <br />
-`R` uses `readline`, which I like so I'll keep that in mind.
+`R` uses `readline`, which I like so I'll keep that in mind. What's next? Oh no...
 
 <br />
 <br />
