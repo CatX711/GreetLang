@@ -915,7 +915,7 @@ C has a complicated mess of `fgets` and `scanf` and not accepting `newline chara
 Now we have:
 
 ```
-def var [placeholder].op("What is your name?");
+def var name = [placeholder].op("What is your name?");
 ```
 
 <br />
@@ -946,6 +946,29 @@ class Main {
   }
 }
 
+```
+
+<br />
+<br />
+
+Moving *swift-ly* on (get it?), Ardui- oh. That's essentially the same as `R`. `MatLab`? Too basic. And literally the exact same as python. I could of course make my own way of getting user input, this is my language after all. Let me think...
+
+<br />
+<br />
+
+```
+def var name = getinp.op("What's your name?");
+```
+
+<br />
+
+Or,
+
+<br />
+<br />
+
+```
+def var name = readline.op("What's your name?");
 ```
 
 
