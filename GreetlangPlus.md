@@ -916,6 +916,8 @@ Now we have:
 
 ```js
 def var name = [placeholder].op("What is your name?");
+
+// or on it's own: readline.op();
 ```
 
 <br />
@@ -969,6 +971,34 @@ Or,
 
 ```js
 def var name = readline.op("What's your name?");
+```
+
+<br />
+
+After 5 long minutes of pondering, `readline` it is! <br />
+We now have a way of asking for user input. Let's try it out!
+
+<br />
+<br />
+
+```js
+func st() rt:int[0]{
+  
+  op("Booting...");
+
+  def var user = readline.op("Hello, welcome to PIE OS. What is your username? ");
+  
+  if user == "pr0gramme5"{
+      def var pass = readline.op("Please enter your password to continue. ");
+      
+      if pass = "sharksurfer23"{
+        op("Welcome, {!user}")
+      }
+  }
+  else{
+    op("Incorrect, shutting down.");
+  }
+}
 ```
 
 
