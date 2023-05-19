@@ -857,7 +857,7 @@ We can shorten this down using a nickname.
 func st() rt:int[0]{
   def var OneThousandTimesTwo:<OneKx2> = 1000 * 2;
 
-  op("One thousand times two is {!OneKx2}");
+  op("One thousand times two is {n:OneKx2}");
 }
 ```
 
@@ -865,7 +865,7 @@ func st() rt:int[0]{
 
 In this case we give `OneThousandTimesTwo` a nickame of `OneKx2`. For the rest of the code, when we use `OneKx2`, we'll know that we're referring to `OneThousandTimesTwo`! 
 <br />
-Also, when you give a variable a nickname, it is still alright to use the original name, but it might get confusing if you keep switching between using a variable's nickname and it's real name.
+Also, when you give a variable a nickname, it is still alright to use the original name, but it might get confusing if you keep switching between using a variable's nickname and it's real name. When using a nickname, to output it, instead of an exclamation mark, you would use `n` followed by a colon `:`, to let the compiler know it's a nickname. Not doing this will result in an error.
 
 <br />
 
