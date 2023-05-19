@@ -906,8 +906,8 @@ I wonder what's next?
 
 So, by now, you're probably wondering how we can get user input in GreetLang+ <br />
 Many langages have that as a feature, so of course this one does. But how do we make it `simple`? <br />
-C has a complicated mess of `fgets` and `scanf` and not accepting `newline characters` even though they were required, and it was all one massive jumble and- yeah, you get the point. <br />
-`Javascript` uses `prompt`, which is understandable, more tied to web-development. `Go` uses a similar thing to  `C`, with `scan`, however, it does use `fmt.Scan()`, which just looks nice to me, so we'll take a page out of that.
+C has a complicated mess of `fgets` and `scanf` and not accepting `newline characters` even though they are required, and it's all one massive jumble of unpractical, hard to read- yeah, you get the point. <br />
+`Javascript` uses `prompt()`, which is understandable, more tied to web-development. `Go` uses a similar thing to  `C`, with `scan`, however, it does use `fmt.Scan()`, which just looks nice to me, so we'll take a page out of that.
 
 <br />
 <br />
