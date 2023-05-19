@@ -918,6 +918,36 @@ Now we have:
 def var [placeholder].op("What is your name?");
 ```
 
+<br />
+
+Nice! Let's move on. <br />
+`R` uses `readline`, which I like so I'll keep that in mind.
+
+<br />
+<br />
+
+Java is just this cryptic mess. Yeah, I'm showing you the whole thing because I literally don't even know where the `input` is taken.
+
+<br />
+
+```java
+import java.util.Scanner; // import the Scanner class 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+
+```
+
 
 
 
