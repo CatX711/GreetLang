@@ -986,22 +986,38 @@ We now have a way of asking for user input. Let's try it out!
 <br />
 
 ```js
+import gpultim.gph
+
 func st() rt:int[0]{
+  
+  def var tries = 1;
   
   op("Booting...");
 
-  def var user = readline.op("Hello, welcome to PIE OS. What is your username? ");
-  
-  if user == "pr0gramme5"{
+  while tries < 6 {
+    def var user = readline.op("Hello, welcome to PIE OS. What is your username? ");
+
+    // if username is correct
+    if user == "pr0gramme5" {
       def var pass = readline.op("Please enter your password to continue. ");
       
-      if pass = "sharksurfer23"{
-        op("Welcome, {!user}")
+      // if password is correct
+      if pass = "sharksurfer23"{ 
+        op("Welcome, {!user}");
+	end; // ends while loop
       }
-  }
-  else{
-    op("Incorrect, shutting down.");
-  }
+      // if password is incorrect
+      else {
+        op("Incorrect, try again.");
+	tries += 1;
+      }
+    }
+    
+    // if username is wrong 
+    else {
+      op("Incorrect, try again.");
+      tries += 1;
+    }
 }
 ```
 
@@ -1208,26 +1224,6 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 
 
 
-
-
-
-<!-- for functions section eventually do a comparison between these two: 
-
-GreetLang Original:
-
-func add_nums(num1: int, num2: int) rt integer {
-    let sum: int = num1 + num2;
-    return sum;
-}
-
-GreetLang+ 
-
-func add_nums(num1, num2) rt:userdef[]{ <-- user defined return type (in this case, sum) 
-	def var sum = num1 + num2;
-	return sum;
-} 
-
--->
 
 <!--
 
