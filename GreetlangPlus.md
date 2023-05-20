@@ -921,7 +921,7 @@ Now we have:
 ```js
 def var name = [placeholder].op("What is your name?");
 
-// or on it's own: readline.op();
+// or on it's own: [placeholder].op();
 ```
 
 <br />
@@ -964,6 +964,8 @@ Moving *`swift`-ly* on (get it?), `Ardui`- oh. That's essentially the same as `R
 
 ```js
 def var name = getinp.op("What's your name?");
+
+// or on it's own, getinp.op();
 ```
 
 <br />
@@ -975,6 +977,8 @@ Or,
 
 ```js
 def var name = readline.op("What's your name?");
+
+// or on it's own, readline.op();
 ```
 
 <br />
