@@ -990,7 +990,7 @@ import gpultim.gph
 
 func st() rt:int[0]{
   
-  def var tries = 1;
+  def var tries = 0;
   
   op("Booting...");
 
