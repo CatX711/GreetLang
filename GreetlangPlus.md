@@ -445,7 +445,7 @@ Keep in mind that these will be explained later on.
 <br />
 <br />
 
-Begin your first GL+ program by creating a `.gpp` file. This should create a new GreetLang+ file and allow for it to be edited. <br />
+Begin your first GL+ program by creating a `.gp` file. This should create a new GreetLang+ file and allow for it to be edited. <br />
 You can use whatever editor you like, to be honest, it doesn't really matter!
 
 <br />
