@@ -274,6 +274,13 @@ The bad news is that if you’re a beginner in this, all `GreetLang+` code you s
 So if your eyes haven't already melted off from looking at that code, get ready for a non action-packed programming language documentaion, because we’re going to don our heavy-duty rubber gloves, grab a scalpel, and rip into this thing to see what makes it tick!
 
 <br />
+<br />
+<br />
+
+<img width="503" alt="Drawing sketchpad" src="https://github.com/CatX711/GreetLang/assets/104099162/c1473b4b-583e-4f5e-b723-0f3398baa48a">
+
+<br />
+<br />
 
 
 ## Data Types <a name="data-types"></a>
