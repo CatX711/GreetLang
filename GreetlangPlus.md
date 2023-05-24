@@ -290,6 +290,49 @@ Alright, now that you know the simple stuff, let's go into more detail in the `B
 <br />
 <br />
 
+```js
+func spifjob() rt:userdef[]{
+
+    def var twelvify = varnix(22);
+
+    oxo int(;drax)-- 2B
+
+    ;HEX%
+    ;RBA
+    ;TRANSFUGATE_ twelvify
+    ;ULTIMIX = sevars drax[0P]
+
+    forargs="for" ox in(oxo)::multip 0x21432020;
+
+    using HEX% trans ;drax into type="str"
+
+    using "superflatulate" abd twelvify:
+        namespace 23xB;;;
+
+        str _ == "H\ne\nl\nl\no\n \nw\no\nr\nl\d\n".charAt=11;   
+
+
+
+    return str;     
+}
+
+func st() rt:int[0]{
+
+    op(spifjob());
+}
+```
+
+And they lived happily ever after. The End. <br />
+
+What’s this? You say something’s still not clear about this whole `Greet` programming language thing? <br />
+
+Well, to be quite honest, I’m not even sure what the above code does. It’s a snippet from one of the cursed notes on my hard drive full of a wonderful collection of programs where I attempt to write the most unreadable `Greet+` code possible, with often surprising results.
+
+
+<br />
+<br />
+
+
 In many languages, including GreetLang+ and it's predecessor `GreetLang`, you can of course write code straight away. For example, in C, you can just slap in an `int main()` and get writing! However, the truth is, you actually can't. Why is this? And why am I going back on something that I just stated? Well, you can do this, but it's *definitely* not advised, and it'll make your program cease to run. <br />
 Let me explain. 
 
