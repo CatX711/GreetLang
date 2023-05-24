@@ -277,7 +277,7 @@ So if your eyes haven't already melted off from looking at that code, get ready 
 <br />
 <br />
 
-<img width="503" alt="Drawing sketchpad" src="https://github.com/CatX711/GreetLang/assets/104099162/c1473b4b-583e-4f5e-b723-0f3398baa48a">
+<p align="center"> <img width="503" alt="Drawing sketchpad" src="https://github.com/CatX711/GreetLang/assets/104099162/c1473b4b-583e-4f5e-b723-0f3398baa48a"> </p>
 
 <br />
 <br />
