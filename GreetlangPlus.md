@@ -262,7 +262,7 @@ And they lived happily ever after. The End. <br />
 
 What’s this? You say something’s still not clear about this whole `Greet` programming language thing? <br />
 
-Well, to be quite honest, I’m not even sure what the above code does. It’s a snippet from one of the cursed notes on my hard drive full of a wonderful collection of programs where I attempt to write the most unreadable `GreetLang+` code possible, with often surprisingly cryptic results.
+Well, to be quite honest, I’m not even sure what the above code does (which says a lot since I created the language the program was written in). It’s a snippet from one of the cursed notes on my hard drive full of a wonderful collection of programs where I attempt to write the most unreadable `GreetLang+` code possible, with often surprisingly cryptic results.
 
 <br />
 <br />
