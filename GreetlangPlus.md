@@ -242,7 +242,7 @@ func spifjob() rt:userdef[]{
 
     using HEX% trans ;drax into type="str"
 
-    using "superflatulate" abd twelvify:
+    using "superfluclate.gp" and twelvify:
         namespace 23xB;;;
 
         str _ == "H\ne\nl\nl\no\n \nw\no\nr\nl\d\n".charAt=11;   
