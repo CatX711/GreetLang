@@ -266,7 +266,6 @@ Well, to be quite honest, I’m not even sure what the above code does. It’s a
 The bad news is that if you’re a beginner in this, all `GreetLang+` code you see probably looks obfuscated! The good news is, it’s not going to be that way for long. That's why you're readng this, of course.
 
 <br />
-<br />
 
 So if your eyes haven't already melted off from looking at that code, get ready for a non action-packed programming language documentaion, because we’re going to don our heavy-duty rubber gloves, grab a scalpel, and rip into this thing to see what makes it tick!
 
