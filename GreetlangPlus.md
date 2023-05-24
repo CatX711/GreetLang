@@ -74,20 +74,21 @@ and ideas. </p>
 
  - **1.   [Basic Info](#info)**
  - **2.   [Gl+ Documentation Beginning](#beginning)**
- - **3.   [Data Types](#data-types)**
- - **4.   [Basics](#basics)**  
-    -- **4.1 [Your First Program](#first_program)** <br />
-    -- **4.2 [Running Our Program](#runprogram)** 
-- **5.    [Variables](#vars)**     
-    -- **5.1 [Variable Names](#varnames)** <br />
-    -- **5.2 [Adding Integer Variables Together](#adding_int_vars)**     
-    -- **5.3 [Merging String Variables](#merge-str)** <br />
-    -- **5.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
-    		-- **5.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
-    -- **5.5 [We're Done With Variables!](#finally)**	 
-- **6.	  [Input](#input)**    
-- **7.	  [Functions](#functions)**    
-    -- **7.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
+ - **3.	  [Introduction](#intro)**
+ - **4.   [Data Types](#data-types)**
+ - **5.   [Basics](#basics)**  
+    -- **5.1 [Your First Program](#first_program)** <br />
+    -- **5.2 [Running Our Program](#runprogram)** 
+- **6.    [Variables](#vars)**     
+    -- **6.1 [Variable Names](#varnames)** <br />
+    -- **6.2 [Adding Integer Variables Together](#adding_int_vars)**     
+    -- **6.3 [Merging String Variables](#merge-str)** <br />
+    -- **6.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
+    		-- **6.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
+    -- **6.5 [We're Done With Variables!](#finally)**	 
+- **7.	  [Input](#input)**    
+- **8.	  [Functions](#functions)**    
+    -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
     
 <!-- chapter 8: importing -->    
 <!-- /TOC -->
