@@ -227,7 +227,7 @@ GL+ strives to be a syntactically sound language (which will probably never happ
 <br />
 
 ```js
-func spifjob() rt:userdef[]{
+func stroutput() rt:userdef[]{
 
     def var twelvify = varnix(22);
 
@@ -254,7 +254,7 @@ func spifjob() rt:userdef[]{
 
 func st() rt:int[0]{
 
-    op(spifjob());
+    op(stroutput());
 }
 ```
 
