@@ -299,6 +299,7 @@ Greetlang+ supports the following data types:
 <br />
 <br />
 
+     		
 ****
 
 ## Comments
@@ -461,7 +462,7 @@ func st() rt:int[0]{
 ```
 
 <br />
-
+      
 Alright, let's break this down. `func st()` is how we start the program, mostly all of our code will go inside of `st()`, as it is a renamed version of the tried and true `main()`. There's a blank space in the brackets, because all functions `can` (not `must`) take parameters, however, we won't get into that now. Okay, so, you might be wondering what in the world `rt:int[0]` means. Well, it's a way of telling the GreetLang+ compiler that we want our function to return an integer, `(either 0 or 1)`, 0 being a `code` that tells us that our program has `run succesfully`, and 1, obviously `doing the opposite`. <br /> <br /> Let's move on to the next part now. <br />
 
 ```js
