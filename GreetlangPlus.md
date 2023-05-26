@@ -81,7 +81,8 @@ and ideas. </p>
     -- **5.2 [Running Our Program](#runprogram)** 
 - **6.    [Variables](#vars)**     
     -- **6.1 [Variable Names](#varnames)** <br />
-    -- **6.2 [Adding Integer Variables Together](#adding_int_vars)**     
+    -- **6.2 [Adding Integer Variables Together](#adding_int_vars)**    
+    <!-- chapter: mathematical operators -->
     -- **6.3 [Merging String Variables](#merge-str)** <br />
     -- **6.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **6.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
@@ -91,6 +92,7 @@ and ideas. </p>
     -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
     -- **More Parts coming soon!**
 - **9.	  [Classes and Inheritance](#classes)**    
+    -- **9.1 [The Good Stuff](#good_stuff)**
     
     
 <!-- chapter 8: importing -->    
@@ -1389,8 +1391,27 @@ class Car{
 
 The variables we define are: `max_speed` and `wheels`. We also create a function called `vroom()` which outputs "Vroom vroom!" to the screen.
 
+So if we wanted to use this, we would just write `Car.[something]` <br />
+You could change the values of objects (the variables, functions, etcetera) inside the class, like this:
 
+<br />
 
+```
+Car.max_speed = 250;
+```
+
+<br />
+
+The value of max_speed is now 250, instead of 220.
+
+<br />
+<br />
+
+## The Good Stuff <a name="good_stuff"></a>
+
+<br />
+
+Here's where things get fun. Inheritance, what does it mean?
 
 
 
