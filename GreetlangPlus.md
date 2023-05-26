@@ -1317,7 +1317,6 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 
 >“Programming goes like this: 
->
 >You've baked a really lovely cake, but then you've used dog shit for frosting.”
 >
 > *― Daniel editing one of Steve Jobs' qoutes.*
