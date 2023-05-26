@@ -1385,6 +1385,9 @@ class Car{
 }
 ```
 
+<br />
+
+The variables we define are: `max_speed` and `wheels`. We also create a function called `vroom()` which outputs "Vroom vroom!" to the screen.
 
 
 
