@@ -1396,7 +1396,7 @@ You could change the values of objects (the variables, functions, etcetera) insi
 
 <br />
 
-```
+```js
 Car.max_speed = 250;
 ```
 
