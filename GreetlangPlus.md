@@ -88,8 +88,9 @@ and ideas. </p>
     -- **6.5 [We're Done With Variables!](#finally)**	 
 - **7.	  [Input](#input)**    
 - **8.	  [Functions](#functions)**    
-    -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
+    -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
     -- **More Parts coming soon!**
+    
     
 <!-- chapter 8: importing -->    
 <!-- /TOC -->
