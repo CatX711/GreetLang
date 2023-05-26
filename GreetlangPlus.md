@@ -1347,6 +1347,7 @@ See how convenient that is? Really makes you want to forget any other language a
 LANGUAGE REVOLUTION!
 
 <br />
+
 But let's get back to the code. It's a common convention to capitalise the first letter of every new word in the name of a class. As shown in the example above, `MyClass` follows this. To be honest, it's like the opposite of naming functions! Never thought about that, actually. 
 
 
