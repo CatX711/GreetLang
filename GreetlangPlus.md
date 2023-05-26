@@ -1461,7 +1461,7 @@ Why not give the `Forda` some new features?
 
 <br />
 
-```
+```js
 class Forda extends Car{
   ovveride var max_speed = 300;
 }
@@ -1470,7 +1470,8 @@ class Forda extends Car{
 <br />
 
 We use `ovveride` to change the variable `max_speed` only for Forda. If you did `op(car.max_speed)` you would still get `220`.
-
+<br/>
+You can ovveride functions too.
 
 
 
