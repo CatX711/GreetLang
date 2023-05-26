@@ -1325,6 +1325,20 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 <br />
 
+What would a programming language be without Classes? Ah, OOP, sweet, sweet **Object Oriented Programming.** <br />
+To be as functional as possible, GreetLang+ does in fact include Classes. Yeah, Java developers are definitely going to love this!
+
+<br />
+
+You can easily define a class using the `class` keyword, obviously.
+
+
+
+
+
+
+
+
 
 
 
