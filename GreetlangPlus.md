@@ -1438,7 +1438,7 @@ Nice job! You can just use the stuff inside of car like this:
 
 ```js
 def var forda = Forda;
-forda.Vroom();
+forda.vroom();
 ```
 
 <br />
@@ -1455,7 +1455,22 @@ class Forda extends Car{
 
 <br />
 
-That's better!
+That's better! <br />
+With the basic stuff outta' the way, let's move onto some more complex stuff. <br />
+Why not give the `Forda` some new features?
+
+<br />
+
+```
+class Forda extends Car{
+  ovveride var max_speed = 300;
+}
+```
+
+<br />
+
+We use `ovveride` to change the variable `max_speed` only for Forda. If you did `op(car.max_speed)` you would still get `220`.
+
 
 
 
