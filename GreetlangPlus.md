@@ -90,6 +90,7 @@ and ideas. </p>
 - **8.	  [Functions](#functions)**    
     -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
     -- **More Parts coming soon!**
+- **9.	  [Classes and Inheritance](#classes)**    
     
     
 <!-- chapter 8: importing -->    
