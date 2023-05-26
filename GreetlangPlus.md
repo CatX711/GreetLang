@@ -1391,13 +1391,21 @@ class Car{
 
 The variables we define are: `max_speed` and `wheels`. We also create a function called `vroom()` which outputs "Vroom vroom!" to the screen.
 
-So if we wanted to use this, we would just write `Car.[something]` <br />
+So if we wanted to use this, we would create a new variable and give it the properties of car. Let's call it `car`, since that's the simplest option. 
+
+<br />
+
+```js
+def var car = Car;
+```
+
+Now we can just write `car.[something]` <br />
 You could change the values of objects (the variables, functions, etcetera) inside the class, like this:
 
 <br />
 
 ```js
-Car.max_speed = 250;
+car.max_speed = 250;
 ```
 
 <br />
@@ -1411,8 +1419,43 @@ The value of max_speed is now 250, instead of 220.
 
 <br />
 
-Here's where things get fun. Inheritance, what does it mean?
+Here's where things get fun. Inheritance, what does it mean? <br />
+Well, now that we have `Car` defined, we can create new classes and even variables that `inherit` the features of it's `Parent`, in this case, Car. Let's create a *new* Car-type class. We can do this using the `extends` keyword. It lets the compiler know it is a `Child` of Car.
 
+<br />
+<br />
+
+```js
+class Forda extends Car{
+  // code goes here
+}
+```
+
+Nice job! You can just use the stuff inside of car like this:
+
+<br />
+<br />
+
+```js
+def var forda = Forda;
+forda.Vroom();
+```
+
+<br />
+
+But if we put nothing in the class, we get an error, so if you ever want to use nothing inside of a Class or Function, just use the `pass` keyword.
+
+<br />
+
+```js
+class Forda extends Car{
+  pass;
+}
+```
+
+<br />
+
+That's better!
 
 
 
