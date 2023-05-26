@@ -1350,6 +1350,9 @@ LANGUAGE REVOLUTION!
 
 But let's get back to the code. It's a common convention to capitalise the first letter of every new word in the name of a class. As shown in the example above, `MyClass` follows this. To be honest, it's like the opposite of naming functions! Never thought about that, actually. 
 
+<br />
+
+But what even *is* the point of classes? Well, to put it simply, a class is a way of organizing information about a type of data so we can easily reuse elements when making multiple instances of that data type— for example, if a programmer wanted to make three instances of `Car` (in this case `Car` is the class), maybe a `BMW`, a `Ferrari`, and a `Ford` instance. The `Car` class would allow us to store similar information that is unique to each car (they are different models, and maybe different colors, etc.) and associate the appropriate information with each car.
 
 
 
