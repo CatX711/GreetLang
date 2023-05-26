@@ -89,6 +89,7 @@ and ideas. </p>
 - **7.	  [Input](#input)**    
 - **8.	  [Functions](#functions)**    
     -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)**
+    -- **More Parts coming soon!**
     
 <!-- chapter 8: importing -->    
 <!-- /TOC -->
@@ -1299,7 +1300,28 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 <br />
 
-## 
+# hey danny, make some more stuff in the functions chapter please, thanks
+
+<br />
+<br />
+
+
+****
+
+<br />
+
+## Classes and Inheritance <a name="classes"></a>
+
+<br />
+
+>“Programming goes like this: 
+>You've baked a really lovely cake, but then you've used dog shit for frosting.”
+> *― Daniel editing one of Steve Jobs' qoutes.*
+
+<br />
+<br />
+<br />
+
 
 
 
