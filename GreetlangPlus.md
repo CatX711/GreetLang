@@ -242,7 +242,7 @@ func stroutput() rt:userdef[]{
 
     using HEX% trans ;drax into type="str"
 
-    using "superflucltuate.gp" and twelvify:
+    using "convert.gp" and twelvify:
         namespace 23xB;;;
 
         str _ == "H\ne\nl\nl\no\n \nw\no\nr\nl\d\n".charAt=11;   
