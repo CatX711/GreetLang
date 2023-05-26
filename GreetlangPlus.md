@@ -1332,6 +1332,23 @@ To be as functional as possible, GreetLang+ does in fact include Classes. Yeah, 
 
 You can easily define a class using the `class` keyword, obviously.
 
+<br />
+<br />
+
+```js 
+class MyClass{
+  // code goes here
+}
+```
+
+<br />
+
+See how convenient that is? Really makes you want to forget any other language and adopt `GreetLang+`, right? <br />
+LANGUAGE REVOLUTION!
+
+<br />
+But let's get back to the code. It's a common convention to capitalise the first letter of every new word in the name of a class. As shown in the example above, `MyClass` follows this. To be honest, this is like the opposite of naming functions! Never thought about that, actually. 
+
 
 
 
