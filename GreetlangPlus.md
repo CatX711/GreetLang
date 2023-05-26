@@ -1361,7 +1361,7 @@ Let's demonstrate this with code.
 
 <br />
 
-```
+```js
 class Car{
   // code goes here
 }
