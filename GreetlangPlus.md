@@ -1420,7 +1420,7 @@ The value of max_speed is now 250, instead of 220.
 <br />
 
 Here's where things get fun. Inheritance, what does it mean? <br />
-Well, now that we have `Car` defined, we can create new classes and even variables that `inherit` the features of it's `Parent`, in this case, Car. Let's create a *new* Car-type class. We can do this using the `extends` keyword. It lets the compiler know it is a `Child` of Car.
+Well, now that we have `Car` defined, we can create new classes and even variables that `inherit` the features of it's `Parent`, in this case, Car, like we did earlier. Let's create a *new* Car-type class. We can do this using the `extends` keyword. It lets the compiler know it is a `Child` of Car.
 
 <br />
 <br />
