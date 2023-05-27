@@ -1426,7 +1426,7 @@ Well, now that we have `Car` defined, we can create new classes and even variabl
 <br />
 
 ```js
-class Forda extends Car{
+class Ford extends Car{
   // code goes here
 }
 ```
@@ -1437,8 +1437,8 @@ Nice job! You can just use the stuff inside of car like this:
 <br />
 
 ```js
-def var forda = Forda;
-forda.vroom();
+def var ford = Ford;
+ford.vroom();
 ```
 
 <br />
@@ -1448,7 +1448,7 @@ But if we put nothing in the class, we get an error, so if you ever want to use 
 <br />
 
 ```js
-class Forda extends Car{
+class Ford extends Car{
   pass;
 }
 ```
@@ -1457,12 +1457,12 @@ class Forda extends Car{
 
 That's better! <br />
 With the basic stuff outta' the way, let's move onto some more complex stuff. <br />
-Why not give the `Forda` some new features?
+Why not give the `Ford` some new features?
 
 <br />
 
 ```js
-class Forda extends Car{
+class Ford extends Car{
   ovveride var max_speed = 300;
 }
 ```
@@ -1471,6 +1471,7 @@ class Forda extends Car{
 
 We use `ovveride` to change the variable `max_speed` only for Forda. If you did `op(car.max_speed)` you would still get `220`.
 <br/>
+If we just did `var max_speed = 300;` we would change the value of max_speed for every class, which isn't what we're going for!
 You can ovveride functions to change their contents as well.
 
 
