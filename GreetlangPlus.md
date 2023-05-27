@@ -1471,7 +1471,7 @@ class Forda extends Car{
 
 We use `ovveride` to change the variable `max_speed` only for Forda. If you did `op(car.max_speed)` you would still get `220`.
 <br/>
-You can ovveride functions too.
+You can ovveride functions to change their contents as well.
 
 
 
