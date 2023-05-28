@@ -1449,6 +1449,13 @@ class Vehicle{
 def var vehicle_1 = Vehicle;
 ```
 
+<br />
+
+Now we can write `vehicle_1.drive()` to use drive! 
+
+<br />
+<br />
+
 ## The Good Stuff <a name="good_stuff"></a>
 
 <br />
