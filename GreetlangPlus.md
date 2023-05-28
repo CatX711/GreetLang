@@ -1248,7 +1248,7 @@ Again, the issue with having to include the function in an `op()` could also be 
 <br />
 
 ```js
-func times(num1, num2) rt:userdef[]{
+func times(num1, num2) rt:userdef[void]{
   def var prod = num1 * num2;
   
   op("{!prod}");
@@ -1258,6 +1258,10 @@ func st() rt:int[0]{
   times(4, 6);
 }
 ```
+
+<br />
+
+The `void` is what tells the compiler we aren't necessarily `returning` anything, instead opting to output.
 
 <br />
 <br />
