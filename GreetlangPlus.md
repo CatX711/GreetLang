@@ -1421,7 +1421,7 @@ Here's another easy example:
 
 ```js
 class Vehicle{
-  func drive() rt:userfed[void]{
+  func drive() rt:userdef[void]{
     op("The vehicle is driving");
   }
   func stop() rt:userdef[void]{
