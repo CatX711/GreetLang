@@ -1419,12 +1419,12 @@ Here's another easy example:
 
 <br />
 
-```
+```js
 class Vehicle{
-  func drive(){
+  func drive() rt:userfed[void]{
     op("The vehicle is driving");
   }
-  func stop(){
+  func stop() rt:userdef[void]{
     op("The vehicle has stopped");
   }
 }
@@ -1432,7 +1432,22 @@ class Vehicle{
 
 <br />
 
-We've define a `Vehicle` class, and two functions, `drive()` and `stop()`
+We've defined a `Vehicle` class, and two functions, `drive()` and `stop()`. We can use those functions by setting a variable equal to `Vehicle`.
+
+<br />
+
+```js
+class Vehicle{
+  func drive() rt:userfed[void]{
+    op("The vehicle is driving");
+  }
+  func stop() rt:userdef[void]{
+    op("The vehicle has stopped");
+  }
+}
+
+def var vehicle_1 = Vehicle;
+```
 
 ## The Good Stuff <a name="good_stuff"></a>
 
