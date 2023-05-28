@@ -1415,6 +1415,25 @@ The value of max_speed is now 250, instead of 220.
 <br />
 <br />
 
+Here's another easy example:
+
+<br />
+
+```
+class Vehicle{
+  func drive(){
+    op("The vehicle is driving");
+  }
+  func stop(){
+    op("The vehicle has stopped");
+  }
+}
+```
+
+<br />
+
+We've define a `Vehicle` class, and two functions, `drive()` and `stop()`
+
 ## The Good Stuff <a name="good_stuff"></a>
 
 <br />
@@ -1473,6 +1492,8 @@ We use `ovveride` to change the variable `max_speed` only for Forda. If you did 
 <br/>
 If we just did `var max_speed = 300;` we would change the value of max_speed for every class, which isn't what we're going for!
 You can ovveride functions to change their contents as well.
+
+
 
 
 
