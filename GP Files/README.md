@@ -1,4 +1,4 @@
-`.js`file ending is used for syntax highlighting! 
+`.js` file ending is used for syntax highlighting! 
 
 <br />
 <br />
