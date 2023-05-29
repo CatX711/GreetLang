@@ -1097,12 +1097,13 @@ func st() rt:int[0]{
        }
      }
     
-     // if username is wrong 
-     else {
-       op("Incorrect, try again.");
-       tries += 1;
-     }
+    // if username is wrong 
+    else {
+      op("Incorrect, try again.");
+      tries += 1;
+    }
 }
+
 ```
 
 <br />
