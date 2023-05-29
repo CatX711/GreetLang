@@ -1584,6 +1584,28 @@ op({!conditional_1});
 // Prints "149"
 ```
 
+<br />
+
+Or like this:
+
+<br />
+
+```
+class MathOperators{
+
+  // adds two numbers and returns (not outputs)
+  func add(num1, num2) rt:userdef[]{
+    return num1 + num2;
+  }  
+}
+
+conditional_1 = MathOperators;
+conditional_1.add(89, 60);
+
+op({!conditional_1});
+// Prints "149"
+```
+
 
 
 
