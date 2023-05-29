@@ -1522,7 +1522,33 @@ We use `ovveride` to change the variable `max_speed` only for Forda. If you did 
 If we just did `var max_speed = 300;` we would change the value of max_speed for every class, which isn't what we're going for!
 You can ovveride functions to change their contents as well.
 
+<br />
 
+Click on `More Examples` for some extra examples of ovveriding in GreetLang+
+
+<details>
+<summary>More Examples</summary> 
+
+<br />	
+
+```js
+class Train extends Vehicle{
+    override func makeNoise(){
+        op("Choo choo!");
+    }	
+}	
+	
+let train = Train;
+train.makeNoise();
+// Prints "Choo choo!"	
+```
+	
+<br />
+	
+```
+```
+	
+</details>
 
 <br />
 <br />
@@ -1535,6 +1561,29 @@ class Snake extends Reptile{
 }
 ```
 
+<br />
+
+And if you had a class which contained a function that added two numbers together, you could set a variable with a value equivalent to the output of it:
+
+<br />
+<br />
+
+```
+class MathOperators{
+
+  // adds two numbers and returns (not outputs)
+  func add(num1, num2) rt:userdef[]{
+    return num1 + num2;
+  }
+  
+}
+
+math = MathOperators;
+conditional_1 = math.add(89, 60);
+
+op(conditional_1);
+// Prints "149"
+```
 
 
 
