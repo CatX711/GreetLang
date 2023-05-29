@@ -1574,8 +1574,7 @@ class MathOperators{
   // adds two numbers and returns (not outputs)
   func add(num1, num2) rt:userdef[]{
     return num1 + num2;
-  }
-  
+  }  
 }
 
 math = MathOperators;
