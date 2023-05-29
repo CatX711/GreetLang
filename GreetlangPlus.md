@@ -1581,7 +1581,7 @@ class MathOperators{
 math = MathOperators;
 conditional_1 = math.add(89, 60);
 
-op(conditional_1);
+op({!conditional_1});
 // Prints "149"
 ```
 
