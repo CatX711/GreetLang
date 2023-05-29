@@ -81,7 +81,7 @@ and ideas. </p>
     -- **5.2 [Running Our Program](#runprogram)** 
 - **6.    [Variables](#vars)**     
     -- **6.1 [Variable Names](#varnames)** <br />
-    -- **6.2 [Adding Integer Variables Together](#adding_int_vars)**    
+    -- **6.2 [Adding Integer Variables Together](#adding_int_vars)** <br />  
     <!-- chapter: mathematical operators -->
     -- **6.3 [Merging String Variables](#merge-str)** <br />
     -- **6.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
