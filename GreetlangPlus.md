@@ -1621,6 +1621,8 @@ EVERY gp library, but it will take up more memory.
 stick to individual imports when working on small projects
 shoot for `gp-ultimate` when working on bigger projects
 
+
+provide list of all gpultim functions 
 -->
 
 
