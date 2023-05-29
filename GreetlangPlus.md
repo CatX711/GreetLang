@@ -1524,6 +1524,19 @@ You can ovveride functions to change their contents as well.
 
 
 
+<br />
+<br />
+
+You can also set a new variable equal to one in a different class.
+
+```
+class Snake extends Reptile{
+  def var favourite_foods2 = favourite_foods;
+}
+```
+
+
+
 
 
 
