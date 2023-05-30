@@ -1582,7 +1582,7 @@ And if you had a class which contained a function that added two numbers togethe
 <br />
 <br />
 
-```
+```js
 class MathOperators{
 
   // adds two numbers and returns (not outputs)
@@ -1604,7 +1604,7 @@ Or like this:
 
 <br />
 
-```
+```js
 class MathOperators{
 
   // adds two numbers and returns (not outputs)
