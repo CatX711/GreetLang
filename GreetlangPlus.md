@@ -1642,7 +1642,7 @@ class MathOperators{
 conditional_1 = MathOperators;
 conditional_1.add(89, 60);
 
-op({!conditional_1});
+op("{!conditional_1}");
 // Prints "149"
 ```
 
