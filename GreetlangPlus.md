@@ -832,6 +832,8 @@ Pretty neat, right?
 <br />
 <br />
 
+<a name="str-merge-§2"></a>
+
 >Note, you can create a new variable equivalent to the two variables merged together and output that, it's optional and doesnt affect the code.
 >
 >E.g:
@@ -1267,7 +1269,7 @@ The `void` is what tells the compiler we aren't necessarily `returning` anything
 <br />
 
 <!-- update §6.3(#str-merge) when the chapter number is changed -->
-Another neat thing we can do is set a variable equivalent to the output of a function, as seen in §[6.3](#merge-str) with `strmerge()`, where it is stated that you can set a new variable equivalent to the result of two or more variables merged together:
+Another neat thing we can do is set a variable equivalent to the output of a function, as seen in §[6.3](#str-merge-§2) with `strmerge()`, where it is stated that you can set a new variable equivalent to the result of two or more variables merged together:
 
 <br />
 <br />
