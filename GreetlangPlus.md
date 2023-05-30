@@ -17,12 +17,12 @@
 <br />
 <br />
 
-![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/c45a47f7-35c8-4d88-929d-dc13c49e2ca0)
-
-![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/92b96a3f-e531-4da7-b519-22e3e11d8ab6)
 
 
 
+
+
+
 <br />
 <br />
 <br />
@@ -30,6 +30,11 @@
 <br />
 <br />
 <br />
+<br />
+<br />
+
+<p align="center"> <img width="503" alt="under_construction1" src="[https://github.com/CatX711/GreetLang/assets/104099162/e63962d4-9aa0-471b-a22e-b13d62522b90]"> </p>
+
 <br />
 <br />
 
