@@ -1292,7 +1292,15 @@ You can also do this with other types of variables. For example, if you created 
 <br />
 
 ```js
+func cube(num1) rt:userdef[]{
+  return num1 * num1 * num1;
+}
 
+func st() rt:int[0]{
+  def var exponent = cubed(16);
+  
+  op("{!exponent}")
+}
 ```
 
 <br />
