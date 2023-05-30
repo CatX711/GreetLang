@@ -1351,7 +1351,7 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 <br />
 
-# hey danny, make some more stuff in the functions chapter please, thanks
+# hey dan, make some more stuff in the functions chapter please, thanks
 
 <br />
 <br />
