@@ -1265,6 +1265,17 @@ func st() rt:int[0]{
 The `void` is what tells the compiler we aren't necessarily `returning` anything, instead opting to output.
 
 <br />
+
+<!-- update §6.3(#str-merge) when the chapter number is changed -->
+Another neat thing we can do is set a variable equivalent to the output of a function, as seen in §[6.3](#merge-str) with `strmerge()`, where it is stated that you can set a new variable equivalent to the result of two or more variables merged together:
+
+<br />
+<br />
+
+```js
+```
+
+<br />
 <br />
 <br />
 
