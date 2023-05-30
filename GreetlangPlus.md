@@ -1275,6 +1275,23 @@ Another neat thing we can do is set a variable equivalent to the output of a fun
 <br />
 
 ```js
+func st() rt:int[0]{
+  def var part1 = "ok";
+  def var part2 = "ay";
+  
+  def var fullword = strmerge(part1, part2);
+  op(fullword);
+}
+```
+
+<br />
+
+You can also do this with other types of variables. For example, if you created a function that cubes a number (without using the `math.gph` library), and then a variable equal to that number cubed, you could use it for other things.
+
+<br />
+
+```js
+
 ```
 
 <br />
