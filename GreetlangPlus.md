@@ -1,6 +1,6 @@
 # Greetlang+
 
-<p align="center"><img width="649" alt="Greetlang+" src="[https://user-images.githubusercontent.com/104099162/233203284-dc165de9-bd13-48b2-a663-fac39b626ebe.png]"> </p>
+<p align="center"><img width="649" alt="Greetlang+" src="https://user-images.githubusercontent.com/104099162/233203284-dc165de9-bd13-48b2-a663-fac39b626ebe.png"> </p>
 
 <br />
 <br />
@@ -16,13 +16,6 @@
 <br />
 <br />
 <br />
-
-
-
-
-
-
-
 <br />
 <br />
 <br />
@@ -30,11 +23,6 @@
 <br />
 <br />
 <br />
-<br />
-<br />
-
-<p align="center"> <img width="503" alt="under_construction1" src="[https://github.com/CatX711/GreetLang/assets/104099162/e63962d4-9aa0-471b-a22e-b13d62522b90]"> </p>
-
 <br />
 <br />
 
@@ -1676,6 +1664,3 @@ shoot for `gp-ultimate` when working on bigger projects
 
 provide list of all gpultim functions 
 -->
-
-
-
