@@ -17,9 +17,10 @@
 <br />
 <br />
 
-![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/c96c4107-bcde-4035-9b24-3badc348cffb)
+![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/c45a47f7-35c8-4d88-929d-dc13c49e2ca0)
 
-![under_construction1](https://github.com/CatX711/GreetLang/assets/104099162/707d0cb3-2b9b-4598-b8e0-ffff9fc72186)
+![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/92b96a3f-e531-4da7-b519-22e3e11d8ab6)
+
 
 
 <br />
