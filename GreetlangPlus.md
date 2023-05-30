@@ -16,6 +16,12 @@
 <br />
 <br />
 <br />
+
+![under_construction2](https://github.com/CatX711/GreetLang/assets/104099162/c96c4107-bcde-4035-9b24-3badc348cffb)
+
+![under_construction1](https://github.com/CatX711/GreetLang/assets/104099162/707d0cb3-2b9b-4598-b8e0-ffff9fc72186)
+
+
 <br />
 <br />
 <br />
