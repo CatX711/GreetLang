@@ -87,9 +87,8 @@ and ideas. </p>
     -- **6.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **6.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
     -- **6.5 [We're Done With Variables!](#finally)**	
-- **7. 	  [If, Elif and Else](#statements)** <br />    
+- **7. 	  [If, Elif and Else](#statements)** 
 <!-- do the subchapters here -->
-
 - **8.	  [Loops (Chapter not written yet)](#)**	
 - **9.	  [Input](#input)**    
 - **10.	  [Functions](#functions)**    
