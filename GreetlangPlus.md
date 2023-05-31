@@ -86,13 +86,18 @@ and ideas. </p>
     -- **6.3 [Merging String Variables](#merge-str)** <br />
     -- **6.4 [Short-hand Variable Names (Nicknames)](#nicknames)** <br />
     		-- **6.4-1 [Why Use Short-hand Variable Names?](#nicknames-why)** <br />
-    -- **6.5 [We're Done With Variables!](#finally)**	 
-- **7.	  [Input](#input)**    
-- **8.	  [Functions](#functions)**    
-    -- **8.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
+    -- **6.5 [We're Done With Variables!](#finally)**	
+- **7. 	  [If, Elif and Else](#statements)**    
+<!-- do the subchapters here -->
+
+- **8.	  [Loops (Chapter not written yet)](#)**	
+
+- **9.	  [Input](#input)**    
+- **10.	  [Functions](#functions)**    
+    -- **10.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
     -- **More Parts coming soon!**
-- **9.	  [Classes and Inheritance](#classes)**    
-    -- **9.1 [The Good Stuff](#good_stuff)**
+- **11.	  [Classes and Inheritance](#classes)**    
+    -- **10.1 [The Good Stuff](#good_stuff)**
     
     
 <!-- chapter 8: importing -->    
@@ -975,6 +980,13 @@ I wonder what's next?
 
 # - sleepy daniel
 -->
+
+****
+
+<br />
+
+## If, Elif and Else <a name="statements"></a>
+
 
 ****
 
