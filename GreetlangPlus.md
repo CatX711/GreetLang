@@ -1124,7 +1124,7 @@ func st() rt:int[0]{
 More cryptic than I expected, but hey at least that's a finished product! (Oh God I've got to rethink the whole language now don't I...)
 
 
-
+							      ._.
 
 
 
