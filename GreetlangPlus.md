@@ -1502,7 +1502,7 @@ We've defined a `Vehicle` class, and two functions, `drive()` and `stop()`. We c
 
 ```js
 class Vehicle{
-  func drive() rt:userfed[void]{
+  func drive() rt:userdef[void]{
     op("The vehicle is driving");
   }
   func stop() rt:userdef[void]{
