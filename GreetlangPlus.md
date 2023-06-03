@@ -1449,7 +1449,35 @@ The code above would be ran like this:
 <br />
 
 ```js
+// Add autofunc
 
+autofunc add -> x, y: x + y;
+
+
+// Start func
+func st() rt:int[0]{
+  op(add(2, 2)); // 4
+}
+
+```
+
+<br />
+
+When compared to the normal way of writing `add`, this really is a lot more efficient!
+
+<br />
+<br />
+
+```js
+// Add func
+func add(x, y) rt:userdef[]{
+  return x + y;
+}
+
+// Start func
+func st() rt:int[0]{
+  op(add(2, 2));
+}
 ```
 
 
