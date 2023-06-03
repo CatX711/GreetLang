@@ -341,7 +341,7 @@ and then end the comment like this -> */
 <br />
 
 Ah, behold the mighty semicolon (this little guy -> `;`)! <br />
-That tiny, unassuming character holds the power to prevent your entire program from going up in flames. It's like a little superhero that tells the compiler, "Hold on, take a breather, let's move on to the next line of code."
+Yes, that tiny, unassuming character holds the power to prevent your **entire** program from going up in flames. It's like a little superhero that tells the compiler, "Hold on, take a breather, let's move on to the next line of code."
 
 Remember, the semicolon is your loyal sidekick. It ensures that each line of code comes to a graceful conclusion before moving on. It's tthe punctuation mark that keeps everything in order!
 
