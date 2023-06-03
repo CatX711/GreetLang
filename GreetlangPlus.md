@@ -92,7 +92,7 @@ and ideas. </p>
 - **9.	  [Input](#input)**    
 - **10.	  [Functions](#functions)**    
     -- **10.1 [GreetLang vs GreetLang+ (a function comparison)](#func-comparison)** <br />
-    -- **10.2 [Auto Functions (autofunc)](#autofunc)**
+    -- **10.2 [Auto Functions (autofunc)](#autofunc)** <br />
     -- **More Parts coming soon!**
 - **11.	  [Classes and Inheritance](#classes)**    
     -- **10.1 [The Good Stuff](#good_stuff)**
