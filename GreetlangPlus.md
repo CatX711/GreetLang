@@ -363,7 +363,13 @@ Remember, the semicolon is your loyal sidekick. It ensures that each line of cod
 That you are, little bud, that you are.
 ```
 
-Alright, now that you know the simple stuff, let's go into more detail in the `Basics` of GreetLang+
+<br />
+<br />
+<br />
+
+## Get a move on already!
+
+Alright, alright! Now that you know the simple stuff, let's go into more detail in the `Basics` of GreetLang+
 
 <br />
 <br />
