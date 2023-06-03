@@ -1368,10 +1368,41 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 <br />
 
-# hey dan, make some more stuff in the functions chapter please, thanks
+### Auto Functions (autofunc) <a name="autofunc"></a>
 
 <br />
 <br />
+
+Do you ever find that writing functions are just super long and tedious? Well, I've got the perfect solution for you: Autofunc! <br />
+Autofunc is pretty useful because it allows you to create small, inline functions that can be used without explicitly defining a separate named function. So essentially, you dont need to create a function that spans multiple lines. 
+
+<br />
+
+Let's go into that, shall we?
+
+<br />
+<br />
+
+```js
+
+def af add = autofunc x, y: x + y;
+```
+
+<br />
+
+Here we have the code for an `add` autofunc. It's purpose is to add two numbers together. Now, the way we create an autofunc is a bit simmilar to variables in the way that we use `def`, however, this time, instead of `var` we have `af`. This tells the GL+ compiler that we're defining an auto function. After that we set the value to `autofunc x, y: x + y`. <br />
+Breaking that down we get this formula:
+
+<br />
+<br />
+
+```
+autofunc [parameters]: [expressions];
+```
+
+<br />
+
+
 
 
 ****
