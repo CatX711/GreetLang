@@ -1463,7 +1463,7 @@ The code above would be ran like this:
 <br />
 
 >“Programming goes like this: 
->You've baked a really lovely cake, but then you've used dog shit for frosting.”
+>You've baked a really lovely cake, but then you've used dog crap for frosting.”
 >
 > *― Daniel editing one of Steve Jobs' qoutes.*
 
