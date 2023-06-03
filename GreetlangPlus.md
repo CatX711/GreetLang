@@ -1374,33 +1374,38 @@ GreetLang+ has a slight improvement, with less needed to be specified, a smaller
 <br />
 <br />
 
-Do you ever find that writing functions are just super long and tedious? Well, I've got the perfect solution for you: Autofunc! <br />
-Autofunc is pretty useful because it allows you to create small, inline functions that can be used without explicitly defining a separate named function. So essentially, you dont need to create a function that spans multiple lines. 
+Do you ever find yourself drowning in a sea of long and tedious function definitions? Well, fear not, my friend, for I have the perfect comedic solution for you: Autofunc, the hero of lazy programmers everywhere!
 
 <br />
 
-Let's go into that, shall we?
+Picture this: you're tired, you're cranky, and you just can't bear the thought of writing another lengthy function. Enter Autofunc, the magical tool that lets you conjure up small, inline functions without the hassle of creating separate named monstrosities. It's like having a cheat code for coding!
 
 <br />
+
+But wait, there's more! With Autofunc, you can say goodbye to those never-ending lines of code. No more fussing over complex function structures that span the length of a football field. We're talking about short and sweet, my friend. Think of it as the "get-in-get-out" approach to coding. It's so simple, it's practically criminal!
+
+<br />
+<br />
+
+Let's take a gander at this marvelous creation, shall we?
+
 <br />
 
 ```js
+// Defining an autofunc for `add`
 
 autofunc add -> x, y: x + y;
 ```
 
-<br />
+Behold, the mighty autofunc `add`, a true masterpiece of brevity and efficiency! With just a few cryptic symbols, you can summon the power of addition itself. It's like wielding a magic wand that brings numbers together in perfect harmony.
 
-Here we have the code for an `add` autofunc. It's purpose is to add two numbers together. Now, the way we create an autofunc is a bit more cryptic than, for example, defining a variable.<br />
-Breaking that down we get this formula:
+So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselves for the formula that will revolutionize the way you write functions:
 
-<br />
-<br />
-
-```
 autofunc [parameters] -> [expressions];
-```
 
+See? It's like a secret code for all the cool kids of coding. It may seem cryptic at first, but once you crack the Autofunc code, you'll be laughing all the way to the punchline.
+
+So, why waste precious time and energy on lengthy function definitions when you can embrace the comedic genius of Autofunc? It's the shortcut that will have you coding and chuckling in no time! Happy coding, my friend, and may the laughter be with you!
 <br />
 
 
