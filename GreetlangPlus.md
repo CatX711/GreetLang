@@ -340,10 +340,28 @@ and then end the comment like this -> */
 
 <br />
 
-`;` <-- This character, is responsible for the ***entire*** program not just bursting into flames. The semicolon is used for telling the compiler to stop executing the current line of code, and move on to the next one. You *must* end your lines of code with the semicolon `(as a reminder, this is the semicolon: ;)` otherwise the program will not run.
+Ah, behold the mighty semicolon (this little guy -> `;`)! <br />
+That tiny, unassuming character holds the power to prevent your entire program from going up in flames. It's like a little superhero that tells the compiler, "Hold on, take a breather, let's move on to the next line of code."
+
+Remember, the semicolon is your loyal sidekick. It ensures that each line of code comes to a graceful conclusion before moving on. It's tthe punctuation mark that keeps everything in order!
 
 <br />
 <br />
+
+```
+
+
+
+          __________________
+         |                  |
+         |   I'm so cool!   |
+   ;   <                    |
+         \__________________/ 
+
+
+
+That you are, little bud, that you are.
+```
 
 Alright, now that you know the simple stuff, let's go into more detail in the `Basics` of GreetLang+
 
