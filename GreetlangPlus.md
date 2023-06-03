@@ -1399,13 +1399,19 @@ autofunc add -> x, y: x + y;
 
 Behold, the mighty autofunc `add`, a true masterpiece of brevity and efficiency! With just a few cryptic symbols, you can summon the power of addition itself. It's like wielding a magic wand that brings numbers together in perfect harmony.
 
-So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselves for the formula that will revolutionize the way you write functions:
+So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselves for the formula that will revolutionize the way you write smaller functions:
 
-autofunc [parameters] -> [expressions];
+<br />
 
-See? It's like a secret code for all the cool kids of coding. It may seem cryptic at first, but once you crack the Autofunc code, you'll be laughing all the way to the punchline.
+```js
 
-So, why waste precious time and energy on lengthy function definitions when you can embrace the comedic genius of Autofunc? It's the shortcut that will have you coding and chuckling in no time! Happy coding, my friend, and may the laughter be with you!
+autofunc [name] -> [parameters]: [expressions];
+```
+
+See? It's like a secret code for all the cool kids of coding! It may seem cryptic at first, but once you crack the Autofunc code, you'll be more effecient than ever.
+
+So, why waste precious time and energy on lengthy function definitions when you can embrace the genuis of autofunc?
+
 <br />
 
 
