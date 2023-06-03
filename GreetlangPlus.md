@@ -1386,19 +1386,19 @@ Let's go into that, shall we?
 
 ```js
 
-def af add = autofunc x, y: x + y;
+autofunc add -> x, y: x + y;
 ```
 
 <br />
 
-Here we have the code for an `add` autofunc. It's purpose is to add two numbers together. Now, the way we create an autofunc is a bit simmilar to variables in the way that we use `def`, however, this time, instead of `var` we have `af`. This tells the GL+ compiler that we're defining an auto function. After that we set the value to `autofunc x, y: x + y`. <br />
+Here we have the code for an `add` autofunc. It's purpose is to add two numbers together. Now, the way we create an autofunc is a bit more cryptic than, for example, defining a variable.<br />
 Breaking that down we get this formula:
 
 <br />
 <br />
 
 ```
-autofunc [parameters]: [expressions];
+autofunc [parameters] -> [expressions];
 ```
 
 <br />
