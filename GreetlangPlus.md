@@ -1415,7 +1415,7 @@ Let's take a gander at this marvelous creation, shall we?
 
 <br />
 
-```js
+```c
 // Defining an autofunc for `add`
 
 autofunc add -> x, y: x + y;
@@ -1427,7 +1427,7 @@ So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselve
 
 <br />
 
-```js
+```
 
 autofunc [name] -> [parameters]: [expressions];
 ```
@@ -1437,7 +1437,20 @@ See? It's like a secret code for all the cool kids of coding! It may seem crypti
 So, why waste precious time and energy on lengthy function definitions when you can embrace the genuis of autofunc?
 
 <br />
+<br />
 
+There sadly is one downside to autofuncs though. Since their return type isn't defined by the creator, all autofuncs must be contained inside of an `op()` functipn.
+
+<br />
+
+The code above would be ran like this:
+
+<br />
+<br />
+
+```js
+
+```
 
 
 
