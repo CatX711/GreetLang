@@ -1775,7 +1775,13 @@ op("{!conditional_1}");
 
 
 
+<!-- quote idea:
 
+>If you know assembly, you know everything
+>
+>- Daniel Catarig, Greetlang+
+
+-->
 
 <!--
 
