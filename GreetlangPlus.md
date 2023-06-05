@@ -1758,7 +1758,7 @@ Or like this:
 ```js
 class MathOperators{
 
-  // adds two numbers and returns (not outputs)
+  // adds two numbers and returns (not outputs) the result
   func add(num1, num2) rt:userdef[]{
     return num1 + num2;
   }  
