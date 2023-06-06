@@ -590,7 +590,7 @@ Now that we've created our program, we need to compile and run it. Here's how we
 Open up your terminal, and enter in the text, `gpc [filename.gp]` <br />
 This is telling the `GreetLang+ Compiler` `(gpc)`, to compile our code. We dont need to name the binary file that is produced, as we would in C, it just auto names it to your file name. <br /> <br />
 
-img width="562" alt="Screenshot 2023-06-06 at 21 53 56" src="https://github.com/CatX711/GreetLang/assets/104099162/c429c000-ce5d-4e28-9ec1-11fc09284dd3">
+<img width="562" alt="Screenshot 2023-06-06 at 21 53 56" src="https://github.com/CatX711/GreetLang/assets/104099162/c429c000-ce5d-4e28-9ec1-11fc09284dd3">
 
 <img width="562" alt="Screenshot 2023-06-06 at 22 08 30" src="https://github.com/CatX711/GreetLang/assets/104099162/757c0ea7-1f3a-4901-8fd3-6828c3224b5f">
 
