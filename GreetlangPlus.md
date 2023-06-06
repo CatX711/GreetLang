@@ -495,6 +495,8 @@ func st() rt:int[0]{
 ```
 -->
 
+<br />
+
 <img width="478" alt="Screenshot 2023-06-06 at 21 45 17" src="https://github.com/CatX711/GreetLang/assets/104099162/2cd2ca53-3cf4-42b9-bf28-69e83e5d71b8">
 
 <br />
