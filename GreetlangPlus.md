@@ -654,7 +654,6 @@ GreetLang+ is a bit different. You start by using the `def` keyword. This stops 
 Following that is `var`, which tells the GL+ compiler that we're defining a `VARIABLE`, not something else. Next up is the variable name, and it's value. Make sure to end the line of code with a semicolon!
 
 <br />
-<br />
 
 <!--
 ```js
@@ -669,7 +668,6 @@ func st() rt:int[0]{
 <img width="562" alt="Screenshot 2023-06-06 at 22 24 19" src="https://github.com/CatX711/GreetLang/assets/104099162/d54a272b-ea67-4bd5-9e88-f781c05d0f09">
 
 
-<br />
 <br />
 
 I said I was going to go into how character arrays are different in GL+, so I'll quickly skim over that and move on. <br />
@@ -689,6 +687,7 @@ Below is the code to include a variable with an `integer` value in an output `(o
 <br />
 <br />
 
+<!--
 ```js
 func st() rt:int[0]{
     def var friends = 122;
@@ -696,7 +695,12 @@ func st() rt:int[0]{
     op("Hey, I have {!friends} on FaceBook!");
 }
 ```
+-->
 
+<img width="562" alt="Screenshot 2023-06-06 at 22 26 00" src="https://github.com/CatX711/GreetLang/assets/104099162/45c02d76-dd3f-40f3-a64b-b691356d1c0e">
+
+
+<br />
 <br />
 
 Surrounding a variable name in curly brackets and an exclamation mark tells the GL+ compiler that we want to put a variable in that position. When doing this, you won't have to worry about converting the number to a string, or any nonsense like that, the lovely GL+ compiler automatically does it for you. Thanks GL+ compiler!
