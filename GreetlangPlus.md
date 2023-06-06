@@ -1443,11 +1443,11 @@ Do you ever find yourself drowning in a sea of long and tedious function definit
 
 <br />
 
-Picture this: you're tired, you're cranky, and you just can't bear the thought of writing another lengthy function. Enter Autofunc, the magical tool that lets you conjure up small, inline functions without the hassle of creating separate named monstrosities. It's like having a cheat code for coding!
+Picture this: you're tired, you're cranky, and you just can't bear the thought of writing another lengthy function. Enter Autofunc, the magical tool that lets you conjure up small, inline functions without the hassle of creating separate named monstrosities.
 
 <br />
 
-But wait, there's more! With Autofunc, you can say goodbye to those never-ending lines of code. No more fussing over complex function structures that span the length of a football field. We're talking about short and sweet, my friend. Think of it as the "get-in-get-out" approach to coding. It's so simple, it's practically criminal!
+But wait, there's more! With Autofunc, you can say goodbye to those never-ending lines of code. No more fussing over complex function structures that span the length of a football field. Yeah, short and sweet is the way to go- sorry Java developers...
 
 <br />
 <br />
@@ -1462,9 +1462,9 @@ Let's take a gander at this marvelous creation, shall we?
 autofunc add -> x, y: x + y;
 ```
 
-Behold, the mighty autofunc `add`, a true masterpiece of brevity and efficiency! With just a few cryptic symbols, you can summon the power of addition itself. It's like wielding a magic wand that brings numbers together in perfect harmony.
+Behold, the mighty autofunc `add`! With just a few cryptic symbols, you can summon the power of addition itself 😳. 
 
-So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselves for the formula that will revolutionize the way you write smaller functions:
+Let's break down this enigma. Brace yourselves for the formula that will revolutionize the way you write smaller functions:
 
 <br />
 
@@ -1473,14 +1473,14 @@ So, my fellow coding connoisseurs, let's break down this enigma. Brace yourselve
 autofunc [name] -> [parameters]: [expressions];
 ```
 
-See? It's like a secret code for all the cool kids of coding! It may seem cryptic at first, but once you crack the Autofunc code, you'll be more effecient than ever.
+See? It's so easy! It may seem cryptic at first, but once you crack the `Autofunc code` (Patent pending), you'll be more effecient than ever.
 
 So, why waste precious time and energy on lengthy function definitions when you can embrace the genuis of autofunc?
 
 <br />
 <br />
 
-There sadly is one downside to autofuncs though. Since their return type isn't defined by the creator, all autofuncs must be contained inside of an `op()` functipn.
+There sadly is one downside to autofuncs though. Since their return type isn't defined by the creator, all autofuncs must be contained inside of an `op()` function 😭.
 
 <br />
 
@@ -1541,7 +1541,7 @@ func st() rt:int[0]{
 <br />
 
 What would a programming language be without Classes? Ah, OOP, sweet, sweet **Object Oriented Programming.** <br />
-To be as functional as possible, GreetLang+ does in fact include Classes. Yeah, Java developers are definitely going to love this!
+To be as functional as possible, GreetLang+ does in fact include Classes. Afer breaking their heart, now I can undo my bad deeds. Java developers, welcome, because you're *definitely* going to love this!
 
 <br />
 
