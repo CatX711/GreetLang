@@ -66,3 +66,79 @@ tokens = lexer.tokenize()
 parser = Parser(tokens)
 parser.parse()
 
+
+
+""" test ver
+
+import re
+import sys
+
+class Lexer:
+    def __init__(self, file_path):
+        self.tokens = []
+        self.file_path = file_path
+    
+    def tokenize(self):
+        with open(self.file_path, 'r') as file:
+            for line in file:
+                line = line.strip()
+                self.tokens.extend(self._tokenize_line(line))
+        
+        return self.tokens
+    
+    def _tokenize_line(self, line):
+        tokens = []
+        
+        output_pattern = re.compile(r'op\("([^"]*)"\);')
+        
+        while line:
+            if match := output_pattern.match(line):
+                string = match.group(1)
+                tokens.append(('OUTPUT', string))
+                line = line[len(match.group()):]
+            elif line[0].isspace():
+                line = line[1:]
+            else:
+                raise ValueError(f"Invalid character: {line[0]}")
+        
+        return tokens
+
+class Parser:
+    def __init__(self, tokens):
+        self.tokens = tokens
+        self.current_token = None
+        self.next_token()
+    
+    def next_token(self):
+        if self.tokens:
+            self.current_token = self.tokens.pop(0)
+        else:
+            self.current_token = None
+    
+    def parse(self):
+        if self.current_token is None:
+            raise ValueError("Unexpected end of input")
+
+        while self.current_token is not None:
+            if self.current_token[0] == 'OUTPUT':
+                self.parse_output()
+            else:
+                raise ValueError(f"Invalid token: {self.current_token[1]}")
+        
+    def parse_output(self):
+        string = self.current_token[1]
+        print(string)
+        self.next_token()
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print("Usage: python glc.py <file_path>")
+        sys.exit(1)
+    
+    file_path = sys.argv[1]
+    
+    lexer = Lexer(file_path)
+    tokens = lexer.tokenize()
+    parser = Parser(tokens)
+    parser.parse()
+"""
