@@ -567,7 +567,6 @@ Oh, automatic newlines are disabled now...I sure hope this doesn't do anything b
 Remember, you can manually insert a newline using `"\n"` at the end/beginning of your op(), like this: <br /> <br />
 
 <br />
-<br />
 
 <!--
 ```js
@@ -578,7 +577,6 @@ op("Hey, newlines are back!\n");
 <img width="305" alt="Screenshot 2023-06-06 at 21 50 03" src="https://github.com/CatX711/GreetLang/assets/104099162/ceae8596-7f8a-40dc-a55c-eea6c20ef127">
 
 
-<br />
 <br />
 
 ## Running our program <a name="runprogram"></a>
