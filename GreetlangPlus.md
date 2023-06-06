@@ -517,6 +517,7 @@ func st() rt:int[0]{
 
 
 <br />
+<br />
 
 Using the `op()` (output) function, we can output some text to the screen. In this case, we're displaying `"Hello, world!"` for everyone to see. If you're an experienced C developer, you may be wondering why we don't include an `return 0;` in our code. This is because we already specify the return type in the first line of code! To remind you, here is what I'm talking about: `func st() rt:int[0]` 
 
@@ -542,6 +543,7 @@ func st() rt:int[0]{
 
 
 <br />
+<br />
 
 With this at the top of the `start function`, the following code would go from outputting, <br />
 
@@ -564,10 +566,16 @@ Oh, automatic newlines are disabled now...I sure hope this doesn't do anything b
 
 Remember, you can manually insert a newline using `"\n"` at the end/beginning of your op(), like this: <br /> <br />
 
+<br />
+<br />
+
+<!--
 ```js
 op("Hey, newlines are back!\n"); 
 ```
+-->
 
+<img width="305" alt="Screenshot 2023-06-06 at 21 50 03" src="https://github.com/CatX711/GreetLang/assets/104099162/ceae8596-7f8a-40dc-a55c-eea6c20ef127">
 
 
 <br />
@@ -581,6 +589,13 @@ op("Hey, newlines are back!\n");
 Now that we've created our program, we need to compile and run it. Here's how we do that. <br />
 Open up your terminal, and enter in the text, `gpc [filename.gp]` <br />
 This is telling the `GreetLang+ Compiler` `(gpc)`, to compile our code. We dont need to name the binary file that is produced, as we would in C, it just auto names it to your file name. <br /> <br />
+
+img width="562" alt="Screenshot 2023-06-06 at 21 53 56" src="https://github.com/CatX711/GreetLang/assets/104099162/c429c000-ce5d-4e28-9ec1-11fc09284dd3">
+
+<img width="562" alt="Screenshot 2023-06-06 at 22 08 30" src="https://github.com/CatX711/GreetLang/assets/104099162/757c0ea7-1f3a-4901-8fd3-6828c3224b5f">
+
+<br />
+<br />
 
 After compiling, if we write `./[filename]`, we can run our code. <br />
 The output should be this:
