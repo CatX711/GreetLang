@@ -503,11 +503,18 @@ func st() rt:int[0]{
       
 Alright, let's break this down. `func st()` is how we start the program, mostly all of our code will go inside of `st()`, as it is a renamed version of the tried and true `main()`. There's a blank space in the brackets, because all functions `can` (not `must`) take parameters, however, we won't get into that now. Okay, so, you might be wondering what in the world `rt:int[0]` means. Well, it's a way of telling the GreetLang+ compiler that we want our function to return an integer, `(either 0 or 1)`, 0 being a `code` that tells us that our program has `run succesfully`, and 1, obviously `doing the opposite`. <br /> <br /> Let's move on to the next part now. <br />
 
+<br />
+
+<!--
 ```js
 func st() rt:int[0]{
     op("Hello, world!"); // remember to end your line of code with a semicolon!!!
 }
 ```
+-->
+
+<img width="681" alt="Screenshot 2023-06-06 at 21 47 13" src="https://github.com/CatX711/GreetLang/assets/104099162/d414f80a-828e-40eb-bd56-06886f0091fd">
+
 
 <br />
 
@@ -520,6 +527,7 @@ Oh, and one more thing, normally an op() function automatically creates a newlin
 <br />
 <br />
 
+<!--
 ```js
 func st() rt:int[0]{
     &newline::op = '1'; // sets to false
@@ -528,6 +536,10 @@ func st() rt:int[0]{
     op("I sure hope this doesn't do anything bad!");
 }
 ```
+-->
+
+<img width="480" alt="Screenshot 2023-06-06 at 21 47 48" src="https://github.com/CatX711/GreetLang/assets/104099162/1367ee3d-46e3-4dd1-9a56-a1ab025888a7">
+
 
 <br />
 
