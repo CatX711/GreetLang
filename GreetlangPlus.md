@@ -656,6 +656,7 @@ Following that is `var`, which tells the GL+ compiler that we're defining a `VAR
 <br />
 <br />
 
+<!--
 ```js
 // Code for the stuff shown above
 
@@ -663,7 +664,12 @@ func st() rt:int[0]{
     def var hello = "Hello!";
 }
 ```
+-->
 
+<img width="562" alt="Screenshot 2023-06-06 at 22 24 19" src="https://github.com/CatX711/GreetLang/assets/104099162/d54a272b-ea67-4bd5-9e88-f781c05d0f09">
+
+
+<br />
 <br />
 
 I said I was going to go into how character arrays are different in GL+, so I'll quickly skim over that and move on. <br />
