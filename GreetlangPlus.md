@@ -1541,7 +1541,7 @@ func st() rt:int[0]{
 <br />
 
 What would a programming language be without Classes? Ah, OOP, sweet, sweet **Object Oriented Programming.** <br />
-To be as functional as possible, GreetLang+ does in fact include Classes. Afer breaking their heart, now I can undo my bad deeds. Java developers, welcome, because you're *definitely* going to love this!
+To be as functional as possible, GreetLang+ does in fact include Classes. After breaking their heart, now I can undo my bad deeds. Java developers, welcome, because you're *definitely* going to love this!
 
 <br />
 
