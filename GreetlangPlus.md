@@ -601,10 +601,18 @@ After compiling, if we write `./[filename]`, we can run our code. <br />
 The output should be this:
 
 <br />
+<br />
 
+<!--
 ```
 Hello, world!
 ```
+-->
+
+
+<img width="562" alt="Screenshot 2023-06-06 at 22 11 52" src="https://github.com/CatX711/GreetLang/assets/104099162/91bd6ab9-e456-4ff5-8c5d-9f046b54941b">
+
+<img width="562" alt="Screenshot 2023-06-06 at 22 14 21" src="https://github.com/CatX711/GreetLang/assets/104099162/0e5a4de0-6a32-45a9-91d3-6d6d1e5cbe14">
 
 <br />
 <br />
