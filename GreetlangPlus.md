@@ -518,6 +518,7 @@ func st() rt:int[0]{
 
 <br />
 <br />
+<br />
 
 Using the `op()` (output) function, we can output some text to the screen. In this case, we're displaying `"Hello, world!"` for everyone to see. If you're an experienced C developer, you may be wondering why we don't include an `return 0;` in our code. This is because we already specify the return type in the first line of code! To remind you, here is what I'm talking about: `func st() rt:int[0]` 
 
