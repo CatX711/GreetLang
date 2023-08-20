@@ -135,6 +135,10 @@ Pointers— Cower In Fear!
     Hey! Scroll past me to see the documentation!
 </p>    
 <br />
+<p align="center">
+    The reason some code has pictures and some does not is because this was undergoing a sort of revamp before it was abandoned.
+</p> 
+<br />
 <br />
 <br />
 <br />
