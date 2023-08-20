@@ -136,7 +136,7 @@ Pointers— Cower In Fear!
 </p>    
 <br />
 <p align="center">
-    The reason some code has pictures and some does not is because this was undergoing a sort of revamp before it was abandoned.
+    (The reason some code has pictures and some does not is because this was undergoing a sort of revamp before it was abandoned.)
 </p> 
 <br />
 <br />
